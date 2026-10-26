@@ -1,0 +1,8 @@
+{
+  "study": "results\\construction_intensity_2026-10-26_v1",
+  "status": "complete_no_promotion",
+  "state": "results\\construction_intensity_2026-10-26_v1\\execution_state.json",
+  "verification": "results\\construction_intensity_2026-10-26_v1\\final_review.json",
+  "retained_best_workflow": "results\\learning_v2_coverage_2026-10-25_v1",
+  "report_and_presentation_authoring": false
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "pairs": 6,
+  "sampled_point_observations": 90000,
+  "source_prediction_files_unchanged": 30,
+  "predicted_positive_membership_conserved": true,
+  "ground_truth_not_used_for_grouping": true,
+  "point_metrics_and_masks_unchanged": true,
+  "candidate_regions": 191,
+  "construction_completion_or_semantic_component_claims": false
+}

@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v2_model.py", line 211, in <module>
+    if a.stage=='train':train(a.out,a.fold,a.variant,a.seed)
+  File "D:\CV_Project\code\learning_v2_model.py", line 132, in train
+    loss.backward();nn.utils.clip_grad_norm_(model.parameters(),5.);optimizer.step()
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\autograd\graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 4.76 GiB is free. Of the allocated memory 109.40 MiB is allocated by PyTorch, and 16.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v2_model.py", line 211, in <module>
+    if a.stage=='train':train(a.out,a.fold,a.variant,a.seed)
+  File "D:\CV_Project\code\learning_v2_model.py", line 132, in train
+    loss.backward();nn.utils.clip_grad_norm_(model.parameters(),5.);optimizer.step()
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\adamw.py", line 220, in step
+    adamw(
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\optimizer.py", line 154, in maybe_fallback
+    return func(*args, **kwargs)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\adamw.py", line 782, in adamw
+    func(
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\adamw.py", line 606, in _multi_tensor_adamw
+    exp_avg_sq_sqrt = torch._foreach_sqrt(device_exp_avg_sqs)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+V2 1 multiscale_clean 42 epoch 1 clean val BCE 0.1805
+V2 1 multiscale_clean 42 epoch 5 clean val BCE 0.1143
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v2_model.py", line 211, in <module>
+    if a.stage=='train':train(a.out,a.fold,a.variant,a.seed)
+  File "D:\CV_Project\code\learning_v2_model.py", line 126, in train
+    inputs=batch(banks,ids,'cuda',views)
+  File "D:\CV_Project\code\learning_v2_model.py", line 46, in batch
+    result=np.empty((len(ids),*bank[0][key].shape[1:]),bank[0][key].dtype)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.50 MiB for an array with shape (128, 3, 2, 64, 8) and data type float32
+V2 1 multiscale_clean 42 epoch 10 clean val BCE 0.1649
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 11
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 14
+V2 1 multiscale_clean 42 epoch 15 clean val BCE 0.1938
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 17
+V2 1 multiscale_clean 42 epoch 20 clean val BCE 0.1797
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 20
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 23
+V2 1 multiscale_clean 42 epoch 25 clean val BCE 0.1612
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 26
+V2 checkpoint/recycle 1 multiscale_clean 42 epoch 29
+V2 1 multiscale_clean 42 epoch 30 clean val BCE 0.2193
+V2 frozen {"variant": "multiscale_clean", "seed": 42, "fold": 1, "threshold": 0.35, "validation_objective": 0.6775968127346723, "validation_changed_f1": 0.37344309723913205, "validation_by_view": {"clean": {"binary_macro_f1": 0.6775968127346723, "changed_f1": 0.37344309723913205, "available_cores": 14400}, "mild": {"binary_macro_f1": 0.6541221414783253, "changed_f1": 0.3373383229186877, "available_cores": 12249}, "medium": {"binary_macro_f1": 0.5786371796144553, "changed_f1": 0.25604513135761736, "available_cores": 10073}}, "robustness_validation_objective": 0.6367853779424842, "best_epoch": 5, "best_clean_validation_bce": 0.11434702575206757, "checkpoint_sha256": "77cc40c618e02cdf00e65bc1d88f1202338219cabeff9ea850ce21dea8cfa606", "config_sha256": "01d4f8f2d523da097997c0d64ac1aee8deeb96214f91a2b1d0aadf1c96a4555b", "design_sha256": "2a24a2514513b082bed21f6749f7fa3a28d3e48735e6fbe4286e276605dddb34", "test_accessed": false, "training_cores": 36000, "parameter_count": 226337, "gpu_peak_allocated_mib": 123.13720703125, "timing": {"seconds": 4.149851800000761, "rss_start_mib": 524.0859375, "sampled_peak_rss_mib": 1882.66796875, "sampled_rss_growth_mib": 1358.58203125, "process_lifetime_peak_mib": 1882.796875}, "timing_scope": "Final worker chunk; history seconds accumulate training time over all chunks"}

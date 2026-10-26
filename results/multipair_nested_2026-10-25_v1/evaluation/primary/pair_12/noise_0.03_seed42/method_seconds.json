@@ -1,0 +1,14 @@
+{
+  "m3c2_calibrated_scan0": 1.7031656999970437,
+  "m3c2_calibrated_scan1": 3.327339400006167,
+  "features_nearest_scan0": 0.13155889999325154,
+  "features_nearest_scan1": 0.1265722000025562,
+  "features_voxel_scan0": 0.12785299999814015,
+  "features_voxel_scan1": 0.12512590000551427,
+  "nearest_seed42_inference": 0.00941160000365926,
+  "voxel_aug_seed42_inference": 0.010480199998710304,
+  "voxel_aug_seed43_inference": 0.008796900001470931,
+  "voxel_aug_seed44_inference": 0.006607299997995142,
+  "voxel_seed42_inference": 0.007053900000755675,
+  "geometry_boosted_inference": 0.011539400002220646
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checkpoint_sha256": "57548dd8699b906bc1dea3459577c194eea71c37335647e00c16e0ff7a58352e",
+  "epoch": 30,
+  "probability_sha256": {
+    "clean": "4023a9a679205b04035e1fc15828d5b3d5e322cebfc711d7d98fad49f4dcb754",
+    "mild": "f0555768e0413e2bef19227912c8b07c740e898ed11c515a76718447a1ce47ad",
+    "medium": "116b2a3ee3132a263b662498abe50ca30b1df27f7fc2877050052d5124dcadd9"
+  },
+  "prediction_device": "cpu",
+  "validation_only": true,
+  "seconds": 4.973659100003715
+}

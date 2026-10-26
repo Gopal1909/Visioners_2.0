@@ -1,0 +1,11 @@
+{
+  "environment": "Existing dl_env, unchanged package installation",
+  "device_for_current_fits": "CPU",
+  "reason": "Repeated CUDA allocation failures under Windows commit limit",
+  "threads_per_worker": 2,
+  "microbatch_size": 16,
+  "effective_batch_size": 128,
+  "validation_batch_size": 32,
+  "optimizer": "Installed native PyTorch functional AdamW; stock trajectory/restart equivalence verified",
+  "new_external_data_used": false
+}

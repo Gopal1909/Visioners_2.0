@@ -1,0 +1,21 @@
+{
+  "rows": 14400,
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "variant": "voxel",
+  "split": "validation",
+  "source_cache_sha256": {
+    "01": "9d4acd259e3709df968e02d3296adb71974d6970e7a2e396b147c82256d11a02",
+    "02": "6b375ba4fd329c540c049a41fda379183a05e1a8a5529bddc0e38c30c466ceda",
+    "03": "b007962c0e14abc5878123dc577cb64b2e5dd6f7801062a2a066739e49ea4bcd",
+    "12": "156bb17291e8c7889f24a8cd0187440397be8c0e3b1f4b323acb35b9f6f9e4ae",
+    "13": "8184b783d9e7a1b7bc530af1054022268113aba5030575ee833623003a90ef46",
+    "23": "89d230bf8bbbe1bb0f9f09cafe5e66ced28191bb3d353532c3585be441441042"
+  }
+}

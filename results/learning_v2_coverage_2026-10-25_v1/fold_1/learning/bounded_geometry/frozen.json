@@ -1,0 +1,8 @@
+{
+  "threshold": 0.8,
+  "validation_objective": 0.6815780737068717,
+  "validation_changed_f1": 0.3758646972789725,
+  "checkpoint_sha256": "61679703b4b6d993d912622a28e2d6869d540a3ee0a5e5241c7cbae8218020f5",
+  "config_sha256": "45daca13e4c89439cf70d8b27bc9f360ed1618324b5ea7bbffdff0708e7bcbe3",
+  "test_accessed": false
+}

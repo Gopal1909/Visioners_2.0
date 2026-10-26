@@ -1,0 +1,12 @@
+{
+  "status": "complete_no_promotion",
+  "active_exec_session_id": null,
+  "script": "code/learning_v3_calibration_followup.py run",
+  "scope": "Validation only, all original v2/v3 checkpoints and thresholds remain unchanged",
+  "old_pilot": "results\\learning_v3_construction_2026-10-25_v1",
+  "last_full_unit_tests_passed": 68,
+  "additional_calibration_selection_test_passed": true,
+  "expected_postflight_tests": 66,
+  "next_action": "All authorized follow-ups completed and verified. Retain v2 as strongest verified workflow. Do not rerun completed pilot, calibration or refinement. Region outputs are exploratory candidates, not verified construction progress.",
+  "final_review": "D:\\CV_Project\\results\\construction_curriculum_refinement_2026-10-26_v1\\final_review.json"
+}

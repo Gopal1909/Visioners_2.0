@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "matched_rows_recomputed": 39,
+  "all_conditions": 11,
+  "predictions_at_identical_indices": true,
+  "unknowns_explicit": true,
+  "complete_cylinder_minimum_counts_verified": true,
+  "c2c_cache": {
+    "scan0_max_distance_difference_m": 5.794715773888015e-08,
+    "scan1_max_distance_difference_m": 5.855909690488659e-08
+  }
+}

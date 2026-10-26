@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "browser": "headless installed Chrome, new isolated page",
+  "initial_status": "4000 original cores. 1437 gray unknown/excluded points. Red is a candidate geometric or learned change.",
+  "m3c2_status": "4000 original cores. 1437 gray unknown/excluded points. Red is a candidate geometric or learned change.",
+  "c2c_all_status": "4000 original cores. 0 gray unknown/excluded points. Red is a candidate geometric or learned change.",
+  "method_and_epoch_selects": true,
+  "mask_toggle": true,
+  "rotation_changes_canvas": true,
+  "zoom_changes_canvas": true,
+  "reset_restores_canvas": true,
+  "wheel_and_reset": true,
+  "page_errors": []
+}

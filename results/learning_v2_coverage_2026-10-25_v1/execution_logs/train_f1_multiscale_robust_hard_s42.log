@@ -1,0 +1,17 @@
+V2 1 multiscale_robust_hard 42 epoch 1 clean val BCE 0.1867
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 3
+V2 1 multiscale_robust_hard 42 epoch 5 clean val BCE 0.1067
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 6
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 9
+V2 1 multiscale_robust_hard 42 epoch 10 clean val BCE 0.0971
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 12
+V2 1 multiscale_robust_hard 42 epoch 15 clean val BCE 0.1118
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 15
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 18
+V2 1 multiscale_robust_hard 42 epoch 20 clean val BCE 0.1338
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 21
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 24
+V2 1 multiscale_robust_hard 42 epoch 25 clean val BCE 0.1293
+V2 checkpoint/recycle 1 multiscale_robust_hard 42 epoch 27
+V2 1 multiscale_robust_hard 42 epoch 30 clean val BCE 0.1396
+V2 frozen {"variant": "multiscale_robust_hard", "seed": 42, "fold": 1, "threshold": 0.45, "validation_objective": 0.6804289557044215, "validation_changed_f1": 0.3749832856657806, "validation_by_view": {"clean": {"binary_macro_f1": 0.6804289557044215, "changed_f1": 0.3749832856657806, "available_cores": 14400}, "mild": {"binary_macro_f1": 0.6587492908631244, "changed_f1": 0.3454899065132844, "available_cores": 12249}, "medium": {"binary_macro_f1": 0.5945852042064986, "changed_f1": 0.28066884002956655, "available_cores": 10073}}, "robustness_validation_objective": 0.6445878169246816, "best_epoch": 6, "best_clean_validation_bce": 0.0820642039179802, "checkpoint_sha256": "2e18a0b93f670fb6f77aa62ba9cd090b3b6101db4c9b3f3d2f9a11aecf15732e", "config_sha256": "70e54e5a8de8ab54779af045215b7454728c93a00ca5061b84d53efde1488cab", "design_sha256": "2a24a2514513b082bed21f6749f7fa3a28d3e48735e6fbe4286e276605dddb34", "test_accessed": false, "training_cores": 36000, "parameter_count": 226337, "gpu_peak_allocated_mib": 123.13720703125, "timing": {"seconds": 8.221868300002825, "rss_start_mib": 524.5859375, "sampled_peak_rss_mib": 2323.61328125, "sampled_rss_growth_mib": 1799.02734375, "process_lifetime_peak_mib": 2323.7265625}, "timing_scope": "Final worker chunk; history seconds accumulate training time over all chunks"}

@@ -1,0 +1,44 @@
+Validation geometry pair 01 seconds 27.0
+Validation geometry pair 02 seconds 18.8
+Validation geometry pair 03 seconds 18.6
+Validation geometry pair 12 seconds 21.4
+Validation geometry pair 13 seconds 22.6
+Validation geometry pair 23 seconds 12.6
+{
+  "c2c_threshold_m": 0.15,
+  "C2C_validation": {
+    "method": "C2C",
+    "candidate": "c2c_0.15",
+    "objective": 0.6721211477992237,
+    "changed_f1": 0.36776041459310554,
+    "coverage": 1.0
+  },
+  "m3c2_config": {
+    "normal_radii_m": [
+      0.2,
+      0.4,
+      0.8
+    ],
+    "projection_radii_m": [
+      0.2
+    ],
+    "half_length_m": 1.0,
+    "min_normal_points": 10,
+    "min_projected_points": 10,
+    "max_curvature": 0.1,
+    "min_eigengap": 0.1,
+    "min_tangent_ratio": 0.05,
+    "max_stability_angle_deg": 30.0,
+    "max_candidates": 250000,
+    "core_chunk_size": 128,
+    "registration_error_m": 0.0,
+    "minimum_effect_m": 0.5
+  },
+  "M3C2-style_validation": {
+    "method": "M3C2-style",
+    "candidate": "broad_L1.0_R0.2_F0.5",
+    "objective": 0.491665074777226,
+    "changed_f1": 0.02824448942869995,
+    "coverage": 0.8684895833333334
+  }
+}

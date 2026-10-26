@@ -1,0 +1,12 @@
+{
+  "parent_imports_numeric_libraries": false,
+  "cpu_worker_imports_plotting_or_torch": false,
+  "cpu_import_memory": {
+    "process_private_commit_mib": 104.0,
+    "process_rss_mib": 58.390625,
+    "system_commit_available_mib": 1063.7265625
+  },
+  "exact_geometry_kernels_verified_by_AST": true,
+  "voxel_equivalence_test": "Bit-identical centroids and order",
+  "transform_equivalence_test": "Retained IDs equal; coordinates match within 1e-12 and voxel centroids bit-identical"
+}

@@ -1,0 +1,53 @@
+{
+  "sha256": "9bde27c93d8ebca95f29739fe3b56a0f16534297b00e8cf04e24588d0b6e4e37",
+  "protocol_sha256": "d8437d84bb5316e4ebc4969ba74468af1d854afe020403ba1d0101aa65b6aea5",
+  "source_sha256": "f30c7062bd9ecc92efb4d6840b5225eb5260b8f6580cf74f1a480d963edb2002",
+  "variant": "nearest",
+  "context_points": [
+    253289,
+    174976
+  ],
+  "full_points": [
+    4444938,
+    3787860
+  ],
+  "patch_radius_m": 0.6,
+  "voxel_size_m": null,
+  "k": 128,
+  "original_labels_never_voxelized": true,
+  "test_accessed": false,
+  "diagnostics": [
+    {
+      "variant": "nearest",
+      "split": "train",
+      "scan": 0,
+      "median_outer_radius_m": 0.0799739807844162,
+      "q90_outer_radius_m": 0.119615338742733,
+      "empty_target_rate": 0.066
+    },
+    {
+      "variant": "nearest",
+      "split": "train",
+      "scan": 1,
+      "median_outer_radius_m": 0.07684077322483063,
+      "q90_outer_radius_m": 0.12407200783491135,
+      "empty_target_rate": 0.013666666666666667
+    },
+    {
+      "variant": "nearest",
+      "split": "validation",
+      "scan": 0,
+      "median_outer_radius_m": 0.06785225868225098,
+      "q90_outer_radius_m": 0.10224790871143341,
+      "empty_target_rate": 0.03833333333333333
+    },
+    {
+      "variant": "nearest",
+      "split": "validation",
+      "scan": 1,
+      "median_outer_radius_m": 0.06163432449102402,
+      "q90_outer_radius_m": 0.0836370512843132,
+      "empty_target_rate": 0.0
+    }
+  ]
+}

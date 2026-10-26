@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "measurement_sha256": "ff4096e9a13d439ce13ea2816258fa0a49eca59e0a81da616c931aca19e19d93",
+  "seconds": 15.097017100000812,
+  "timing": {
+    "seconds": 14.860344599997916,
+    "rss_start_mib": 231.50390625,
+    "sampled_peak_rss_mib": 610.01953125,
+    "sampled_rss_growth_mib": 378.515625,
+    "process_lifetime_peak_mib": 685.07421875
+  },
+  "source_sha256": "153a50f9ff718e1cceae76c4c3ab3292143821f2034d2e5f22e998b3d1e73e05",
+  "full_support_points": [
+    5089793,
+    3489322
+  ],
+  "test_accessed": false
+}

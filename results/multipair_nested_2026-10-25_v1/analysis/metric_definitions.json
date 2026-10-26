@@ -1,0 +1,13 @@
+{
+  "selection_binary_macro_f1": "Mean of changed/unchanged F1 in each direction; averaged equally across directions/pairs. Unknown is FN for its actual class.",
+  "directional_changed_f1": "Mean of removal and addition F1. Zero convention when a class is absent; positive counts and a positive-support-only summary are also provided.",
+  "pooled_three_class_macro_f1": "Project directional pooling: unchanged, removed, added. Unknown remains a fourth prediction column, penalizing recall of the true class.",
+  "full_requested": "All available requested source0 cores and retained requested target1 cores. Artificially deleted target cores have no prediction; initial requested counts are recorded separately.",
+  "common_valid": "Same M3C2-calibrated-valid available original IDs for every method. Detector abstention and evaluation exclusions are different.",
+  "correct_over_initial_requested_cores": "Conservative bound: available correct predictions divided by the initial requested cores, counting detector abstentions and deleted target cores as errors.",
+  "uncertainty": "Training-seed, perturbation-seed and spatial-fold variation are distinct. None is independent-scene confidence.",
+  "context_scope": "PointNet and M3C2 have bounded neighborhoods. The boosted classifier also uses a full-cloud nearest-point vector clipped by component; its geometric receptive field is unbounded and is not covered by the buffer guarantee. No test labels enter this feature.",
+  "robustness_scope": "Stress study uses fold 0 models only. Clean curve endpoints use the same 512 original cores per scan as the stress design.",
+  "supplementary_confusion_pooling": "Sum all out-of-fold confusion counts across pairs before computing unchanged/removed/added F1. Different weighting from mean pair/fold scores; no model or threshold is chosen from this descriptive summary.",
+  "positive_support_direction_changed_f1": "Mean changed F1 over scan directions containing changed GT. Always accompanied by unchanged-only false-alarm counts; not a replacement for the primary all-region metric."
+}

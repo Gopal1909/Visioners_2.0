@@ -1,0 +1,21 @@
+{
+  "rows": 36000,
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "variant": "voxel",
+  "split": "train",
+  "source_cache_sha256": {
+    "01": "5cf432ecebb15245b3506fcbaafe5255176e87b6fcf28720e243722cade61aae",
+    "02": "780c045b7a5100c5609c11ce26804f3573b406af9259bd203e857c11d0ae37df",
+    "03": "11095400bd5f50a5efa0f876e0a71122481a45b3186672ac0fa3f1524a9a00c3",
+    "12": "2bb0d3d5885d2994124cbca19417b5899ff67e0b98ee9c7a5dfe343fd4c1b5fa",
+    "13": "eb0d72eb41086645becf2c5126dc2129bc0a1890b35642a8f9f96a5b4f5c75bf",
+    "23": "547b15afa9e34fdd02152f35a1d2642017b8b8ae8af40f9eeb2249e850026828"
+  }
+}

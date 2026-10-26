@@ -1,0 +1,32 @@
+{
+  "protocol": "primary",
+  "variant": "nearest",
+  "seed": 42,
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "epochs": 30,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "architecture": "Existing shared PointNet 3-32-64; masked mean/max; 387-64-32-1 head",
+  "training_balance": "Equal pair weight; equal present-class weight within each pair",
+  "checkpoint_selection": "Minimum unweighted validation BCE; equal number of cores per pair/direction",
+  "threshold_selection": "Mean pair/direction binary macro F1, validation only",
+  "augmentation": "none",
+  "no_full_scan_augmentation_claim": true,
+  "device": "cuda",
+  "protocol_sha256": "f2961aed6cd42e576b76b41bf5de8c8827e0ec668ba2ad6806ee04c7521ea26e",
+  "source_sha256": {
+    "multipair_learning.py": "5ce08aebbddb81bf5b8e0c85f46d011de59ad5cca8c098f19f95f440a8da2c22",
+    "multipair_features.py": "f30c7062bd9ecc92efb4d6840b5225eb5260b8f6580cf74f1a480d963edb2002",
+    "multipair_metrics.py": "c1349a071d564751252d8e43ada0768403743514a44b98ca8765a69682e6fcf1",
+    "siamese_pointnet.py": "27eceb44d39f3cde4c243df6202771c2d875ba9789f2d0b5eb46ec2ed2a66667"
+  },
+  "features_have_no_labels_or_absolute_coordinates": true
+}

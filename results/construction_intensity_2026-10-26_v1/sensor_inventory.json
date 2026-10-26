@@ -1,0 +1,664 @@
+{
+  "clouds": [
+    {
+      "pair": "01",
+      "scan": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud0.ply",
+      "sha256": "bfcb0a338b230af3853f5a827c0e9a30377a9aa52eadab6274edb3b4b2e1ebec",
+      "points": 4444935,
+      "elements": [
+        {
+          "name": "params",
+          "count": 4444935,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          19.0,
+          42.0,
+          66.0,
+          152.0,
+          255.0
+        ],
+        "distinct": 193
+      }
+    },
+    {
+      "pair": "01",
+      "scan": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud1.ply",
+      "sha256": "37f35ba46773a4e48ebabd9a764991f513aabb40b3dc298d031bd6a9b9f9cab4",
+      "points": 5089793,
+      "elements": [
+        {
+          "name": "params",
+          "count": 5089793,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          18.0,
+          42.0,
+          70.0,
+          158.0,
+          255.0
+        ],
+        "distinct": 194
+      }
+    },
+    {
+      "pair": "02",
+      "scan": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_02\\pair_02\\pointCloud0.ply",
+      "sha256": "cc1d1434ff629bbae7e9b700ba28c690ffef2be33babfc460f7cf8a83eb23cde",
+      "points": 4444937,
+      "elements": [
+        {
+          "name": "params",
+          "count": 4444937,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          19.0,
+          42.0,
+          65.0,
+          152.0,
+          255.0
+        ],
+        "distinct": 186
+      }
+    },
+    {
+      "pair": "02",
+      "scan": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_02\\pair_02\\pointCloud1.ply",
+      "sha256": "12eee81a8cb4adaa2c3b14a541bf532df9d9bb021b2c75c80a5302534d6a7425",
+      "points": 3489321,
+      "elements": [
+        {
+          "name": "params",
+          "count": 3489321,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          1.0,
+          9.0,
+          29.0,
+          46.0,
+          150.0,
+          255.0
+        ],
+        "distinct": 184
+      }
+    },
+    {
+      "pair": "03",
+      "scan": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03\\pair_03\\pointCloud0.ply",
+      "sha256": "2523cffaabba867b9e62582e51eafc290ecc14cc8c985783f84418810cada868",
+      "points": 4444938,
+      "elements": [
+        {
+          "name": "params",
+          "count": 4444938,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          19.0,
+          42.0,
+          66.0,
+          152.0,
+          255.0
+        ],
+        "distinct": 191
+      }
+    },
+    {
+      "pair": "03",
+      "scan": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03\\pair_03\\pointCloud1.ply",
+      "sha256": "4836d5255b8d3e7c243f2507647ee824a36caf44ab9957788d9aa9266f387ae4",
+      "points": 3787860,
+      "elements": [
+        {
+          "name": "params",
+          "count": 3787860,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          8.0,
+          27.0,
+          53.0,
+          150.0,
+          255.0
+        ],
+        "distinct": 181
+      }
+    },
+    {
+      "pair": "12",
+      "scan": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_12\\pair_12\\pointCloud0.ply",
+      "sha256": "c870d90a6fe557e123e4247d8c2de2561c29fcd03897bd7a7ada8549adf3a889",
+      "points": 5089793,
+      "elements": [
+        {
+          "name": "params",
+          "count": 5089793,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          18.0,
+          42.0,
+          71.0,
+          158.0,
+          255.0
+        ],
+        "distinct": 204
+      }
+    },
+    {
+      "pair": "12",
+      "scan": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_12\\pair_12\\pointCloud1.ply",
+      "sha256": "0e1193fa0de64b9d2dce558e75ff8ff10231042b26362af88f3d04f29627877a",
+      "points": 3489322,
+      "elements": [
+        {
+          "name": "params",
+          "count": 3489322,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          1.0,
+          9.0,
+          29.0,
+          46.0,
+          151.0,
+          255.0
+        ],
+        "distinct": 181
+      }
+    },
+    {
+      "pair": "13",
+      "scan": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_13\\pair_13\\pointCloud0.ply",
+      "sha256": "9cd24110f735fb8e20cb167c3638f25f1550991aa9a8b4eba3673a893ac76b9c",
+      "points": 5089793,
+      "elements": [
+        {
+          "name": "params",
+          "count": 5089793,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          18.0,
+          42.0,
+          70.0,
+          157.0099999999984,
+          255.0
+        ],
+        "distinct": 199
+      }
+    },
+    {
+      "pair": "13",
+      "scan": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_13\\pair_13\\pointCloud1.ply",
+      "sha256": "6ce6b79d72be5676e78c6d2cf56a9f96d4b55099722ff03adc506cbe63dba295",
+      "points": 3787860,
+      "elements": [
+        {
+          "name": "params",
+          "count": 3787860,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          8.0,
+          28.0,
+          53.0,
+          150.0,
+          255.0
+        ],
+        "distinct": 180
+      }
+    },
+    {
+      "pair": "23",
+      "scan": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23\\pair_23\\pointCloud0.ply",
+      "sha256": "09856f132e21546514ec5a137f55aed65034d4e06caa70adbe5b460a3c964f5b",
+      "points": 3489322,
+      "elements": [
+        {
+          "name": "params",
+          "count": 3489322,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          1.0,
+          9.0,
+          30.0,
+          46.0,
+          150.0,
+          255.0
+        ],
+        "distinct": 183
+      }
+    },
+    {
+      "pair": "23",
+      "scan": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23\\pair_23\\pointCloud1.ply",
+      "sha256": "8efcc2fd096bc9e07c1c281cc6a9329487554a0057aef8e336272b31d4c473fe",
+      "points": 3787872,
+      "elements": [
+        {
+          "name": "params",
+          "count": 3787872,
+          "properties": [
+            {
+              "name": "x",
+              "dtype": "f4"
+            },
+            {
+              "name": "y",
+              "dtype": "f4"
+            },
+            {
+              "name": "z",
+              "dtype": "f4"
+            },
+            {
+              "name": "intensity",
+              "dtype": "f4"
+            },
+            {
+              "name": "cd_type",
+              "dtype": "f4"
+            }
+          ]
+        }
+      ],
+      "comments": [],
+      "obj_info": [],
+      "intensity_probe": {
+        "rows": 20000,
+        "quantiles": [
+          0.0,
+          0.0,
+          8.0,
+          30.0,
+          54.0,
+          150.0,
+          255.0
+        ],
+        "distinct": 180
+      }
+    }
+  ],
+  "downloaded_files": [
+    "pair_01\\pointCloud0.ply",
+    "pair_01\\pointCloud1.ply",
+    "pair_01.zip",
+    "pair_02\\pair_02\\pointCloud0.ply",
+    "pair_02\\pair_02\\pointCloud1.ply",
+    "pair_02.zip",
+    "pair_03\\pair_03\\pointCloud0.ply",
+    "pair_03\\pair_03\\pointCloud1.ply",
+    "pair_03.zip",
+    "pair_12\\pair_12\\pointCloud0.ply",
+    "pair_12\\pair_12\\pointCloud1.ply",
+    "pair_12.zip",
+    "pair_13\\pair_13\\pointCloud0.ply",
+    "pair_13\\pair_13\\pointCloud1.ply",
+    "pair_13.zip",
+    "pair_23\\pair_23\\pointCloud0.ply",
+    "pair_23\\pair_23\\pointCloud1.ply",
+    "pair_23.zip"
+  ],
+  "archive_members": {
+    "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01.zip": [
+      "pair_01/pointCloud0.ply",
+      "pair_01/pointCloud1.ply"
+    ],
+    "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_02.zip": [
+      "pair_02/pointCloud0.ply",
+      "pair_02/pointCloud1.ply"
+    ],
+    "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03.zip": [
+      "pair_03/pointCloud0.ply",
+      "pair_03/pointCloud1.ply"
+    ],
+    "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_12.zip": [
+      "pair_12/pointCloud0.ply",
+      "pair_12/pointCloud1.ply"
+    ],
+    "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_13.zip": [
+      "pair_13/pointCloud0.ply",
+      "pair_13/pointCloud1.ply"
+    ],
+    "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23.zip": [
+      "pair_23/pointCloud0.ply",
+      "pair_23/pointCloud1.ply"
+    ]
+  },
+  "available_attributes": [
+    "x",
+    "y",
+    "z",
+    "intensity",
+    "cd_type"
+  ],
+  "rgb_available": false,
+  "sensor_origins_available": false,
+  "timestamps_available": false,
+  "calibration_available": false,
+  "scope": "Downloaded BikeParkingConstruction six-pair package only; this does not assert that the source acquisition has no poses elsewhere",
+  "visibility": "These files cannot establish ray-based free-space visibility or distinguish occlusion from absent geometry",
+  "intensity": "A radiometric input, not an object/material/construction-event annotation; scan intensity distributions differ"
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "predictions_sha256": "2c6c5a8f56b131ee397acb395f9d416b0c513e6f841f636e9204e69bf98f7e09",
+  "frozen_thresholds": {
+    "v2_validation_selected": 0.98,
+    "bounded_geometry": 0.95,
+    "previous_pointnet": 0.8,
+    "c2c_calibrated": 0.2,
+    "c2c_legacy_075": 0.075
+  },
+  "no_external_training_or_calibration": true,
+  "new_model": {
+    "folder": "results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_clean_seed42",
+    "sha256": "d2aa589fa911caf1c37347a536110ee1184ed9939344326f74d4c0d8d1497700",
+    "threshold": 0.98,
+    "probability_sha256": "1cba22bbc63d3fc7a8a0f04ac07f10893d14c3b91faabb373cbbc779a6d54ab2"
+  },
+  "previous_model": {
+    "folder": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\learning\\primary\\voxel_aug_seed42",
+    "sha256": "637272843386e92f113bb9901fcff3f7afe55e747552f46d42da2660887e6d11",
+    "threshold": 0.8,
+    "probability_sha256": "87722c367b0f2dc00cbbbb7570b90eea60c4cccbb3924488cb413e64ae24b5a0"
+  },
+  "geometry_model": {
+    "folder": "results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\bounded_geometry",
+    "sha256": "f10cfab4036e755c38ee43d13c9cf1b642827ed9b99fecf395310d5eda2b6fda",
+    "threshold": 0.95,
+    "probability_sha256": "baf9758f210c30cfcd5c0c10cfce455977aa0cb461b1ff34c8ff117eda5328b9"
+  },
+  "primary_model_policy": "Predeclared fold0 BikeParkingConstruction validation-selected model, seed42; no external choice among seeds or folds"
+}

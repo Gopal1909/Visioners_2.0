@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "status": "complete_no_model_promotion",
+  "completed_at_utc": "2026-10-25T23:23:55.119620+00:00",
+  "unit_tests_passed": 68,
+  "postflight_test_log_sha256": "dc8db2175adc10104be0b800d1a6baf5c73d993a8efcd3ff21ee02096623f44d",
+  "original_pilot": "Three completed candidates; fresh construction cores, hierarchical cross-scan interaction, focal loss; validation gate failed.",
+  "fresh_distinct_per_file_training_cores": 255757,
+  "calibration": "36 saved model/checkpoint states and shared validation threshold grid; gates not met; original frozen decisions unchanged.",
+  "fixed_budget_refinement": "Four completed fine-tuning epochs using old training banks; all new epochs failed clean/FPR eligibility. No additional neural held-out cases scored.",
+  "retained_workflow_study": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1",
+  "retained_heldout_metrics": {
+    "mean_pair_direction_binary_macro_f1": 0.6536591206208738,
+    "mean_pair_direction_changed_f1": 0.3899887030904223,
+    "global_pooled_three_class_macro_f1": 0.7405075400072249
+  },
+  "grouped_regions": {
+    "candidate_regions": 191,
+    "added_regions": 80,
+    "removed_regions": 111,
+    "groups_with_only_unchanged_labelled_sampled_points": 83,
+    "grouped_positive_cores": 12691,
+    "ungrouped_positive_cores": 204,
+    "point_metrics_unchanged": true,
+    "semantic_construction_events_verified": false,
+    "completion_percentages_claimed": false
+  },
+  "verification_receipts": {
+    "results\\learning_v3_construction_2026-10-25_v1\\pilot_verification.json": "3e2a15f9a63e3422ccaebf5cac86124766ffc35ce75c940e2480c20d0ab1518c",
+    "results\\operating_point_followup_2026-10-26_v1\\postflight_verification_v2.json": "f4afea1b0795f49c5d3c34cc50caf95b74a8e2de006d10a24e2fe2d3120b845e",
+    "results\\construction_curriculum_refinement_2026-10-26_v1\\verification.json": "def0b91f212a4618ef5b576a893b9035e6974b59dc5ef724c625cc0063ccc8e3",
+    "results\\construction_change_regions_2026-10-26_v1\\postflight_verification.json": "3c3f0431162493b1ca637fb34b9eea3572ed42903f19a726a945cf894a0a2725"
+  },
+  "visually_inspected_figures": {
+    "results\\construction_curriculum_refinement_2026-10-26_v1\\refinement_validation.png": "c0ca016cc69615274d78a3e0b2ed23a3f705f78d135b0521cf9240b00d8b7ea0",
+    "results\\learning_v3_construction_2026-10-25_v1\\analysis\\pilot_validation_curves.png": "84560f96cb3dc3d2ce20cb639fae21f40c003bd734df1fb7670025d210612b6a",
+    "results\\construction_change_regions_2026-10-26_v1\\figures_readable\\pair_01_regions.png": "09f0df505b1e57b126b8262eb56d690a0d58688b1a7ee950dac3fe04fb9d7353",
+    "results\\construction_change_regions_2026-10-26_v1\\figures_readable\\pair_23_regions.png": "76b5fcfaf2a1e10fc097aadef9ce02eb7f353eac0e17f1d044aedcbd1e2b385e"
+  },
+  "final_sources_manifest_sha256": "5d45c72453d521b463a31cef0465f69442d8ce93f225158d93bec3c3b5472d71",
+  "historical_results_sources_clouds_and_submission_preserved": true,
+  "new_training_device": "CPU after recorded CUDA/Windows commit failures; original GPU failures and sources preserved",
+  "data_policy": "Only BikeParkingConstruction used. No Office, Open_space, Underground Car Parking or ConSLAM use in these follow-ups.",
+  "remaining_limitations": [
+    "One construction site and four shared epochs",
+    "Same-site development results, not an untouched construction-site generalization benchmark",
+    "Region grouping uses sampled cores and includes coherent false positives",
+    "No semantic work-item or BIM/schedule truth for completion tracking"
+  ],
+  "reports_and_presentations_created": false
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 2400,
+  "pairs": [
+    "01"
+  ],
+  "variant": "voxel",
+  "split": "validation",
+  "source_cache_sha256": {
+    "01": "5cf432ecebb15245b3506fcbaafe5255176e87b6fcf28720e243722cade61aae"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "fold": 0,
+  "pair": "03",
+  "epoch": 5,
+  "seed": 735305,
+  "parameters": {
+    "translation_m": 0.0,
+    "rotation_deg": 0.0,
+    "retention": 1.0,
+    "noise_sigma_m": 0.005
+  },
+  "attempts": 1,
+  "maximum_observed_training_displacement_m": 0.02483386531997591,
+  "total_support_guard_m": 3.899987834252893,
+  "sha256": "69de9c6bed765ad2785ed424d3e0310541a7ba7649a2a27ad416ec89783c8ec9",
+  "sampling": [
+    {
+      "scan": 0,
+      "cores": 1500,
+      "unique_original_ids": 1498,
+      "changed": 750
+    },
+    {
+      "scan": 1,
+      "cores": 1500,
+      "unique_original_ids": 1497,
+      "changed": 750
+    }
+  ],
+  "training_cells_only": true,
+  "full_scan_transformed_before_rebuilding": true,
+  "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f",
+  "feature_source_sha256": "c16620b71974cf7979e7f54ada5f4377f6572790bea01e617ab7c053dff4b326",
+  "timing": {
+    "seconds": 9.798268300000018,
+    "rss_start_mib": 790.046875,
+    "sampled_peak_rss_mib": 1335.3203125,
+    "sampled_rss_growth_mib": 545.2734375,
+    "process_lifetime_peak_mib": 1356.13671875
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "scene": "BikeParkingConstruction",
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 16,
+  "candidates": [
+    "pool_fresh_bce",
+    "graph_fresh_bce",
+    "graph_fresh_focal"
+  ],
+  "cores_per_pair_scan_epoch": 1500,
+  "seed": 42,
+  "effective_batch_size": 128,
+  "microbatch_size": 64,
+  "sampling": "Fresh class-balanced original cores from fixed training-cell interiors per epoch; replacement only for undersized present classes. Equal pair contribution.",
+  "augmentation": "One independently sampled full-scan target perturbation per epoch/pair; one third of cores clean, two thirds augmented. Rebuild target voxel contexts and bounded NN channels.",
+  "magnitudes": {
+    "translation_m": [
+      0,
+      0.03,
+      0.08,
+      0.12
+    ],
+    "rotation_deg": [
+      0,
+      0.4,
+      0.8,
+      1.2
+    ],
+    "retention": [
+      0.4,
+      0.7,
+      1.0
+    ],
+    "noise_sigma_m": [
+      0,
+      0.005,
+      0.015,
+      0.03
+    ]
+  },
+  "augmentation_guard": "If full-scan measured bound fails, scale rigid/noise magnitudes by 0.7 per attempt, at most 12 attempts; retention stays fixed. Noise is clipped at 3 sigma.",
+  "support_bound_m": 1.1799038105676658,
+  "maximum_test_displacement_m": 1.4905124824776093,
+  "guard_formula": "2*support_bound + 2*observed_training_displacement + observed_test_displacement < 5m",
+  "architecture": "Custom 64-point to 16-anchor masked local aggregation with learned cross-scan attention at three scales, plus the existing bounded geometry branch. Not KPConv/PointNet++ reproduction.",
+  "compatibility": "EF-Siamese KPConv compiled dependencies are absent; existing PyTorch implementation used without environment changes.",
+  "checkpoint": "Minimum clean validation unweighted BCE; cosine learning rate 0.0006 to 0.00006, AdamW wd 0.01, dropout 0.25, clip norm 1",
+  "threshold": "Same frozen v2 threshold grid and clean validation binary macro F1 calibration",
+  "primary_selection": "Highest mean clean/mild/medium validation binary macro F1, candidate-order tie break",
+  "pilot_gate": "Fold0 winner clean validation macro >= v2 robust-selected clean minus 0.005, and three-view mean macro >= v2 robust-selected mean plus 0.01. No test scoring if gate fails.",
+  "expanded_gate": "If pilot passes, same three candidates in all five folds; no tests until all choices frozen. Repeat fold0 selected candidate seeds43/44; identical clean and stress features.",
+  "exposure": "All previous same-site test findings informed this follow-up; comparative results only. No new independent construction site is available.",
+  "scope": "Construction change detection first; semantic completion/progress claims require separate event annotations and planned scope.",
+  "office_and_open_space": "Not used in this experiment; no car-parking downloads or training.",
+  "synthetic_or_pseudo_labels": false,
+  "reports_and_presentations_untouched": true
+}

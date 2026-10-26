@@ -1,0 +1,26 @@
+[
+  {
+    "seed": 42,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      27.84128761291504,
+      0.05131353810429573,
+      -5.150333404541016
+    ],
+    "occupied_tiles": 270,
+    "sampled_tiles": 270,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  },
+  {
+    "seed": 43,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      27.786399841308594,
+      0.06879100203514099,
+      -4.453279972076416
+    ],
+    "occupied_tiles": 238,
+    "sampled_tiles": 238,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "audit_date_local": "2026-10-25",
+  "timezone": "Asia/Kolkata",
+  "scope": "CSV/report audit only; no full-cloud rerun, M3C2 implementation or training",
+  "checks": {
+    "csv_files": 6,
+    "total_rows": 37,
+    "confusion_rows": 32,
+    "metric_checks": 552,
+    "max_absolute_metric_error": 5.0501098858291016e-09,
+    "baseline_shared_values_checked": 125,
+    "occlusion_checks": 5
+  },
+  "absolute_metric_tolerance": 1e-07,
+  "occlusion_limit": "No confusion counts exported; combined metrics not independently reconstructed",
+  "plot_check": "Visual trend/endpoint inspection plus plotting-source review, not pixel regeneration",
+  "environment": "Existing Windows dl_env executable found; launch failed with WSL socket error. Standard-library-only CSV audit used host Python; no environment installed or modified.",
+  "prior_final_backup": "results/pair_01/robustness_reviewed/robustness_report_final.pre_audit_2026-10-25.txt",
+  "original_sha256": {
+    "code/c2c_baseline.py": "40d5abfdb0d22bf8d906d5f5794b129826fc0b6cf0da18aac64c4c5c81bf5808",
+    "code/c2c_robustness.py": "ef519d43b5bd077f6d444d33edce46539541f3aff6271a4b359ce9050ec60e91",
+    "code/compare_scans.py": "af7e9f791aa7b53e92ba59bcf3658c4f348ddb23aba9fc7e27d5c842fa9c2f7c",
+    "code/inspect_dataset.py": "e70185b85a282148fafa35882e058aa9f0260e84eafcb6378550771c14166a1d",
+    "code/inspect_multichange_pair.py": "58f6dced9e68abd0b5c0a9e08531fdc1ba8dc1eb77903a29301b6ceec22488d0",
+    "code/visualize_pointcloud.py": "7f55efdf57a5233c9d1df9b430929821cbfcb6337df70d8a092ea91aca19853d",
+    "results/pair_01/robustness_reviewed/combined_registration_metrics.csv": "ab70fa7dbd91af2705dfceeb2e89aadae8288ac2feb40500ab3373eba6b0ded9",
+    "results/pair_01/robustness_reviewed/noise_metrics.csv": "e6f895943e2da2c2f0af19c5e850649403fe3bb5052f1acd87c800572b6551aa",
+    "results/pair_01/robustness_reviewed/occlusion_metrics.csv": "fb1644f05224558d53d278e282187ce85ef369237291f77ca3e69b23e350d7fb",
+    "results/pair_01/robustness_reviewed/rotation_only_metrics.csv": "82feada68676752da03b4b655e58cd13707aac0bb1a83e134af977f0a1a3690a",
+    "results/pair_01/robustness_reviewed/sparsity_metrics.csv": "87f99f201e471cb9817cc147e88d542e63ae89af6f4b532426638219d8b458b8",
+    "results/pair_01/robustness_reviewed/translation_only_metrics.csv": "3e6948d8f68fa632ea3a03b8755005eb351941819d18a0be28bdbb6293919fda",
+    "results/pair_01/robustness_reviewed/robustness_report.txt": "b5f2fc930f6de81dbb7bb90ffe7c181926dd1bf58cbada3312922fb9feb9f0b7",
+    "results/pair_01/robustness_reviewed/robustness_curves.png": "536d63361def3455c859a1cfbb453adf267c8089bb5caac14355ec23a5df7e7e",
+    "results/pair_01/robustness_reviewed/robustness_report_final.txt": "5bdcae6070b60cdd92c4c71b56f8df4a1f6676760086c89b23860d914f49bd99",
+    "results/pair_01/c2c_baseline/threshold_metrics.csv": "8be0667bfcbb8ffe250ef8b2514ce7a3ff61d7ba77e380cb3034830614180761",
+    "results/pair_01/c2c_baseline/baseline_report.txt": "8dc85c961d3775e0b81fb88c511cb53de6a83a99d45a80d23c39f932592dad40",
+    "results/pair_01/inspection_report.txt": "15d965a8b4d6c6e93556a188d79bd78308356b5c487833c9d3fb69c0cc7c64ec"
+  },
+  "final_report_sha256": "47260eef17090bd307daf9adf3dd169ad3542d60ca9d0b68056fae9f21d9aa89",
+  "preservation_verified": true,
+  "document_sha256": {
+    "results/project_status.md": "93edaba2c55998bde39b75ff1e9db43e1c2f97717efcf4329e7dd9ab7ee17991",
+    "results/stage4_m3c2_plan.md": "fad014634a249af25d8288a4362d4268acca8834dff12a0ec9a8a2fd5274919c"
+  },
+  "final_document_verification": "All CSV macro F1/mIoU values represented at four decimals; stale narrative values absent; original file hashes and previous-report backup verified; status and plan read back."
+}

@@ -1,0 +1,8 @@
+{
+  "failure": "MemoryError in SciPy bounded cylinder query entering pair_12 after three completed stress pairs",
+  "recovery": "One sequential CPU subprocess per pair, followed by CUDA inference subprocess",
+  "numerical_features_models_thresholds_and_rng_unchanged": true,
+  "completed_case_receipts_retained": true,
+  "second_failure": "CUDA inference worker hit MemoryError after more than 100 completed cases; complete cases preserved.",
+  "final_recovery": "Both CPU geometry workers and CUDA inference workers now use one sequential subprocess per pair. No concurrent full-cloud/GPU workers."
+}

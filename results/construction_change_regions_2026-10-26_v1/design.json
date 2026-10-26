@@ -1,0 +1,22 @@
+{
+  "source_study": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1",
+  "point_model": "Original v2 clean-validation-selected seed42 model separately in each spatial fold",
+  "grouping_radius_m": 0.4,
+  "minimum_sampled_positive_cores": 3,
+  "parameter_source": "Fixed medium feature radius and a small display-support minimum; no label-based tuning",
+  "prediction_changes": false,
+  "point_evaluation_masks_changed": false,
+  "ground_truth_used_for_grouping": false,
+  "membership_codes": {
+    "unknown_prediction": -3,
+    "predicted_unchanged": -2,
+    "ungrouped_positive": -1,
+    "component_ids": "0 and above"
+  },
+  "scope": "Connected components of sampled original held-out predicted-positive cores. Buffered interiors have gaps; not full-cloud object segmentation.",
+  "scores": "Mean model output scores are not calibrated probabilities of construction completion",
+  "temporal_scope": "Per-pair earlier/later acquisition indices; no verified component identity association across pairs",
+  "construction_claim": "Candidate added/removed geometry only. No installed-component labels, material quantities, or project completion percentages.",
+  "permanent_vs_temporary_work_verified": false,
+  "object_level_recall_available": false
+}

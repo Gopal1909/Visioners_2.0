@@ -1,0 +1,8 @@
+{
+  "cores_per_scan": 32,
+  "valid_counts": [
+    27,
+    29
+  ],
+  "passed": true
+}

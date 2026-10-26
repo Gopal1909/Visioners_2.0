@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "measurement_sha256": "991c0159ac111b8687ab295fab395e06e57ccdfbc28df181eea2d5f93f7b4e21",
+  "experiment_design_sha256": "4c181938f80318fe9856b4b9d4630d3c28543ba3e5e5782ccbdf4a179ea75037",
+  "process_timing": {
+    "seconds": 0.9637799999982235,
+    "rss_start_mib": 606.08203125,
+    "sampled_peak_rss_mib": 865.58984375,
+    "sampled_rss_growth_mib": 259.5078125,
+    "process_lifetime_peak_mib": 865.58984375
+  },
+  "geometry_process_timing": {
+    "seconds": 38.020649400001275,
+    "rss_start_mib": 450.53515625,
+    "sampled_peak_rss_mib": 1054.703125,
+    "sampled_rss_growth_mib": 604.16796875,
+    "process_lifetime_peak_mib": 1078.7265625
+  },
+  "evaluator_sha256": "03c64cfd85cd1e750a6942cde6c183b14a87507d694128fc08bc163614e1b0a5",
+  "no_stress_retuning": true,
+  "test_indices_original": true
+}

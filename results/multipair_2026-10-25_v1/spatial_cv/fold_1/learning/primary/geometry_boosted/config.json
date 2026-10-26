@@ -1,0 +1,27 @@
+{
+  "protocol": "primary",
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "model": "HistGradientBoostingClassifier",
+  "max_iter": 200,
+  "max_leaf_nodes": 15,
+  "learning_rate": 0.05,
+  "l2_regularization": 1.0,
+  "min_samples_leaf": 30,
+  "early_stopping": false,
+  "random_state": 42,
+  "selection": "Fixed tabular control, same validation-only threshold objective as neural models",
+  "no_absolute_coordinates": true,
+  "source_sha256": {
+    "multipair_learning.py": "5ce08aebbddb81bf5b8e0c85f46d011de59ad5cca8c098f19f95f440a8da2c22",
+    "multipair_features.py": "f30c7062bd9ecc92efb4d6840b5225eb5260b8f6580cf74f1a480d963edb2002",
+    "multipair_metrics.py": "c1349a071d564751252d8e43ada0768403743514a44b98ca8765a69682e6fcf1",
+    "siamese_pointnet.py": "27eceb44d39f3cde4c243df6202771c2d875ba9789f2d0b5eb46ec2ed2a66667"
+  }
+}

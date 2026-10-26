@@ -1,0 +1,326 @@
+CROSS-VALIDATION FOLD 1 STAGE prepare
+Prepared shared splits pair 01
+Prepared shared splits pair 02
+Prepared shared splits pair 03
+Prepared shared splits pair 12
+Prepared shared splits pair 13
+Prepared shared splits pair 23
+CROSS-VALIDATION FOLD 1 STAGE geometry
+Validation geometry pair 01 seconds 16.1
+Validation geometry pair 02 seconds 11.4
+Validation geometry pair 03 seconds 11.2
+Validation geometry pair 12 seconds 17.2
+Validation geometry pair 13 seconds 10.0
+Validation geometry pair 23 seconds 6.3
+{
+  "c2c_threshold_m": 0.5,
+  "C2C_validation": {
+    "method": "C2C",
+    "candidate": "c2c_0.5",
+    "objective": 0.61550563565091,
+    "changed_f1": 0.3368525786515413,
+    "coverage": 1.0
+  },
+  "m3c2_config": {
+    "normal_radii_m": [
+      0.2,
+      0.4,
+      0.8
+    ],
+    "projection_radii_m": [
+      0.2
+    ],
+    "half_length_m": 1.0,
+    "min_normal_points": 10,
+    "min_projected_points": 10,
+    "max_curvature": 0.1,
+    "min_eigengap": 0.1,
+    "min_tangent_ratio": 0.05,
+    "max_stability_angle_deg": 30.0,
+    "max_candidates": 250000,
+    "core_chunk_size": 128,
+    "registration_error_m": 0.0,
+    "minimum_effect_m": 0.5
+  },
+  "M3C2-style_validation": {
+    "method": "M3C2-style",
+    "candidate": "broad_L1.0_R0.2_F0.5",
+    "objective": 0.42596661868782076,
+    "changed_f1": 0.03552971576227388,
+    "coverage": 0.7657877604166666
+  }
+}
+CROSS-VALIDATION FOLD 1 STAGE features
+Training/validation features ready pair 01 10.5 seconds
+Training/validation features ready pair 02 9.0 seconds
+Training/validation features ready pair 03 8.9 seconds
+Training/validation features ready pair 12 9.5 seconds
+Training/validation features ready pair 13 9.1 seconds
+Training/validation features ready pair 23 7.5 seconds
+CROSS-VALIDATION FOLD 1 STAGE learning
+D:\CV_Project\code\siamese_pointnet.py:94: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_numpy.cpp:212.)
+  return [torch.from_numpy(features[key][ids]).to(device) for key in ('p0','m0','p1','m1','aux')]
+primary nearest 42 epoch 1 validation BCE 0.5186
+primary nearest 42 epoch 5 validation BCE 0.8171
+primary nearest 42 epoch 10 validation BCE 0.9155
+primary nearest 42 epoch 15 validation BCE 0.9327
+primary nearest 42 epoch 20 validation BCE 0.9615
+primary nearest 42 epoch 25 validation BCE 0.9124
+primary nearest 42 epoch 30 validation BCE 1.289
+Frozen neural: {"protocol": "primary", "variant": "nearest", "seed": 42, "threshold": 0.95, "validation_objective": 0.635493298676954, "validation_changed_f1": 0.3589961208267234, "best_epoch": 1, "best_validation_bce": 0.5186121463775635, "checkpoint_sha256": "b48325fe5d2156fcaf3dac5d9c5ffeffa3579a61e5ac2a443ad3754b85c4487e", "config_sha256": "1641083c19077a4d999df2bc914c32a54ea888e42f1d228c72b22fcf2cb7e61a", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 57.44803050000337, "gpu_peak_allocated_mib": 89.013671875}
+primary voxel 42 epoch 1 validation BCE 0.8618
+primary voxel 42 epoch 5 validation BCE 1.554
+primary voxel 42 epoch 10 validation BCE 1.8841
+primary voxel 42 epoch 15 validation BCE 1.976
+primary voxel 42 epoch 20 validation BCE 2.3277
+primary voxel 42 epoch 25 validation BCE 2.4132
+primary voxel 42 epoch 30 validation BCE 1.9975
+Frozen neural: {"protocol": "primary", "variant": "voxel", "seed": 42, "threshold": 0.95, "validation_objective": 0.6375240482165165, "validation_changed_f1": 0.3642697120942519, "best_epoch": 1, "best_validation_bce": 0.8618128299713135, "checkpoint_sha256": "7826b633c2724907851fdb98bbe615b74f5b4f8db67512cb0cca358d4593c54d", "config_sha256": "b2ba95d1c55e0990ab204f12c12552882ae8238df3f966d7061967cc50337942", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 55.7474291000035, "gpu_peak_allocated_mib": 89.013671875}
+primary voxel_aug 42 epoch 1 validation BCE 0.735
+primary voxel_aug 42 epoch 5 validation BCE 1.009
+primary voxel_aug 42 epoch 10 validation BCE 1.312
+primary voxel_aug 42 epoch 15 validation BCE 1.42
+primary voxel_aug 42 epoch 20 validation BCE 1.6436
+primary voxel_aug 42 epoch 25 validation BCE 1.6153
+primary voxel_aug 42 epoch 30 validation BCE 1.7439
+Frozen neural: {"protocol": "primary", "variant": "voxel_aug", "seed": 42, "threshold": 0.95, "validation_objective": 0.6367059125566109, "validation_changed_f1": 0.3622048740294876, "best_epoch": 1, "best_validation_bce": 0.7349684238433838, "checkpoint_sha256": "65490bd022676afb2f82afe0e3232b9d9fbdff621a7fa6b266bd6bd5e822735e", "config_sha256": "05ad3d019047dad7e6b30ab89fbabc226d8fe7c2de6948b264945ea9c4a906b5", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 69.62410700000328, "gpu_peak_allocated_mib": 89.013671875}
+Frozen geometry classifier: {"protocol": "primary", "model": "geometry_boosted", "threshold": 0.65, "validation_objective": 0.697420723351783, "validation_changed_f1": 0.40614595755832994, "checkpoint_sha256": "9d034cc61402ed163b6b581fdd9f75b50ea9f56700dcf4aa6a488a3414111cac", "config_sha256": "a09dde23b2ef7b68794b169ed2bf20d93c8f877fae8e2432bf1cdd8ed17fa788", "training_cores": 36000, "test_accessed": false, "timing": {"seconds": 1.1880003999976907, "rss_start_mib": 1188.9453125, "sampled_peak_rss_mib": 1221.57421875, "sampled_rss_growth_mib": 32.62890625, "process_lifetime_peak_mib": 1351.21875}}
+CROSS-VALIDATION FOLD 1 STAGE clean_test
+TEST primary 01 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 01 clean 42 18.1 seconds
+TEST primary 02 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 02 clean 42 17.5 seconds
+TEST primary 03 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 03 clean 42 23.2 seconds
+TEST primary 12 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 12 clean 42 17.6 seconds
+TEST primary 13 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 13 clean 42 24.7 seconds
+TEST primary 23 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 23 clean 42 27.7 seconds
+Inference complete primary 01 clean 42
+Inference complete primary 02 clean 42
+Inference complete primary 03 clean 42
+Inference complete primary 12 clean 42
+Inference complete primary 13 clean 42
+Inference complete primary 23 clean 42
+CROSS-VALIDATION FOLD 2 STAGE prepare
+Prepared shared splits pair 01
+Prepared shared splits pair 02
+Prepared shared splits pair 03
+Prepared shared splits pair 12
+Prepared shared splits pair 13
+Prepared shared splits pair 23
+CROSS-VALIDATION FOLD 2 STAGE geometry
+Validation geometry pair 01 seconds 19.0
+Validation geometry pair 02 seconds 10.1
+Validation geometry pair 03 seconds 11.5
+Validation geometry pair 12 seconds 15.2
+Validation geometry pair 13 seconds 17.4
+Validation geometry pair 23 seconds 8.4
+{
+  "c2c_threshold_m": 0.3,
+  "C2C_validation": {
+    "method": "C2C",
+    "candidate": "c2c_0.3",
+    "objective": 0.5399054181224535,
+    "changed_f1": 0.08333333333333333,
+    "coverage": 1.0
+  },
+  "m3c2_config": {
+    "normal_radii_m": [
+      0.2,
+      0.4,
+      0.8
+    ],
+    "projection_radii_m": [
+      0.2
+    ],
+    "half_length_m": 1.0,
+    "min_normal_points": 10,
+    "min_projected_points": 10,
+    "max_curvature": 0.1,
+    "min_eigengap": 0.1,
+    "min_tangent_ratio": 0.05,
+    "max_stability_angle_deg": 30.0,
+    "max_candidates": 250000,
+    "core_chunk_size": 128,
+    "registration_error_m": 0.0,
+    "minimum_effect_m": 0.5
+  },
+  "M3C2-style_validation": {
+    "method": "M3C2-style",
+    "candidate": "broad_L1.0_R0.2_F0.5",
+    "objective": 0.4892031542295418,
+    "changed_f1": 0.0,
+    "coverage": 0.9580078125
+  }
+}
+CROSS-VALIDATION FOLD 2 STAGE features
+Training/validation features ready pair 01 10.7 seconds
+Training/validation features ready pair 02 8.9 seconds
+Training/validation features ready pair 03 9.0 seconds
+Training/validation features ready pair 12 9.3 seconds
+Training/validation features ready pair 13 9.6 seconds
+Training/validation features ready pair 23 8.0 seconds
+CROSS-VALIDATION FOLD 2 STAGE learning
+D:\CV_Project\code\siamese_pointnet.py:94: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_numpy.cpp:212.)
+  return [torch.from_numpy(features[key][ids]).to(device) for key in ('p0','m0','p1','m1','aux')]
+primary nearest 42 epoch 1 validation BCE 0.1805
+primary nearest 42 epoch 5 validation BCE 0.3583
+primary nearest 42 epoch 10 validation BCE 0.3531
+primary nearest 42 epoch 15 validation BCE 0.3448
+primary nearest 42 epoch 20 validation BCE 0.2794
+primary nearest 42 epoch 25 validation BCE 0.306
+primary nearest 42 epoch 30 validation BCE 0.2868
+Frozen neural: {"protocol": "primary", "variant": "nearest", "seed": 42, "threshold": 0.9, "validation_objective": 0.6079066322547964, "validation_changed_f1": 0.22142857142857142, "best_epoch": 1, "best_validation_bce": 0.18054810166358948, "checkpoint_sha256": "ff3419cdbeea340ecec7453e52c0844a16cb8d3072791dffe96cc1aa286e91e7", "config_sha256": "62205755f31cf465d4736ca3bed3002fc8bd2e2e973e4bc059cfa4e5f5cc9a2c", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 55.6823790999988, "gpu_peak_allocated_mib": 89.013671875}
+primary voxel 42 epoch 1 validation BCE 0.2803
+primary voxel 42 epoch 5 validation BCE 0.2102
+primary voxel 42 epoch 10 validation BCE 0.2503
+primary voxel 42 epoch 15 validation BCE 0.2745
+primary voxel 42 epoch 20 validation BCE 0.2792
+primary voxel 42 epoch 25 validation BCE 0.2401

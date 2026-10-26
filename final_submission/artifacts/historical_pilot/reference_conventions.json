@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/CloudCompare/CloudCompare",
+  "tag": "v2.13.2",
+  "revision": "49dbbb6",
+  "process_source": "https://github.com/CloudCompare/CloudCompare/blob/v2.13.2/plugins/core/Standard/qM3C2/src/qM3C2Process.cpp",
+  "statistics_source": "https://github.com/CloudCompare/CloudCompare/blob/v2.13.2/plugins/core/Standard/qM3C2/src/qM3C2Tools.cpp",
+  "verified": [
+    "target mean minus source mean",
+    "population standard deviation (denominator n)",
+    "1.96 times (sqrt(sum of variance/count) plus registration RMS)",
+    "strict absolute distance greater than LoD",
+    "same core/normal/radius/half-length cylinder in both epochs",
+    "UI projection diameter divided by two; depth is half-length"
+  ],
+  "differences": [
+    "normal scale criterion",
+    "normal quality/stability rejection",
+    "explicit unknown policy",
+    "application minimum-effect floor",
+    "sphere plus exact cylinder filtering instead of octree cylinder query"
+  ],
+  "independent_reference_output_validation": false
+}

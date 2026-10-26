@@ -1,0 +1,37 @@
+clean                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.381705   0.66875
+   Siamese PointNet all standard           0.393585   1.00000
+translation_0.10                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.403311  0.669375
+   Siamese PointNet all standard           0.407671  1.000000
+translation_0.20                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.403241     0.667
+   Siamese PointNet all standard           0.384173     1.000
+rotation_0.5                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.431362     0.676
+   Siamese PointNet all standard           0.436582     1.000
+rotation_1.0                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.396774  0.667625
+   Siamese PointNet all standard           0.399350  1.000000
+sparsity_0.25                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.367903  0.593806
+   Siamese PointNet all standard           0.348020  1.000000
+sparsity_0.10                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.310102  0.486523
+   Siamese PointNet all standard           0.250550  1.000000
+noise_0.020                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.346497     0.651
+   Siamese PointNet all standard           0.398997     1.000
+noise_0.075                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common standard           0.374938  0.325625
+   Siamese PointNet all standard           0.413406  1.000000
+occlusion_4.6                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common        A           0.381705   0.66875
+   Siamese PointNet all        A           0.393585   1.00000
+Siamese PointNet common        B           0.381705   0.66875
+   Siamese PointNet all        B           0.393585   1.00000
+occlusion_7.6                  method protocol  combined_macro_f1  coverage
+Siamese PointNet common        A           0.381705   0.66875
+   Siamese PointNet all        A           0.393585   1.00000
+Siamese PointNet common        B           0.381705   0.66875
+   Siamese PointNet all        B           0.393585   1.00000

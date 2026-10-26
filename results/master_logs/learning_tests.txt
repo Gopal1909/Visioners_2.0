@@ -1,0 +1,9 @@
+test_empty_target_finite_and_no_ground_truth_features (test_learning_pipeline.LearningTests) ... ok
+test_paired_feature_common_translation (test_learning_pipeline.LearningTests) ... ok
+test_shared_encoder_permutation_and_padding_invariance (test_learning_pipeline.LearningTests) ... ok
+test_supervised_loss_decreases_on_synthetic_offsets (test_learning_pipeline.LearningTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 4.207s
+
+OK

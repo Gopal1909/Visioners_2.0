@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "full_batch_size": 128,
+  "threshold_grid_unchanged": true,
+  "heavy_libraries_not_imported": true,
+  "gpu_peak_allocated_MiB": 123.12890625,
+  "rss_MiB": 975.1796875
+}

@@ -1,0 +1,10 @@
+{
+  "condition": "sparsity_0.25",
+  "seed": 42,
+  "full_support_points0": 4444935,
+  "full_support_points1": 1272448,
+  "normal0_cached": true,
+  "normal1_reestimated": true,
+  "configuration_hash": "86fad93a528255418221091e589962c319d1ab5ed1f49caacc4d4940fbc93904",
+  "measurement_hash": "28e6268a6bb0cb910115e5e751feb350bab9649f9a60b1c3c4de42b7dbe98aae"
+}

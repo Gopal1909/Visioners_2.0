@@ -1,0 +1,32 @@
+{
+  "tree0": {
+    "seconds": 1.0680105999999796,
+    "rss_start_mib": 860.09765625,
+    "sampled_peak_rss_mib": 1067.43359375,
+    "sampled_rss_growth_mib": 207.3359375,
+    "process_lifetime_peak_mib": 1069.0
+  },
+  "tree1": {
+    "seconds": 1.309833899998921,
+    "rss_start_mib": 1419.7265625,
+    "sampled_peak_rss_mib": 1647.08203125,
+    "sampled_rss_growth_mib": 227.35546875,
+    "process_lifetime_peak_mib": 1706.21484375
+  },
+  "query_patch_inference": [
+    {
+      "seconds": 0.17893239999830257,
+      "rss_start_mib": 1647.08203125,
+      "sampled_peak_rss_mib": 1708.55078125,
+      "sampled_rss_growth_mib": 61.46875,
+      "process_lifetime_peak_mib": 1711.56640625
+    },
+    {
+      "seconds": 0.1819298999998864,
+      "rss_start_mib": 1647.0625,
+      "sampled_peak_rss_mib": 1695.7265625,
+      "sampled_rss_growth_mib": 48.6640625,
+      "process_lifetime_peak_mib": 1711.56640625
+    }
+  ]
+}

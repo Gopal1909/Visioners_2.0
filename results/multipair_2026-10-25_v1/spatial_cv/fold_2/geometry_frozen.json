@@ -1,0 +1,43 @@
+{
+  "c2c_threshold_m": 0.3,
+  "C2C_validation": {
+    "method": "C2C",
+    "candidate": "c2c_0.3",
+    "objective": 0.5399054181224535,
+    "changed_f1": 0.08333333333333333,
+    "coverage": 1.0
+  },
+  "m3c2_config": {
+    "normal_radii_m": [
+      0.2,
+      0.4,
+      0.8
+    ],
+    "projection_radii_m": [
+      0.2
+    ],
+    "half_length_m": 1.0,
+    "min_normal_points": 10,
+    "min_projected_points": 10,
+    "max_curvature": 0.1,
+    "min_eigengap": 0.1,
+    "min_tangent_ratio": 0.05,
+    "max_stability_angle_deg": 30.0,
+    "max_candidates": 250000,
+    "core_chunk_size": 128,
+    "registration_error_m": 0.0,
+    "minimum_effect_m": 0.5
+  },
+  "M3C2-style_validation": {
+    "method": "M3C2-style",
+    "candidate": "broad_L1.0_R0.2_F0.5",
+    "objective": 0.4892031542295418,
+    "changed_f1": 0.0,
+    "coverage": 0.9580078125
+  },
+  "candidate_design_sha256": "33086dab9196eb82f2f4a0a3247a8e971162d657c2ed21fb9d8565e0e9b66fe7",
+  "protocol_sha256": "f2961aed6cd42e576b76b41bf5de8c8827e0ec668ba2ad6806ee04c7521ea26e",
+  "source_sha256": "153a50f9ff718e1cceae76c4c3ab3292143821f2034d2e5f22e998b3d1e73e05",
+  "note": "Validation only, fixed parameters across all test pairs/stresses. Zero registration error is uncalibrated; M3C2-style, not reference software equivalence.",
+  "test_predictions_scored": false
+}

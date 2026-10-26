@@ -1,0 +1,110 @@
+[
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\c2c_baseline\\baseline_report.txt",
+    "Hash": "8DC85C961D3775E0B81FB88C511CB53DE6A83A99D45A80D23C39F932592DAD40"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\c2c_baseline\\c2c_distance_distributions.png",
+    "Hash": "70329BC3FE6AB89B91BCF3B21C63C3F97D9829C197DC8345B491437F1604CECD"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\c2c_baseline\\c2c_metric_curves.png",
+    "Hash": "C9947FE56FF9EBF2AC74B75C482AE88423CA79EC8A0623FEB87003639C97E7DB"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\c2c_baseline\\c2c_predictions_comparison.png",
+    "Hash": "7433D2840C0818692A528BD9A78DC9E68AFF07D53CD88AB0E92F93264938F8C0"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\c2c_baseline\\c2c_predictions.npz",
+    "Hash": "6E37890FE36E4BF10A91BD6086DD61806B49295D67FEEA374BFC9380E07100FF"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\c2c_baseline\\threshold_metrics.csv",
+    "Hash": "8BE0667BFCBB8FFE250EF8B2514CE7A3FF61D7BA77E380CB3034830614180761"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness\\noise_metrics.csv",
+    "Hash": "E6F895943E2DA2C2F0AF19C5E850649403FE3BB5052F1ACD87C800572B6551AA"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness\\occlusion_metrics.csv",
+    "Hash": "45C9D1285BFE4DF78347010ED45CF639FE9DB42B9E6265279BC4FC672DF32C02"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness\\registration_error_metrics.csv",
+    "Hash": "E0AD320F2D80E4A2B56A7BFFBB364B4157C78CD5214C6B06B6D9DDD1B9A0A4FC"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness\\robustness_curves.png",
+    "Hash": "7054810548C32F9D301FBA3325EBE9EFD72292321C29D990D2B30FF8303E9D55"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness\\robustness_report.txt",
+    "Hash": "A3DD6CC21AF430FEBF45E3225731D90AE437C712E66883993A43AB08D6F6C2B8"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness\\sparsity_metrics.csv",
+    "Hash": "87F99F201E471CB9817CC147E88D542E63AE89AF6F4B532426638219D8B458B8"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\combined_registration_metrics.csv",
+    "Hash": "AB70FA7DBD91AF2705DFCEEB2E89AADAE8288AC2FEB40500AB3373EBA6B0DED9"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\noise_metrics.csv",
+    "Hash": "E6F895943E2DA2C2F0AF19C5E850649403FE3BB5052F1ACD87C800572B6551AA"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\occlusion_metrics.csv",
+    "Hash": "FB1644F05224558D53D278E282187CE85EF369237291F77CA3E69B23E350D7FB"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\robustness_curves.png",
+    "Hash": "536D63361DEF3455C859A1CFBB453ADF267C8089BB5CAAC14355EC23A5DF7E7E"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\robustness_report_final.pre_audit_2026-10-25.txt",
+    "Hash": "5BDCAE6070B60CDD92C4C71B56F8DF4A1F6676760086C89B23860D914F49BD99"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\robustness_report_final.txt",
+    "Hash": "47260EEF17090BD307DAF9ADF3DD169AD3542D60CA9D0B68056FAE9F21D9AA89"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\robustness_report.txt",
+    "Hash": "B5F2FC930F6DE81DBB7BB90FFE7C181926DD1BF58CBADA3312922FB9FEB9F0B7"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\rotation_only_metrics.csv",
+    "Hash": "82FEADA68676752DA03B4B655E58CD13707AAC0BB1A83E134AF977F0A1A3690A"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\sparsity_metrics.csv",
+    "Hash": "87F99F201E471CB9817CC147E88D542E63AE89AF6F4B532426638219D8B458B8"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\stage3_audit_manifest.json",
+    "Hash": "59DC83A3CF972E3DBC6145CDA5984D2A79160533E41FA9BAAA7E97B28B989AA3"
+  },
+  {
+    "Path": "D:\\CV_Project\\results\\pair_01\\robustness_reviewed\\translation_only_metrics.csv",
+    "Hash": "3E6948D8F68FA632EA3A03B8755005EB351941819D18A0BE28BDBB6293919FDA"
+  },
+  {
+    "Path": "D:\\CV_Project\\code\\c2c_baseline.py",
+    "Hash": "40D5ABFDB0D22BF8D906D5F5794B129826FC0B6CF0DA18AAC64C4C5C81BF5808"
+  },
+  {
+    "Path": "D:\\CV_Project\\code\\c2c_robustness.py",
+    "Hash": "EF519D43B5BD077F6D444D33EDCE46539541F3AFF6271A4B359CE9050EC60E91"
+  },
+  {
+    "Path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud0.ply",
+    "Hash": "BFCB0A338B230AF3853F5A827C0E9A30377A9AA52EADAB6274EDB3B4B2E1EBEC"
+  },
+  {
+    "Path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud1.ply",
+    "Hash": "37F35BA46773A4E48EBABD9A764991F513AABB40B3DC298D031BD6A9B9F9CAB4"
+  }
+]

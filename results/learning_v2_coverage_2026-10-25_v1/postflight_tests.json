@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 53,
+  "log_sha256": "f4fae7028875e88d7518a86e9bddff184d97888ea821ab5d9675f47737523172",
+  "command": "python -m unittest discover -s code -p test_*.py -v",
+  "scope": "Geometry, original-row alignment, masks, bounded support, sampling, model invariances, exact checkpoint resume and legacy kernel equivalence",
+  "rechecked_after_plot_layout_repair": true
+}

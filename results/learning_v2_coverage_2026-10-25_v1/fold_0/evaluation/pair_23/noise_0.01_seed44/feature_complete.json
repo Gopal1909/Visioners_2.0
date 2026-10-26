@@ -1,0 +1,14 @@
+{
+  "sha256": "e3f955748eca0f2f5520462eb60373e4bd1668b0064996f214feaa2a75762d24",
+  "baseline_geometry_sha256": "6991da3666a8222ed489e0ebaabf0416e37d1516b15f5d51261c970777dea504",
+  "source_sha256": "c902ca6b9d629b8a15b5ec710773569ee7be2b8a74a5b394a2556a0a88a0bfc2",
+  "design_sha256": "2a24a2514513b082bed21f6749f7fa3a28d3e48735e6fbe4286e276605dddb34",
+  "identical_original_cores_and_coordinates_verified": true,
+  "timing": {
+    "seconds": 5.000631099999737,
+    "rss_start_mib": 459.44921875,
+    "sampled_peak_rss_mib": 1027.84765625,
+    "sampled_rss_growth_mib": 568.3984375,
+    "process_lifetime_peak_mib": 1031.30078125
+  }
+}

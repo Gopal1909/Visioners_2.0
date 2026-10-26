@@ -1,0 +1,131 @@
+{
+  "protocol": "temporal",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "conditions": [
+    [
+      "clean",
+      "clean",
+      0.0
+    ],
+    [
+      "translation_0.05",
+      "translation",
+      0.05
+    ],
+    [
+      "translation_0.20",
+      "translation",
+      0.2
+    ],
+    [
+      "translation_0.50",
+      "translation",
+      0.5
+    ],
+    [
+      "rotation_0.5",
+      "rotation",
+      0.5
+    ],
+    [
+      "rotation_2",
+      "rotation",
+      2.0
+    ],
+    [
+      "rotation_5",
+      "rotation",
+      5.0
+    ],
+    [
+      "retention_0.50",
+      "retention",
+      0.5
+    ],
+    [
+      "retention_0.25",
+      "retention",
+      0.25
+    ],
+    [
+      "retention_0.10",
+      "retention",
+      0.1
+    ],
+    [
+      "noise_0.01",
+      "noise",
+      0.01
+    ],
+    [
+      "noise_0.03",
+      "noise",
+      0.03
+    ],
+    [
+      "noise_0.075",
+      "noise",
+      0.075
+    ],
+    [
+      "occlusion_25",
+      "occlusion",
+      0.25
+    ],
+    [
+      "occlusion_50",
+      "occlusion",
+      0.5
+    ],
+    [
+      "combined_mild",
+      "combined",
+      0.1
+    ],
+    [
+      "combined_large",
+      "combined",
+      0.2
+    ]
+  ],
+  "source_sha256": "0e70ef5b0d2303d15fe1b81b46f381d06d51a1a8851b188534c01004b3ab983e",
+  "geometry": {
+    "c2c_threshold_m": 0.05,
+    "m3c2_config": {
+      "normal_radii_m": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "projection_radii_m": [
+        0.2
+      ],
+      "half_length_m": 0.5,
+      "min_normal_points": 10,
+      "min_projected_points": 10,
+      "max_curvature": 0.1,
+      "min_eigengap": 0.1,
+      "min_tangent_ratio": 0.05,
+      "max_stability_angle_deg": 30.0,
+      "max_candidates": 250000,
+      "core_chunk_size": 128,
+      "registration_error_m": 0.0,
+      "minimum_effect_m": 0.05
+    },
+    "selection_pairs": [
+      "01"
+    ],
+    "test_pair": "23",
+    "test_accessed": false,
+    "source_calibration_sha256": "7837824b7e4783a16aef8b4ed0847ef8a2a1af7a9eff1da8461e74eb778ac106"
+  },
+  "protocol_sha256": "78937942675ec00acd8ef57c0922ebc598758fc251b42311b96e01f423ff7038",
+  "frozen_learning_sha256": "f62fa398148ca39a321a8778bfc8a6eec01dc2c6596b01e46393483a3268c860",
+  "support": "Full clouds as support; uniform original test cores. Common-valid and full-requested views.",
+  "occlusion": "Synthetic XY deletion; A strict source0 scoring, B mask source0 within known blind cylinder. No unobserved target predictions.",
+  "absent_changed_class": "Changed F1 returns zero when its denominator is zero; positive counts and false-positive counts are retained."
+}

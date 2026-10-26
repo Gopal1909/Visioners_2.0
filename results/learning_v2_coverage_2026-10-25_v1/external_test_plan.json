@@ -1,0 +1,26 @@
+{
+  "declared_at_utc": "2026-10-25T08:45:50.947731+00:00",
+  "optional_scene": "MultiChange3D / MLS / Open Space (MLS)",
+  "source": "https://3dom-fbk.github.io/multichange3d/",
+  "selection": "Use fold0 primary validation-selected neural model, seed42, and its BikeParkingConstruction validation threshold; bounded-geometry model and previous PointNet/C2C controls stay frozen.",
+  "sampling": "Uniform 5000 original rows per scan without replacement, seed 91260+scan; use full clouds as support; no class balancing at evaluation.",
+  "no_external_training_or_threshold_calibration": true,
+  "external_labels_accessed_at_declaration": false,
+  "status": "User provided independent scene directory; contents not evaluated until all model choices are frozen.",
+  "expected_folder": "D:/CV_Project/dataset/MultiChange3D/Open_space",
+  "header_only_inventory": {
+    "files_present": 2,
+    "params_properties": [
+      "x",
+      "y",
+      "z",
+      "intensity",
+      "cd_type"
+    ],
+    "point_counts": [
+      4245825,
+      3111491
+    ],
+    "label_values_accessed": false
+  }
+}

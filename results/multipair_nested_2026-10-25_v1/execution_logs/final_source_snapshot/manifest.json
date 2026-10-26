@@ -1,0 +1,20 @@
+{
+  "files": {
+    "multipair_analysis.py": "928be7cc92df30673141fb4bdc8e7431e5a6a04ccc90158f258f89eb3a207c21",
+    "multipair_crossvalidate.py": "985978129c4a4f22c4d3ca1a4b50063636001508537fe4e64e835ea65186ad61",
+    "multipair_data.py": "7409b1722bcc161d15b2c376958634558c16886b3aa301501dae3df83e2387ae",
+    "multipair_diagnostics.py": "c020b710947d4b4c399bea87e34f7696fdb6a27beaef227cc2087d4ede5ded87",
+    "multipair_evaluate.py": "a7226d4ca8499352080d167e1a8f8df4ca62442ffe460fe31db73a6acb7db6d2",
+    "multipair_features.py": "f30c7062bd9ecc92efb4d6840b5225eb5260b8f6580cf74f1a480d963edb2002",
+    "multipair_geometry.py": "153a50f9ff718e1cceae76c4c3ab3292143821f2034d2e5f22e998b3d1e73e05",
+    "multipair_learning.py": "9e72bcce7a0db0623a05330d60ce96fb7cf7a81bf083f367ed87cfd46c27d6ec",
+    "multipair_metrics.py": "c1349a071d564751252d8e43ada0768403743514a44b98ca8765a69682e6fcf1",
+    "multipair_nested.py": "576a41b37297d327b112c2288d3d3502a5c5d5c6c5eded3da6f3a074b9034402",
+    "multipair_operating_points.py": "cff03a6f5c41944d90393f2e1f0e4979f4a161f18568df8f31ee1854e260ead4",
+    "multipair_verify.py": "595b663fac0a5c541dd255018c3ff9784731c529b7d59089e1431a11c480f3b4",
+    "run_multipair_study.py": "b41484c1b41ac491be96013b4e5eca69c6ac8bc7945b4abd45ea8a6d1cea6611",
+    "run_nested_multipair.py": "74c7c8ef58c452efb2e5a06f4635ead1b321329acfb6c4206431fab2263f3d0a",
+    "test_multipair.py": "3a20780373a16234214dd53797ef2683b397dd5dcd52056908950aa9204c937d"
+  },
+  "scope": "Final runnable study sources; trained model folders preserve original fit-time snapshots. Process isolation changed without numerical retuning."
+}

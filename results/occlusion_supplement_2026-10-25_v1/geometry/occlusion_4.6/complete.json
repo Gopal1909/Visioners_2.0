@@ -1,0 +1,10 @@
+{
+  "condition": "occlusion_4.6",
+  "seed": 42,
+  "full_support_points0": 4444935,
+  "full_support_points1": 4489222,
+  "normal0_cached": true,
+  "normal1_reestimated": true,
+  "configuration_hash": "7da823d4f5a37a5fd8595daf8310fa067ca78f0e7e1538bf795c7d3ac10fcb95",
+  "measurement_hash": "cfe4cc0816942a35d4a288aa3341d0a4f257862540b775991b8b819e9975f892"
+}

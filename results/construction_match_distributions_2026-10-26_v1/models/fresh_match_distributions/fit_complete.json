@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "candidate": "fresh_match_distributions",
+  "iterations": 200,
+  "columns": 381,
+  "checkpoint_sha256": "3fe7f43f4dafb820fb343d8acd478d55906b0ab871cd03467f227fb38b9f49a9",
+  "probability_sha256": {
+    "clean": "6efd29db20fa04e58d2d863d204aee63c9b289572680381cb16a297526137794",
+    "mild": "9a5981c6f225a2f7e13883dc665e3400b0572ba21ced0da7eacc26f2130792a2",
+    "medium": "d81b5f7b3d455968bece1054f77e5da886f467143524fc24aec2a50f5c3fcb70"
+  },
+  "design_sha256": "ed7c12b93c33bab6f673cbc24a91f4d65592b795f69128a1f96552629b9a7a82",
+  "timing": {
+    "seconds": 41.645608599996194,
+    "rss_start_mib": 144.10546875,
+    "sampled_peak_rss_mib": 1998.69140625,
+    "sampled_rss_growth_mib": 1854.5859375,
+    "process_lifetime_peak_mib": 1998.94140625
+  },
+  "training_only_labels_used": true,
+  "test_accessed": false
+}

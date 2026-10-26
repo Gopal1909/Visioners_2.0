@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "epoch": 3,
+  "selected": null,
+  "probability_sha256": {
+    "clean": "c43f7564fad87aa99ede1ff4fe2103ba64352cf890a7f9c26fe6e4c78c433af4",
+    "mild": "aa82500aa9844a20f8d9afad14824bddebd0ac05570375ae6e45693108438654",
+    "medium": "46e41f57115cf81cced9ed29d577a4d4b0b1bce9c9becd906875fbba528581b0"
+  }
+}

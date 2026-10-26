@@ -1,0 +1,9 @@
+{
+  "diagnostic_only_not_a_predictive_method": true,
+  "scan_directions": 60,
+  "directions_with_changed_gt": 39,
+  "perfect_prediction_mean_binary_macro_f1": 0.825,
+  "perfect_prediction_mean_directional_changed_f1": 0.65,
+  "perfect_prediction_mean_pair_three_class_macro_f1": 0.7666666666666665,
+  "explanation": "F1=0 when a class is absent. All-region false alarms remain counted; supplementary global confusion pooling has different weights and is saved separately."
+}

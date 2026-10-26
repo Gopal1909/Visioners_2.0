@@ -1,0 +1,299 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "cells": {
+        "train": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "validation": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "test": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "actual_validation_changed": 2025,
+      "validation_directions_ge10": 10,
+      "outer_test_unchanged": true
+    },
+    {
+      "fold": 1,
+      "cells": {
+        "train": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "validation": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "test": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "actual_validation_changed": 1058,
+      "validation_directions_ge10": 6,
+      "outer_test_unchanged": true
+    },
+    {
+      "fold": 2,
+      "cells": {
+        "train": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "validation": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "test": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "actual_validation_changed": 2277,
+      "validation_directions_ge10": 11,
+      "outer_test_unchanged": true
+    },
+    {
+      "fold": 3,
+      "cells": {
+        "train": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "validation": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "test": [
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "actual_validation_changed": 2025,
+      "validation_directions_ge10": 10,
+      "outer_test_unchanged": true
+    },
+    {
+      "fold": 4,
+      "cells": {
+        "train": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "validation": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "test": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "actual_validation_changed": 1101,
+      "validation_directions_ge10": 9,
+      "outer_test_unchanged": true
+    }
+  ],
+  "prototype": "D:\\CV_Project\\results\\multipair_2026-10-25_v1",
+  "outer_design_sha256": "f3a9ab084e0556b870eecca08d857d30ba2d558e3cbb275ab1838833d7355d84",
+  "inner_selection_source_sha256": "576a41b37297d327b112c2288d3d3502a5c5d5c6c5eded3da6f3a074b9034402",
+  "test_regions_changed": false,
+  "selection_uses_outer_training_labels_only": true,
+  "class_blind_attempt_preserved": "D:\\CV_Project\\results\\multipair_2026-10-25_v1",
+  "temporal_reference": "Retain prototype pair_01-only models and prior pair_23 test; do not retune them",
+  "candidate_architectures": [
+    "nearest",
+    "voxel",
+    "voxel_aug"
+  ],
+  "extra_threshold_endpoints": [
+    0.01,
+    0.02,
+    0.98,
+    0.99
+  ],
+  "endpoint_reason": "Validation-only boundary optima in prototype; extended grid declared before nested model fitting",
+  "stress_cores_per_scan": 512,
+  "perturbation_seeds": [
+    42,
+    43,
+    44
+  ]
+}

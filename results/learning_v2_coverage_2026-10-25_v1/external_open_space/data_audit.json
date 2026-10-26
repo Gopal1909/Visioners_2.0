@@ -1,0 +1,39 @@
+{
+  "accessed_at_utc": "2026-10-25T14:01:49.676642+00:00",
+  "scene_directory": "D:\\CV_Project\\dataset\\MultiChange3D\\Open_space",
+  "original_coordinate_offset_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sampling_seed_rule": "91260 + scan; uniform without replacement",
+  "requested_cores_per_scan": 5000,
+  "model_selection_finished_before_label_access": true,
+  "no_external_training_or_calibration": true,
+  "clouds": [
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\Open_space\\Open_space\\pair_01\\pointCloud0.ply",
+      "sha256": "2aac2464f49822d0abbd64d95f8171ab8098d6b38b55ab45e3a28df6e802cfe7",
+      "points": 4245825,
+      "sampled_cores": 5000,
+      "sample_changed": 85,
+      "sample_unchanged": 4915
+    },
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\Open_space\\Open_space\\pair_01\\pointCloud1.ply",
+      "sha256": "6390572c6ae01fb4400ab4969c3edd3886357f97413198c441c55c858e876198",
+      "points": 3111491,
+      "sampled_cores": 5000,
+      "sample_changed": 75,
+      "sample_unchanged": 4925
+    }
+  ],
+  "selection_sha256": {
+    "0": "b5d066eed2830c8d201f516ff35abb71b8226ecc33ce416fa782e0dc5d0efcd2",
+    "1": "be047864f5a6868bb84a0f18e06490154bd98c05338fbe784dd6636b78f4825c",
+    "2": "121b645537d130f39d5813b233b1bb7a040de01e90d3e9a1306569f08db7b115",
+    "3": "4c34fa938bc93f78892aee1df52d38192353f73da3b3605d24d19a7b1dc99a08",
+    "4": "f0117b9932678cf7da0c63c0a792c4089119d1f531e05a7eb3fe1f1513919572"
+  },
+  "plan_sha256": "16c04c1f57f9a7e0983a820e1ba9fdf0d27f62cc4fe10fc8ef7702f4bc3013ae"
+}

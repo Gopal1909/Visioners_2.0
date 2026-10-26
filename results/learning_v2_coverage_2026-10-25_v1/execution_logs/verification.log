@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "completed_cases": 318,
+  "metric_rows_independently_recomputed": 4152,
+  "model_artifacts_verified": 22,
+  "training_validation_full_scan_feature_views_checked": 180,
+  "previous_result_files_preserved": 3388,
+  "assembled_feature_and_original_id_alignment_probes": 2880,
+  "original_clouds_preserved": 12,
+  "same_original_test_ids_xyz_gt_as_previous": true,
+  "old_submission_files_preserved": 97,
+  "reports_and_presentations_untouched": true,
+  "validation_only_selection_recomputed": true,
+  "independent_final_site_test": false,
+  "intended_large_radius_coverage_independently_checked": true,
+  "limitations": [
+    "One site and four epochs",
+    "Prior test findings informed this follow-up; these tests are comparative",
+    "Finite bank of two full-scan training perturbations",
+    "Custom multiscale network, not a published architecture reproduction"
+  ]
+}

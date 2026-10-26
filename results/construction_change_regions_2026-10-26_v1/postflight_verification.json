@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "independent_sparse_graph_components_verified": 191,
+  "original_point_observations": 90000,
+  "predicted_positive_points_conserved": 12895,
+  "point_scores_and_evaluation_masks_unchanged": true,
+  "component_point_purity_is_not_object_level_precision": true
+}

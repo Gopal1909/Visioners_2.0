@@ -1,0 +1,17 @@
+{
+  "protocol": "primary",
+  "variant": "voxel",
+  "seed": 42,
+  "threshold": 0.35,
+  "validation_objective": 0.8115454075596048,
+  "validation_changed_f1": 0.7833466055180488,
+  "best_epoch": 2,
+  "best_validation_bce": 0.3519553244113922,
+  "checkpoint_sha256": "0271ccde5114eaf8cb7f75fcefd02e1c5e87e6353b4d0e0f3dd767af603234c0",
+  "config_sha256": "6b3364704c457fb49e46d28440d10e2c343e30c091b9fea580dc4ab11dbaf1e6",
+  "training_cores": 36000,
+  "validation_cores": 14400,
+  "test_accessed": false,
+  "seconds_this_process": 59.76721439999528,
+  "gpu_peak_allocated_mib": 89.013671875
+}

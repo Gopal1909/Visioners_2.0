@@ -1,0 +1,114 @@
+{
+  "stage3": {
+    "combined_registration_metrics.csv": {
+      "rows": 7,
+      "sha256": "ab70fa7dbd91af2705dfceeb2e89aadae8288ac2feb40500ab3373eba6b0ded9"
+    },
+    "noise_metrics.csv": {
+      "rows": 7,
+      "sha256": "e6f895943e2da2c2f0af19c5e850649403fe3bb5052f1acd87c800572b6551aa"
+    },
+    "occlusion_metrics.csv": {
+      "rows": 5,
+      "sha256": "fb1644f05224558d53d278e282187ce85ef369237291f77ca3e69b23e350d7fb"
+    },
+    "rotation_only_metrics.csv": {
+      "rows": 7,
+      "sha256": "82feada68676752da03b4b655e58cd13707aac0bb1a83e134af977f0a1a3690a"
+    },
+    "sparsity_metrics.csv": {
+      "rows": 4,
+      "sha256": "87f99f201e471cb9817cc147e88d542e63ae89af6f4b532426638219d8b458b8"
+    },
+    "translation_only_metrics.csv": {
+      "rows": 7,
+      "sha256": "3e6948d8f68fa632ea3a03b8755005eb351941819d18a0be28bdbb6293919fda"
+    },
+    "confusion_rows_checked": 32,
+    "metric_values_checked": 416,
+    "max_abs_error": 4.999964664520462e-09,
+    "report_exists": true,
+    "occlusion_limit": "Aggregate CSV lacks confusion counts; not independently reconstructed"
+  },
+  "m3c2": {
+    "saved_primary": [
+      {
+        "method": "M3C2-style",
+        "combined_macro_f1": 0.352880232885683,
+        "combined_macro_mIoU": 0.2212269920324925,
+        "coverage": 0.6335,
+        "unknown_rate": 0.3665
+      },
+      {
+        "method": "C2C common support",
+        "combined_macro_f1": 0.6274167630602466,
+        "combined_macro_mIoU": 0.4978293770727955,
+        "coverage": 0.6335,
+        "unknown_rate": 0.0
+      }
+    ],
+    "independent_full_support_streaming_checks": [
+      {
+        "scan": 0,
+        "original_index": 2295,
+        "complete_cylinder_counts": [
+          92,
+          57
+        ]
+      },
+      {
+        "scan": 0,
+        "original_index": 2327471,
+        "complete_cylinder_counts": [
+          6,
+          3
+        ]
+      },
+      {
+        "scan": 0,
+        "original_index": 4434593,
+        "complete_cylinder_counts": [
+          437,
+          0
+        ]
+      },
+      {
+        "scan": 1,
+        "original_index": 2768,
+        "complete_cylinder_counts": [
+          703,
+          280
+        ]
+      },
+      {
+        "scan": 1,
+        "original_index": 3124121,
+        "complete_cylinder_counts": [
+          78,
+          139
+        ]
+      },
+      {
+        "scan": 1,
+        "original_index": 5089220,
+        "complete_cylinder_counts": [
+          752,
+          741
+        ]
+      }
+    ],
+    "assessment": "No geometry or LoD bug found in tested paths. Cross-scale criterion differs from CloudCompare; retain M3C2-style name."
+  },
+  "sources": {
+    "code\\c2c_baseline.py": "40d5abfdb0d22bf8d906d5f5794b129826fc0b6cf0da18aac64c4c5c81bf5808",
+    "code\\c2c_robustness.py": "ef519d43b5bd077f6d444d33edce46539541f3aff6271a4b359ce9050ec60e91",
+    "code\\compare_scans.py": "af7e9f791aa7b53e92ba59bcf3658c4f348ddb23aba9fc7e27d5c842fa9c2f7c",
+    "code\\inspect_dataset.py": "e70185b85a282148fafa35882e058aa9f0260e84eafcb6378550771c14166a1d",
+    "code\\inspect_multichange_pair.py": "58f6dced9e68abd0b5c0a9e08531fdc1ba8dc1eb77903a29301b6ceec22488d0",
+    "code\\m3c2_baseline.py": "4dd7e8321de5b50ef5590914a686663a8165809675d2f8289d8a4d093eb3703c",
+    "code\\m3c2_report.py": "966baf1d53c93ea36ad8761063fd4f584455b3fc18e39bbaa17707551984076d",
+    "code\\project_audit.py": "35a2e08cee21b589619e734b045a91f87453f9892d1d8d105d3767f95ee6a2ae",
+    "code\\test_m3c2_synthetic.py": "8e9049b346ee3a512ca202bbf993f1f69d34776c63c5bc955611222108cdd47e",
+    "code\\visualize_pointcloud.py": "7f55efdf57a5233c9d1df9b430929821cbfcb6337df70d8a092ea91aca19853d"
+  }
+}

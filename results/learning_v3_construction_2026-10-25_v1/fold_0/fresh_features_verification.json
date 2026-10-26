@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "fold": 0,
+  "epoch_pair_caches_verified": 96,
+  "original_row_observations_verified": 288000,
+  "assembly_alignment_probes": 1536,
+  "fresh_core_inventory": [
+    {
+      "pair": "01",
+      "scan": 0,
+      "unique_original_cores": 20689,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "01",
+      "scan": 1,
+      "unique_original_cores": 22045,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "02",
+      "scan": 0,
+      "unique_original_cores": 22349,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "02",
+      "scan": 1,
+      "unique_original_cores": 22079,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "03",
+      "scan": 0,
+      "unique_original_cores": 22337,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "03",
+      "scan": 1,
+      "unique_original_cores": 22960,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "12",
+      "scan": 0,
+      "unique_original_cores": 22443,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "12",
+      "scan": 1,
+      "unique_original_cores": 21889,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "13",
+      "scan": 0,
+      "unique_original_cores": 22668,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "13",
+      "scan": 1,
+      "unique_original_cores": 22800,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "23",
+      "scan": 0,
+      "unique_original_cores": 14902,
+      "epoch_observations": 24000
+    },
+    {
+      "pair": "23",
+      "scan": 1,
+      "unique_original_cores": 18596,
+      "epoch_observations": 24000
+    }
+  ],
+  "test_cells_never_sampled": true,
+  "full_scan_transform_and_original_id_mapping_recomputed": true,
+  "assembled_manifest_sha256": "5812b7b394c0465a2800aafd7406763f6d12885eec542983213128ce2722ec3b",
+  "reused_validation_manifest_sha256": "137f040ca9868d289e9853211026a1d6717e3dc183a4f8edc213b4a445c351b6"
+}

@@ -1,0 +1,275 @@
+{
+  "passed": true,
+  "full_planned_matrix_complete": true,
+  "clouds_unchanged": 12,
+  "protected_historical_files_unchanged": 27,
+  "spatial_folds": 5,
+  "model_checkpoint_configs_and_sources_checked": 28,
+  "completed_cases": 319,
+  "metric_rows_independently_recomputed": 6356,
+  "clean_positive_support": [
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "01",
+      "positives": [
+        17,
+        169
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "02",
+      "positives": [
+        280,
+        289
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "03",
+      "positives": [
+        262,
+        201
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "12",
+      "positives": [
+        161,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "13",
+      "positives": [
+        192,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "23",
+      "positives": [
+        32,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+      "pair": "23",
+      "positives": [
+        93,
+        178
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_1",
+      "pair": "01",
+      "positives": [
+        503,
+        328
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_1",
+      "pair": "02",
+      "positives": [
+        684,
+        1287
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_1",
+      "pair": "03",
+      "positives": [
+        736,
+        1251
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_1",
+      "pair": "12",
+      "positives": [
+        333,
+        966
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_1",
+      "pair": "13",
+      "positives": [
+        345,
+        726
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_1",
+      "pair": "23",
+      "positives": [
+        82,
+        67
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_2",
+      "pair": "01",
+      "positives": [
+        155,
+        27
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_2",
+      "pair": "02",
+      "positives": [
+        145,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_2",
+      "pair": "03",
+      "positives": [
+        152,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_2",
+      "pair": "12",
+      "positives": [
+        26,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_2",
+      "pair": "13",
+      "positives": [
+        32,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_2",
+      "pair": "23",
+      "positives": [
+        0,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_3",
+      "pair": "01",
+      "positives": [
+        0,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_3",
+      "pair": "02",
+      "positives": [
+        0,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_3",
+      "pair": "03",
+      "positives": [
+        0,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_3",
+      "pair": "12",
+      "positives": [
+        3,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_3",
+      "pair": "13",
+      "positives": [
+        3,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_3",
+      "pair": "23",
+      "positives": [
+        0,
+        0
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_4",
+      "pair": "01",
+      "positives": [
+        37,
+        567
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_4",
+      "pair": "02",
+      "positives": [
+        326,
+        216
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_4",
+      "pair": "03",
+      "positives": [
+        356,
+        243
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_4",
+      "pair": "12",
+      "positives": [
+        737,
+        194
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_4",
+      "pair": "13",
+      "positives": [
+        900,
+        218
+      ]
+    },
+    {
+      "root": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1\\spatial_cv\\fold_4",
+      "pair": "23",
+      "positives": [
+        0,
+        0
+      ]
+    }
+  ],
+  "original_row_ground_truth_and_coordinates_checked": true,
+  "previous_submission_files_verified_unchanged": 97,
+  "reports_and_presentations_untouched": true,
+  "reference_software_equivalence": false,
+  "validation_operating_point_catalogs_verified": 5,
+  "bounded_context_guard_scope": "PointNet and M3C2 only. Boosted classifier has an unbounded full-cloud nearest-point vector feature; no test labels enter it.",
+  "caveats": [
+    "One construction site with four acquisition epochs",
+    "Spatial folds and perturbation seeds are not independent scenes",
+    "Clean 1500-core/epoch/pair and stress 512-core/epoch/pair evaluation within buffered interiors",
+    "Temporal test 5000 uniformly sampled original points per epoch from pair_23",
+    "M3C2 registration uncertainty uncalibrated, explicit unknowns retained",
+    "Boosted geometry baseline context is not bounded by the spatial guards",
+    "Robustness matrix uses fold 0 models; clean spatial cross-validation uses all five folds"
+  ]
+}

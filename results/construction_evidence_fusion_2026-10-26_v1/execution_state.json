@@ -1,0 +1,7 @@
+{
+  "stage": "complete_no_promotion",
+  "complete": true,
+  "new_test_cases_scored": 0,
+  "no_active_workers": true,
+  "final_review": "final_review.json"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "validation_model_checkpoint_pairs": 36,
+  "threshold_rows": 828,
+  "original_validation_core_ids_and_labels_verified": true,
+  "original_frozen_scores_reproduced": true,
+  "all_source_checkpoints_unchanged": true,
+  "no_test_labels_used_for_selection": true
+}

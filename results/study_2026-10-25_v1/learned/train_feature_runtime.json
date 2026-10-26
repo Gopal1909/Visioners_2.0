@@ -1,0 +1,18 @@
+{
+  "tree_build": {
+    "seconds": 2.3142225999999937,
+    "rss_start_mib": 760.08984375,
+    "sampled_peak_rss_mib": 1194.19921875,
+    "sampled_rss_growth_mib": 434.109375,
+    "process_lifetime_peak_mib": 1194.20703125
+  },
+  "patches": {
+    "seconds": 2.9704651000010927,
+    "rss_start_mib": 1194.19921875,
+    "sampled_peak_rss_mib": 1324.15625,
+    "sampled_rss_growth_mib": 129.95703125,
+    "process_lifetime_peak_mib": 1350.5703125,
+    "scan0_empty_target_fraction": 0.010875,
+    "scan1_empty_target_fraction": 0.069125
+  }
+}

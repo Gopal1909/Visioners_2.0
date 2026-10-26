@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "source_manifest_matches_final_sources": true,
+  "v1_v2_core_indices_and_geometry_identical": true,
+  "saved_decision_audit": {
+    "passed": true,
+    "audited_predictions": 36000,
+    "configurations": 9,
+    "checks": [
+      "unknown sentinel and reason/valid agreement",
+      "at least 10 neighbours per epoch",
+      "finite valid measurements/LoD",
+      "strict LoD and floor decisions",
+      "exact per-direction common-support counts"
+    ]
+  },
+  "protected_file_count": 27
+}

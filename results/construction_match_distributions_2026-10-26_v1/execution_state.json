@@ -1,0 +1,8 @@
+{
+  "stage": "pilot_complete",
+  "complete": true,
+  "pilot_gate_passed": false,
+  "new_test_cases_scored": 0,
+  "status": "complete_no_promotion",
+  "final_consolidated_review": "D:\\CV_Project\\results\\construction_evidence_fusion_2026-10-26_v1\\final_review.json"
+}

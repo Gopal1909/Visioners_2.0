@@ -1,0 +1,9 @@
+{
+  "synthetic_offset_expected_m": 0.12,
+  "synthetic_offset_recovered_m": 0.11999999999999998,
+  "synthetic_passed": true,
+  "measured_scan0_cores": 4000,
+  "measured_scan1_cores": 4000,
+  "real_results": "saved measured spatial-test predictions; not a live dataset rerun",
+  "html": "D:\\CV_Project\\final_submission\\demo\\change_demo.html"
+}

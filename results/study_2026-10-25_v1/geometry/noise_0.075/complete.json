@@ -1,0 +1,10 @@
+{
+  "condition": "noise_0.075",
+  "seed": 42,
+  "full_support_points0": 4444935,
+  "full_support_points1": 5089793,
+  "normal0_cached": true,
+  "normal1_reestimated": true,
+  "configuration_hash": "86fad93a528255418221091e589962c319d1ab5ed1f49caacc4d4940fbc93904",
+  "measurement_hash": "f7a54064cff09b36fd400f62deceffba6286693d0f918c5b2c61b7f6b2e008fb"
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "clean",
+  "severity": 0.0,
+  "seed": 42,
+  "measured_support_guard_passed": true,
+  "context_plus_observed_displacement_m": 2.219803902718557,
+  "original_source_points": 3489322,
+  "retained_target_points": 3787872,
+  "rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "target_requested_cores": 1500,
+  "requested_label_counts": [
+    [
+      1418,
+      82
+    ],
+    [
+      1433,
+      67
+    ]
+  ]
+}

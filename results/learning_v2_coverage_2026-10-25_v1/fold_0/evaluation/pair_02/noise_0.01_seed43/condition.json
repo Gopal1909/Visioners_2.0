@@ -1,0 +1,29 @@
+{
+  "kind": "noise",
+  "severity": 0.01,
+  "seed": 43,
+  "maximum_observed_perturbation_m": 0.05722804922187535,
+  "measured_support_guard_passed": true,
+  "context_plus_observed_displacement_m": 2.2770319519404323,
+  "original_source_points": 4444937,
+  "retained_target_points": 3489321,
+  "rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "target_requested_cores": 512,
+  "requested_label_counts": [
+    [
+      410,
+      102
+    ],
+    [
+      429,
+      83
+    ]
+  ],
+  "v2_total_support_guard_m": 3.19037963618232,
+  "v2_guard_passed": true,
+  "v2_test_support_displacement_bound_m": 0.1144560984437507
+}

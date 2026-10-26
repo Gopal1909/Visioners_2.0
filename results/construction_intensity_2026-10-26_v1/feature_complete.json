@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "hashes": {
+    "train": {
+      "available.npy": "e4c1822c562be22c73550d37969f885e044724046ea5a855cb1b2d2db5815645",
+      "features.npy": "224f231cc5afe3ff9fe3c1b53f85bcac3a656432ad9df478c39f0607907d717b",
+      "indices.npy": "54a189701dd401c6273b750b8e45c2a8b92c58d47ceedc4680e1c776268751c0",
+      "labels.npy": "6913bec49b578572f0f8b75fa9c9800d2dbec37babaf32e36b9b5854ab636a85",
+      "pair.npy": "dbb40e2502815db37dbeaadb68199cff3961e826cfba9c896d278f24ba41ea6e",
+      "scan.npy": "ab37dfd3eb567bb5f1d0cd4126d71badae08749f550c6bebae0ee9c29ad56eea",
+      "shuffled_intensity.npy": "016f4d247098374f3cd9309ea11b9d90d24c0d8e89bb7a14744c39d0fbcb6ebb"
+    },
+    "validation_clean": {
+      "available.npy": "0e38d69a743278bbcb0ff2c0cfaf8696eed9c970eb26479845f82ba0b3aeda27",
+      "features.npy": "31b16b2f8a0867067bc1aafd549800ca31385946cc23ffc2f708e881eaa5a16f",
+      "indices.npy": "f04d4909914bac4da629795e36ea9c96019ed0eaf7ddb224d8f4e3c92114ce0c",
+      "labels.npy": "1dc46a01fd1c1580b43baa60d054a9a850e3c48e6219c980ff4a12a8adceeaa6",
+      "pair.npy": "8e3f95f63232546ae060dc98371bea53896f42cd7e253f8bd9e6262d7909035a",
+      "scan.npy": "d93c3a621922c6ec4274d04312b252fadf72bdf691fe0b63c45b16857b7b1e20",
+      "shuffled_intensity.npy": "7de83da5058cfc53533519cbf6f046bd979c4db17650d194b09f5962937bc21b"
+    },
+    "validation_mild": {
+      "available.npy": "b9e4155e5353e4e571d87091b269c28e453c30a681f3c561dc1628fb0b9349a3",
+      "features.npy": "96699924d868e3a923c0d67c74583841c3dfb7ba2ea2778e73e3a5e89cf0d0ac",
+      "indices.npy": "f04d4909914bac4da629795e36ea9c96019ed0eaf7ddb224d8f4e3c92114ce0c",
+      "labels.npy": "1dc46a01fd1c1580b43baa60d054a9a850e3c48e6219c980ff4a12a8adceeaa6",
+      "pair.npy": "8e3f95f63232546ae060dc98371bea53896f42cd7e253f8bd9e6262d7909035a",
+      "scan.npy": "d93c3a621922c6ec4274d04312b252fadf72bdf691fe0b63c45b16857b7b1e20",
+      "shuffled_intensity.npy": "7de83da5058cfc53533519cbf6f046bd979c4db17650d194b09f5962937bc21b"
+    },
+    "validation_medium": {
+      "available.npy": "680cfee3886ac365f8b69d80164ebfbd2dbdfc5287650719a7fe8350cb1d2a25",
+      "features.npy": "16a42cbcf18fb0d06bd33f130d22abb42844a4a54f77835514bd5234f3f1800e",
+      "indices.npy": "f04d4909914bac4da629795e36ea9c96019ed0eaf7ddb224d8f4e3c92114ce0c",
+      "labels.npy": "1dc46a01fd1c1580b43baa60d054a9a850e3c48e6219c980ff4a12a8adceeaa6",
+      "pair.npy": "8e3f95f63232546ae060dc98371bea53896f42cd7e253f8bd9e6262d7909035a",
+      "scan.npy": "d93c3a621922c6ec4274d04312b252fadf72bdf691fe0b63c45b16857b7b1e20",
+      "shuffled_intensity.npy": "7de83da5058cfc53533519cbf6f046bd979c4db17650d194b09f5962937bc21b"
+    }
+  },
+  "original_381_features_preserved": true,
+  "new_feature_is_original_core_intensity_only": true,
+  "original_metadata_preserved": true
+}

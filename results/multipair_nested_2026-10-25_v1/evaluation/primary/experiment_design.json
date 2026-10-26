@@ -1,0 +1,144 @@
+{
+  "protocol": "primary",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "conditions": [
+    [
+      "clean",
+      "clean",
+      0.0
+    ],
+    [
+      "translation_0.05",
+      "translation",
+      0.05
+    ],
+    [
+      "translation_0.20",
+      "translation",
+      0.2
+    ],
+    [
+      "translation_0.50",
+      "translation",
+      0.5
+    ],
+    [
+      "rotation_0.5",
+      "rotation",
+      0.5
+    ],
+    [
+      "rotation_2",
+      "rotation",
+      2.0
+    ],
+    [
+      "rotation_5",
+      "rotation",
+      5.0
+    ],
+    [
+      "retention_0.50",
+      "retention",
+      0.5
+    ],
+    [
+      "retention_0.25",
+      "retention",
+      0.25
+    ],
+    [
+      "retention_0.10",
+      "retention",
+      0.1
+    ],
+    [
+      "noise_0.01",
+      "noise",
+      0.01
+    ],
+    [
+      "noise_0.03",
+      "noise",
+      0.03
+    ],
+    [
+      "noise_0.075",
+      "noise",
+      0.075
+    ],
+    [
+      "occlusion_25",
+      "occlusion",
+      0.25
+    ],
+    [
+      "occlusion_50",
+      "occlusion",
+      0.5
+    ],
+    [
+      "combined_mild",
+      "combined",
+      0.1
+    ],
+    [
+      "combined_large",
+      "combined",
+      0.2
+    ]
+  ],
+  "source_sha256": "d0c747e1362495d4bc6040e97b308fe30f992e25458dfd726f0bc7cb1cbb3848",
+  "geometry": {
+    "c2c_threshold_m": 0.2,
+    "C2C_validation": {
+      "method": "C2C",
+      "candidate": "c2c_0.2",
+      "objective": 0.5948995162992625,
+      "changed_f1": 0.30991331197082234,
+      "coverage": 1.0
+    },
+    "m3c2_config": {
+      "normal_radii_m": [
+        0.2,
+        0.4,
+        0.8
+      ],
+      "projection_radii_m": [
+        0.2
+      ],
+      "half_length_m": 1.0,
+      "min_normal_points": 10,
+      "min_projected_points": 10,
+      "max_curvature": 0.1,
+      "min_eigengap": 0.1,
+      "min_tangent_ratio": 0.05,
+      "max_stability_angle_deg": 30.0,
+      "max_candidates": 250000,
+      "core_chunk_size": 128,
+      "registration_error_m": 0.0,
+      "minimum_effect_m": 0.5
+    },
+    "M3C2-style_validation": {
+      "method": "M3C2-style",
+      "candidate": "broad_L1.0_R0.2_F0.5",
+      "objective": 0.4375951731342059,
+      "changed_f1": 0.02100564680522035,
+      "coverage": 0.80126953125
+    },
+    "candidate_design_sha256": "8f28c68528a811efed0fe69ac8b45016cc954325663f92306d85feb4d46871e8",
+    "protocol_sha256": "d8437d84bb5316e4ebc4969ba74468af1d854afe020403ba1d0101aa65b6aea5",
+    "source_sha256": "153a50f9ff718e1cceae76c4c3ab3292143821f2034d2e5f22e998b3d1e73e05",
+    "note": "Validation only, fixed parameters across all test pairs/stresses. Zero registration error is uncalibrated; M3C2-style, not reference software equivalence.",
+    "test_predictions_scored": false
+  },
+  "protocol_sha256": "d8437d84bb5316e4ebc4969ba74468af1d854afe020403ba1d0101aa65b6aea5",
+  "frozen_learning_sha256": "096abd83cff319416960c09e26a87e20b29a615d11ae92d44f8cf94438479236",
+  "support": "Full clouds as support; uniform original test cores. Common-valid and full-requested views.",
+  "occlusion": "Synthetic XY deletion; A strict source0 scoring, B mask source0 within known blind cylinder. No unobserved target predictions.",
+  "absent_changed_class": "Changed F1 returns zero when its denominator is zero; positive counts and false-positive counts are retained."
+}

@@ -1,0 +1,14 @@
+{
+  "learning_v3_audit.py": "5261953c2d265d6109eb4182b9dff3b89dfb95f8f3a411b2380dece99ebf9503",
+  "learning_v3_control.py": "3035052b9c175e735065a5c137ef83db8d79ad9949609a3afab7efca7233eb89",
+  "learning_v3_data.py": "af5d2625c64c98b385a4594d5108275d3767bb60bd64fb3dbfecdbebbad0e2e0",
+  "learning_v3_evaluate.py": "8ae904fb13725bdb7f439b7697bfac719b6ba08f21ed99343d70e9c570834d75",
+  "learning_v3_kernels.py": "9c5784e0718546ea9f1e8323fc37dff59f6cc07d06e5fb081bcf6a0448672450",
+  "learning_v3_metrics.py": "e45b32d718cd2d1cd56c6efdcdd3c7d049d5eb0426f406884275ef56f211e10c",
+  "learning_v3_model.py": "9a020800e14b7c451f7bd126186e27de7837448d0fa912e96be3017c5c619d66",
+  "learning_v3_runtime.py": "63bbc58845bb7ae4c8ac047967100ad38b2b76df17d1ee7ef84c085ef039ecc2",
+  "learning_v3_support.py": "2373ec4186a1596c6b08b8679b6f0279e38fab4c06d09a0442c95d115a3df5e8",
+  "run_learning_v3.py": "531f4b7a117b0e8f5179a998646b6fd23393865441fbe8867a693b3fb6a32e0a",
+  "test_learning_v3.py": "c7775f420ba78c33567f2743d639604673359495b0b0193147b70ac05897598e",
+  "test_learning_v3_support.py": "d0bb1f339f3c3ef41735ff63022bc9ed86ab7e7916694cb51a5b393e38269a25"
+}

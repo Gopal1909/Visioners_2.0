@@ -1,0 +1,21 @@
+                               binary_macro_f1  changed_f1  detector_unknown_rate  pair_fold_count
+method                                                                                            
+bounded_geometry                      0.605557    0.316522               0.000000               30
+multiscale_clean_seed42               0.602995    0.323594               0.000000               30
+multiscale_clean_seed43               0.623523    0.295586               0.000000                6
+multiscale_clean_seed44               0.606698    0.262743               0.000000                6
+multiscale_robust_hard_seed42         0.632686    0.353991               0.000000               30
+multiscale_robust_seed42              0.655534    0.397036               0.000000               30
+previous_c2c_calibrated               0.548563    0.241073               0.000000               30
+previous_c2c_legacy_075               0.565899    0.299985               0.000000               30
+previous_geometry_boosted             0.618447    0.343226               0.000000               30
+previous_m3c2_calibrated              0.414228    0.034837               0.186744               30
+previous_m3c2_legacy                  0.262730    0.163175               0.266111               30
+previous_nearest_seed42               0.623404    0.357686               0.000000               30
+previous_validation_selected          0.621191    0.345500               0.000000               30
+previous_voxel_aug_seed42             0.632744    0.361191               0.000000               30
+previous_voxel_aug_seed43             0.624543    0.296723               0.000000                6
+previous_voxel_aug_seed44             0.589949    0.239892               0.000000                6
+previous_voxel_seed42                 0.627680    0.357086               0.000000               30
+v2_robust_validation_selected         0.649212    0.381148               0.000000               30
+v2_validation_selected                0.653659    0.389989               0.000000               30

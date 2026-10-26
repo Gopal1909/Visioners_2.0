@@ -1,0 +1,278 @@
+STAGE 3 FINAL AUDIT: C2C ROBUSTNESS, PAIR_01 PILOT
+Robust 3D Change Detection for Construction Progress Monitoring
+Audit date: 25 October 2026 (Asia/Kolkata)
+
+1. SCOPE, PROVENANCE AND VERIFICATION
+
+All experimental scores and point counts below come from the six CSV files in
+results/pair_01/robustness_reviewed/. Scores are rounded for display; original
+CSV precision is preserved. Perturbation definitions come from
+code/c2c_robustness.py. No full-cloud experiment was rerun during this audit.
+The existing final report was preserved byte-for-byte as robustness_report_final.pre_audit_2026-10-25.txt.
+All source scripts, datasets, CSV files, original reports and plots are preserved.
+
+Audit outcome: six CSV files, 37 rows, including 32 rows with confusion counts
+and five occlusion rows. Independently recomputed directional precision, recall,
+F1, changed IoU and binary mIoU, and combined class F1, macro F1, macro mIoU and
+overall accuracy from saved confusion counts. All checked metrics agree within
+1e-7 absolute tolerance (maximum observed difference:
+5.050e-09; epsilon terms in the source
+explain the small differences). Occlusion checks cover count conservation,
+removed/excluded percentages, precision/recall/F1/IoU consistency where available,
+and equality of Scan 1 results between protocols. Occlusion confusion counts
+were not exported; its combined metrics were taken from the CSV and were not
+independently reconstructed in this audit.
+
+All 125 shared numerical values across the five clean CSV reference rows match
+the Stage 2 threshold_metrics.csv row at the fixed threshold exactly as parsed.
+Both zero-radius occlusion macro scores and macro mIoU match that row too.
+This verifies saved-result consistency; it is not a new baseline reproduction.
+The PLY headers and file sizes were inspected without reading point payloads.
+Label semantics are inherited from Stage 1 and the supplied project context;
+upstream label provenance was not independently re-audited in this task.
+
+The six-panel robustness_curves.png was visually inspected. Its plotted trends
+and endpoints agree with the CSVs at image resolution, and the plotting function
+uses the corresponding CSV columns. Pixel-level regeneration was not performed.
+The combined panel's x-axis is translation only; its paired rotations are listed
+below. The occlusion x-axis measures points removed, not site area or visibility.
+Use the final report and CSVs for exact values. Original runtime claims were not
+validated from CSVs and are omitted from this final experimental summary.
+
+2. METHOD AND CLEAN REFERENCE
+
+Only Scan 1 is perturbed; Scan 0 remains the reference. C2C predicts changed when
+nearest-neighbour Euclidean distance is strictly greater than
+0.075 m. Scan 0 changed means removed; Scan 1 changed
+means added; cd_type=0 means unchanged. There are 4,444,935 original Scan 0 points
+and 5,089,793 original Scan 1 points (9,534,728 pooled observations).
+
+The combined metric pools both scans into a directional three-class confusion
+matrix (unchanged, removed, added). Macro F1 averages those three class F1s;
+it is not the average of the two changed-class directional F1s. Unchanged points
+from both epochs contribute observations; these are not unique physical sites.
+
+Scan 0 removals: precision 0.5450, recall 0.6674, F1 0.6000, changed IoU 0.4286.
+TP=358,760, FP=299,522, FN=178,811, TN=3,607,842.
+
+Scan 1 additions: precision 0.6064, recall 0.7530, F1 0.6718, changed IoU 0.5058.
+TP=572,572, FP=371,688, FN=187,790, TN=3,957,743.
+
+Combined: macro F1 0.7359, macro mIoU 0.6046, overall accuracy 89.12%, unchanged F1 0.9358.
+The fixed C2C threshold was selected by a Stage 2 sweep on this same pair.
+These are pilot, in-pair selection results, not held-out or cross-scene evidence.
+
+3. REGISTRATION PROTOCOL AND LIMITS
+
+apply_rigid_transformation resets np.random.default_rng(42) on every call.
+Translation-only uses the normalized first three-component Gaussian draw.
+Rotation-only uses that first normalized draw as its axis. Rotation is about
+center_p1 = np.mean(xyz1, axis=0), not the origin or sensor location.
+Combined perturbations rotate first and then translate: the rotation axis uses
+the first draw, while the translation direction uses the SECOND draw. Therefore
+the translation-only and combined translation directions differ. At the clean
+zero/zero condition no draw is consumed. Directions/axis are fixed within each
+nonzero sweep, not averaged over random trials or opposite directions.
+
+The previous final report's explicit translation vector was not established by
+the code/CSV audit and is withdrawn. The approximate centroid in the inspection
+report is historical metadata; this report uses the exact code definition rather
+than an unlogged numerical centroid. Directions and centroid should be saved in
+future run metadata. No alternate-axis runs were performed here.
+
+Small perturbations improve some observed scores. This is a directional,
+scene-specific result and does not establish improved reliability under unknown
+registration error. A plausible explanation is altered nearest-neighbour
+correspondences around closely spaced structures, but these aggregate CSVs do
+not identify which surfaces moved across the decision boundary. Claims about
+specific walls, new elements or opposite-direction outcomes are unverified.
+
+Rotation displacement is 2*r_perp*sin(theta/2), approximately r_perp*theta for
+small angles, where r_perp is distance to the rotation AXIS through the centroid.
+It is not generally distance to the centroid or range from the scanner.
+Nearest-neighbour distance also depends on geometry; exceeding the C2C threshold
+in rigid displacement does not force every unchanged point to exceed it.
+
+4. TRANSLATION-ONLY RESULTS
+Source: translation_only_metrics.csv; rotation fixed to zero.
+
+Translation cm | Scan0 P | Scan0 R | Scan0 F1 | Scan1 P | Scan1 R | Scan1 F1 | Macro F1 | Macro mIoU
+----------------------------------------------------------------------------------------------------
+0.0 | 0.5450 | 0.6674 | 0.6000 | 0.6064 | 0.7530 | 0.6718 | 0.7359 | 0.6046
+1.0 | 0.5477 | 0.6729 | 0.6039 | 0.6184 | 0.7754 | 0.6880 | 0.7431 | 0.6131
+2.0 | 0.5481 | 0.6783 | 0.6063 | 0.6275 | 0.7968 | 0.7021 | 0.7491 | 0.6202
+5.0 | 0.5341 | 0.6932 | 0.6033 | 0.6357 | 0.8513 | 0.7279 | 0.7568 | 0.6299
+10.0 | 0.4500 | 0.6983 | 0.5473 | 0.5685 | 0.8995 | 0.6967 | 0.7222 | 0.5892
+20.0 | 0.1729 | 0.6831 | 0.2759 | 0.2553 | 0.9229 | 0.4000 | 0.4544 | 0.3112
+50.0 | 0.1172 | 0.7793 | 0.2038 | 0.1675 | 0.9576 | 0.2852 | 0.2620 | 0.1514
+
+Verified macro F1: 5 cm: 0.7568; 10 cm: 0.7222; 20 cm: 0.4544; 50 cm: 0.2620.
+The score at 10 cm remains near the clean reference; the large drop occurs
+between the tested 10 cm and 20 cm levels. No universal failure threshold
+at 7.5 cm registration error is established by these observations.
+
+5. ROTATION-ONLY RESULTS
+Source: rotation_only_metrics.csv; translation fixed to zero.
+
+Rotation degrees | Scan0 P | Scan0 R | Scan0 F1 | Scan1 P | Scan1 R | Scan1 F1 | Macro F1 | Macro mIoU
+------------------------------------------------------------------------------------------------------
+0.00 | 0.5450 | 0.6674 | 0.6000 | 0.6064 | 0.7530 | 0.6718 | 0.7359 | 0.6046
+0.05 | 0.5539 | 0.6699 | 0.6064 | 0.6198 | 0.7588 | 0.6823 | 0.7422 | 0.6120
+0.10 | 0.5627 | 0.6731 | 0.6130 | 0.6316 | 0.7648 | 0.6918 | 0.7482 | 0.6191
+0.25 | 0.5875 | 0.6825 | 0.6314 | 0.6578 | 0.7817 | 0.7144 | 0.7634 | 0.6373
+0.50 | 0.6128 | 0.6975 | 0.6524 | 0.6297 | 0.8052 | 0.7067 | 0.7677 | 0.6415
+1.00 | 0.3146 | 0.7101 | 0.4360 | 0.3117 | 0.8268 | 0.4527 | 0.5721 | 0.4257
+2.00 | 0.1689 | 0.7003 | 0.2722 | 0.2018 | 0.8098 | 0.3231 | 0.4092 | 0.2708
+
+Verified macro F1: 0.50 degrees: 0.7677; 1.00 degrees: 0.5721; 2.00 degrees: 0.4092.
+The tested peak occurs at 0.50 degrees, followed by deterioration at the
+larger tested angles. This is not evidence that rotation improves robustness.
+
+6. COMBINED REGISTRATION RESULTS
+Source: combined_registration_metrics.csv; fixed paired stress levels.
+
+Translation cm | Rotation degrees | Scan0 P | Scan0 R | Scan0 F1 | Scan1 P | Scan1 R | Scan1 F1 | Macro F1 | Macro mIoU
+-----------------------------------------------------------------------------------------------------------------------
+0.0 | 0.00 | 0.5450 | 0.6674 | 0.6000 | 0.6064 | 0.7530 | 0.6718 | 0.7359 | 0.6046
+1.0 | 0.05 | 0.5531 | 0.6678 | 0.6051 | 0.6124 | 0.7396 | 0.6700 | 0.7373 | 0.6063
+2.0 | 0.10 | 0.5581 | 0.6690 | 0.6086 | 0.6163 | 0.7261 | 0.6667 | 0.7376 | 0.6066
+5.0 | 0.25 | 0.5469 | 0.6746 | 0.6041 | 0.5961 | 0.6878 | 0.6387 | 0.7257 | 0.5929
+10.0 | 0.50 | 0.3128 | 0.6921 | 0.4308 | 0.2818 | 0.6425 | 0.3918 | 0.5514 | 0.4100
+20.0 | 1.00 | 0.1886 | 0.7237 | 0.2992 | 0.1626 | 0.5899 | 0.2549 | 0.4036 | 0.2703
+50.0 | 2.00 | 0.1490 | 0.8036 | 0.2514 | 0.1241 | 0.6061 | 0.2060 | 0.3028 | 0.1833
+
+Combined stress is not necessarily worse than each isolated perturbation.
+Directions differ and displacement effects can interact with scene geometry;
+these scores do not isolate a causal interaction between translation and rotation.
+
+7. SPARSITY RESULTS
+Source: sparsity_metrics.csv.
+
+Scan 1 is sampled without replacement using seed 42; sample size is rounded
+from retain_ratio * original count, and original indices are sorted. Scan 0
+is evaluated in full; Scan 1 is evaluated only on its retained points.
+
+Retained percent | Scan1 points | Scan0 P | Scan0 R | Scan0 F1 | Scan1 P | Scan1 R | Scan1 F1 | Macro F1 | Macro mIoU
+---------------------------------------------------------------------------------------------------------------------
+100.0 | 5089793 | 0.5450 | 0.6674 | 0.6000 | 0.6064 | 0.7530 | 0.6718 | 0.7359 | 0.6046
+50.0 | 2544896 | 0.5263 | 0.6931 | 0.5983 | 0.6063 | 0.7530 | 0.6717 | 0.7348 | 0.6031
+25.0 | 1272448 | 0.4983 | 0.7220 | 0.5897 | 0.6061 | 0.7518 | 0.6712 | 0.7302 | 0.5974
+10.0 | 508979 | 0.4441 | 0.7698 | 0.5632 | 0.6057 | 0.7523 | 0.6711 | 0.7166 | 0.5805
+
+At 10% retention, Scan 0 precision is 0.4441 and recall is 0.7698; Scan 1 F1 is 0.6711.
+Target sparsity affects Scan 0 nearest neighbours. Each retained Scan 1 query
+keeps its original distance to dense Scan 0, but sampling changes aggregate
+class composition and the relative weight of each epoch in pooled metrics.
+
+8. POSITIONAL NOISE RESULTS
+Source: noise_metrics.csv.
+
+Independent zero-mean Gaussian noise is added to every Scan 1 coordinate
+component with the listed per-axis standard deviation. Seed 42 is reset at
+each level, so the noise patterns are scaled versions from one realization.
+The per-axis sigma is not the three-dimensional displacement magnitude.
+
+Sigma cm per axis | Scan0 P | Scan0 R | Scan0 F1 | Scan1 P | Scan1 R | Scan1 F1 | Macro F1 | Macro mIoU
+-------------------------------------------------------------------------------------------------------
+0.00 | 0.5450 | 0.6674 | 0.6000 | 0.6064 | 0.7530 | 0.6718 | 0.7359 | 0.6046
+0.50 | 0.5482 | 0.6595 | 0.5987 | 0.6054 | 0.7531 | 0.6712 | 0.7353 | 0.6040
+1.00 | 0.5561 | 0.6393 | 0.5948 | 0.6023 | 0.7534 | 0.6694 | 0.7335 | 0.6021
+2.00 | 0.5770 | 0.5805 | 0.5787 | 0.5874 | 0.7540 | 0.6603 | 0.7249 | 0.5931
+3.50 | 0.6190 | 0.4953 | 0.5503 | 0.5352 | 0.7556 | 0.6266 | 0.7027 | 0.5690
+5.00 | 0.6668 | 0.4296 | 0.5226 | 0.4565 | 0.7566 | 0.5695 | 0.6707 | 0.5346
+7.50 | 0.7318 | 0.3366 | 0.4611 | 0.3444 | 0.7578 | 0.4736 | 0.6091 | 0.4719
+
+At sigma 7.5 cm, Scan 0 precision rises to 0.7318 while recall falls to 0.3366; Scan 1 precision falls to
+0.3444 while recall is 0.7578. Thus degradation is directional,
+not a uniform loss of precision. Aggregate results are consistent with dense
+noisy target points filling gaps for Scan 0 queries and noisy Scan 1 queries
+leaving surfaces; this explanation is an inference, not a spatial error audit.
+
+9. OCCLUSION: STRICT AND VISIBILITY-AWARE PROTOCOLS
+Source: occlusion_metrics.csv.
+
+Scan 1 points inside an XY cylinder (unbounded in Z) are removed. The main
+routine explicitly passes center_p1 = mean(xyz1); the helper's median default
+is not used. This is a synthetic spatial deletion, not sensor ray tracing.
+The removed percentage is the fraction of points, not the fraction of site area.
+
+Protocol A (strict false-alarm stress): evaluate ALL Scan 0 points against the
+occluded Scan 1 and evaluate retained Scan 1 against original full Scan 0.
+Original cd_type labels are retained, exposing false removals from missing data.
+This is an all-point detection evaluation under missing coverage, not solely
+a false-positive-rate metric.
+
+Protocol B (visibility-aware mask): reuse exactly the same distances/predictions,
+but exclude Scan 0 points inside the known synthetic cylinder from scoring.
+Scan 1 scoring and its full Scan 0 search target are identical to Protocol A.
+Only the evaluation population changes; the detector is not improved by this
+mask. This oracle mask does not prove mutual visibility outside the cylinder.
+Boundary effects, pre-existing holes and other occlusions can remain.
+
+Radius m | P1 removed % | P1 removed | P1 retained | P0 excluded B | P0 evaluated B | A S0 P | A S0 F1 | A macro F1 | A macro mIoU | B S0 P | B S0 F1 | B macro F1 | B macro mIoU
+0.0 | 0.0000 | 0 | 5089793 | 0 | 4444935 | 0.5450 | 0.6000 | 0.7359 | 0.6046 | 0.5450 | 0.6000 | 0.7359 | 0.6046
+3.6 | 4.8958 | 249186 | 4840607 | 236951 | 4207984 | 0.4646 | 0.5651 | 0.7180 | 0.5847 | 0.5301 | 0.5966 | 0.7318 | 0.6008
+4.6 | 11.7995 | 600571 | 4489222 | 471981 | 3972954 | 0.3901 | 0.5128 | 0.6869 | 0.5508 | 0.5241 | 0.5963 | 0.7222 | 0.5904
+6.0 | 27.4964 | 1399511 | 3690282 | 1165914 | 3279021 | 0.2671 | 0.4009 | 0.6143 | 0.4739 | 0.5077 | 0.5891 | 0.6995 | 0.5669
+7.6 | 49.5481 | 2521894 | 2567899 | 2241551 | 2203384 | 0.1803 | 0.2990 | 0.5101 | 0.3644 | 0.4274 | 0.5358 | 0.6465 | 0.5133
+
+At radius 7.6 m, 49.5481% of Scan 1 points are removed.
+Protocol A macro F1 is 0.5101; Protocol B macro F1 is 0.6465,
+after excluding 2,241,551 Scan 0 points. These scores use different
+supports and class mixtures and should always be reported alongside counts.
+Missing support alone cannot distinguish demolition from unobserved geometry.
+
+10. OBSERVED SENSITIVITY AT THE TESTED ENDPOINTS
+
+Regime | Endpoint macro F1 | Absolute drop | Relative drop percent
+
+Translation only: 50 cm | 0.2620 | 0.4738 | 64.39
+
+Combined: 50 cm + 2 degrees | 0.3028 | 0.4331 | 58.85
+
+Rotation only: 2 degrees | 0.4092 | 0.3267 | 44.39
+
+Occlusion A: largest radius | 0.5101 | 0.2258 | 30.68
+
+Noise: largest sigma | 0.6091 | 0.1268 | 17.23
+
+Occlusion B: largest radius | 0.6465 | 0.0893 | 12.14
+
+Sparsity: lowest retention | 0.7166 | 0.0192 | 2.61
+
+For the four families under strict occlusion scoring, the observed ordering of
+endpoint degradation is registration, occlusion A, noise, then sparsity.
+Translation-only has the lowest tested registration score, below combined stress.
+With occlusion B, noise degrades more than occlusion B. The ranking depends on
+protocol, stress ranges, geometry and the evaluated population. Centimetres,
+degrees, retention fractions and deletion radii are not matched physical stress
+levels, so this is not a universal robustness ranking or a significance test.
+
+11. REMAINING LIMITATIONS, CORRECTIONS AND NEXT ACTION
+
+This is one labelled scene pair, one fixed registration axis/direction per
+sweep, one sparsity/noise seed, one deletion centre, and one fixed C2C threshold.
+Only Scan 1 is degraded. No repeated trials, confidence intervals over trials,
+sensor-based visibility model, or independent test scene are provided. Historical
+label provenance and hardware claims are not newly verified by this CSV audit.
+
+This final report corrects the stale translation/rotation narrative inherited
+from robustness_report.txt; the earlier final report already had the key F1
+values but retained unsupported
+mechanistic claims. Replaced the unverified explicit translation vector with
+the code's exact RNG construction, documented the different combined direction,
+corrected the rotation-axis displacement explanation, identified the mean-based
+occlusion centre, and qualified visibility, noise and sensitivity interpretations.
+Original code/report text retains stale hard-coded observations, including an
+occlusion summary in write_reviewed_report that disagrees with the current CSV.
+It is preserved for history; use this final report for reporting. Before any
+future regeneration, make narrative statements data-driven in a reviewed change
+and select a new output directory; current experiment scripts overwrite defaults.
+
+Stage 3 is finalized as a saved-result/report audit with these explicit limits.
+M3C2 is not implemented by this task. Follow results/stage4_m3c2_plan.md: first
+implement the bounded bidirectional normal/projection/uncertainty core in dl_env,
+validate synthetic cases and a spatial subset, then select and freeze parameters
+before quantitative comparison to fixed-threshold C2C. Do not assume its 0.075 m
+nearest-neighbour threshold is an M3C2 uncertainty threshold. Stage 5 remains
+optional after a defensible geometric comparison is complete.

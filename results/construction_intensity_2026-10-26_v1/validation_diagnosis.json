@@ -1,0 +1,33 @@
+{
+  "scope": "Fold0 clean validation, original primary model",
+  "outcomes": {
+    "FP": {
+      "observations": 263,
+      "median_intensity": 49.0,
+      "locally_horizontal_planar": 164,
+      "gap_at_least_8cm": 215
+    },
+    "FN": {
+      "observations": 358,
+      "median_intensity": 27.0,
+      "locally_horizontal_planar": 272,
+      "gap_at_least_8cm": 115
+    },
+    "TP": {
+      "observations": 1667,
+      "median_intensity": 22.0,
+      "locally_horizontal_planar": 805,
+      "gap_at_least_8cm": 1320
+    },
+    "TN": {
+      "observations": 12112,
+      "median_intensity": 42.0,
+      "locally_horizontal_planar": 10433,
+      "gap_at_least_8cm": 3222
+    }
+  },
+  "examples": 12,
+  "example_selection": "Confidence extremes, diversify pair/scan; illustrative, not randomly sampled",
+  "shape_definition": "At least three noncollinear source support points; (middle-smallest)/largest covariance eigenvalue >=.5 and |normal_z|>=.9",
+  "limitations": "Horizontal support may include ground, roofs, or other surfaces. Neither intensity nor patch shape verifies object identity, occlusion, or construction activity."
+}

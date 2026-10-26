@@ -1,0 +1,18 @@
+{
+  "dataset": "MultiChange3D",
+  "official_source": "https://3dom-fbk.github.io/multichange3d/",
+  "data_license": "CC BY-NC-SA 4.0",
+  "primary_scene": "BikeParkingConstruction, six pairs from four acquisition epochs",
+  "independent_scene_directory": "D:/CV_Project/dataset/MultiChange3D/Open_space",
+  "independent_scene_policy": "No training or recalibration on the independent scene; use predeclared fold0 primary model, seed42, and fixed controls.",
+  "architecture": "Custom multiscale PointNet with bounded early cross-scan geometric channels; not a reproduction of a published PointNet++/KPConv implementation.",
+  "inspiration": [
+    "https://arxiv.org/abs/1706.02413",
+    "https://arxiv.org/abs/2304.12639"
+  ],
+  "development_attempt_preserved": "results/learning_v2_2026-10-25_v1",
+  "revision": "Full-radius patch coverage replaces nearest-64 truncation; measured from training geometry before any new test prediction scoring.",
+  "previous_results_preservation_manifest": "baseline_preservation.json",
+  "reports_and_presentation_modified": false,
+  "environment": "Existing dl_env, unchanged; environment_versions.json records versions."
+}

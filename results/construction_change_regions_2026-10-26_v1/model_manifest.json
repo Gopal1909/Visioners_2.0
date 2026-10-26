@@ -1,0 +1,32 @@
+{
+  "0": {
+    "model": "multiscale_clean_seed42",
+    "seed": 42,
+    "threshold": 0.98,
+    "checkpoint_sha256": "d2aa589fa911caf1c37347a536110ee1184ed9939344326f74d4c0d8d1497700"
+  },
+  "1": {
+    "model": "multiscale_robust_seed42",
+    "seed": 42,
+    "threshold": 0.1,
+    "checkpoint_sha256": "74086975d67836bb33a92029075991a0a221ce75e597f8b7123a15f1563345d6"
+  },
+  "2": {
+    "model": "multiscale_robust_hard_seed42",
+    "seed": 42,
+    "threshold": 0.7,
+    "checkpoint_sha256": "ae131ecb315ca914e4621aa6789cc4460b5d27aeee58315cd29cb94157ff3d69"
+  },
+  "3": {
+    "model": "multiscale_clean_seed42",
+    "seed": 42,
+    "threshold": 0.55,
+    "checkpoint_sha256": "eac4cc0f3a32b152e9dbe3a35afcbb9218839c06bc3745180292acabe4028042"
+  },
+  "4": {
+    "model": "multiscale_robust_seed42",
+    "seed": 42,
+    "threshold": 0.6,
+    "checkpoint_sha256": "35fa90b400fb9c75c7769fcb1580de7192ddb18c509120ce79d8755ddcac5976"
+  }
+}

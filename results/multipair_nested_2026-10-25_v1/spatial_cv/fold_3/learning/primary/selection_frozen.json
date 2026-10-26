@@ -1,0 +1,108 @@
+{
+  "protocol": "primary",
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "candidates": [
+    {
+      "protocol": "primary",
+      "variant": "nearest",
+      "seed": 42,
+      "threshold": 0.7,
+      "validation_objective": 0.7125721018821759,
+      "validation_changed_f1": 0.5338124115730704,
+      "best_epoch": 1,
+      "best_validation_bce": 0.6013640761375427,
+      "checkpoint_sha256": "e2109989b553959274b779cfaec3cc03c5a4e051fdb201240c40c8a589f8c1d7",
+      "config_sha256": "c326961c583fb5b937b43149dfae1a0de73a2a173d63e046170df2658258caf5",
+      "training_cores": 36000,
+      "validation_cores": 14400,
+      "test_accessed": false,
+      "seconds_this_process": 55.36344939999981,
+      "gpu_peak_allocated_mib": 89.013671875
+    },
+    {
+      "protocol": "primary",
+      "variant": "voxel",
+      "seed": 42,
+      "threshold": 0.55,
+      "validation_objective": 0.7399717830781697,
+      "validation_changed_f1": 0.5903947840549448,
+      "best_epoch": 2,
+      "best_validation_bce": 0.5885770916938782,
+      "checkpoint_sha256": "c7c71c9dfbef67d1b927dbf419937c812e432e702df9100aefe2e5595e29443c",
+      "config_sha256": "576c6c354fb0086662dcbaf655edbb67333d5e8f303108b3fbdcd95c655898f6",
+      "training_cores": 36000,
+      "validation_cores": 14400,
+      "test_accessed": false,
+      "seconds_this_process": 55.46946629999729,
+      "gpu_peak_allocated_mib": 89.013671875
+    },
+    {
+      "protocol": "primary",
+      "variant": "voxel_aug",
+      "seed": 42,
+      "threshold": 0.6,
+      "validation_objective": 0.7280185606285392,
+      "validation_changed_f1": 0.5699681864151949,
+      "best_epoch": 2,
+      "best_validation_bce": 0.581506609916687,
+      "checkpoint_sha256": "a686f7f8610960bd8be061da3badbf47cac084a399b0022a459afbebaf635a2b",
+      "config_sha256": "9dd1a7a0313b6c9c11db9583b15415627ef2bc9cddafc75cf5b596516dac30d7",
+      "training_cores": 36000,
+      "validation_cores": 14400,
+      "test_accessed": false,
+      "seconds_this_process": 66.38008580000314,
+      "gpu_peak_allocated_mib": 89.013671875
+    }
+  ],
+  "selected_variant": "voxel",
+  "seeds": [
+    42
+  ],
+  "repeated_models": [
+    {
+      "protocol": "primary",
+      "variant": "voxel",
+      "seed": 42,
+      "threshold": 0.55,
+      "validation_objective": 0.7399717830781697,
+      "validation_changed_f1": 0.5903947840549448,
+      "best_epoch": 2,
+      "best_validation_bce": 0.5885770916938782,
+      "checkpoint_sha256": "c7c71c9dfbef67d1b927dbf419937c812e432e702df9100aefe2e5595e29443c",
+      "config_sha256": "576c6c354fb0086662dcbaf655edbb67333d5e8f303108b3fbdcd95c655898f6",
+      "training_cores": 36000,
+      "validation_cores": 14400,
+      "test_accessed": false,
+      "seconds_this_process": 55.46946629999729,
+      "gpu_peak_allocated_mib": 89.013671875
+    }
+  ],
+  "geometry_classifier": {
+    "protocol": "primary",
+    "model": "geometry_boosted",
+    "threshold": 0.8,
+    "validation_objective": 0.7727360890226113,
+    "validation_changed_f1": 0.6287441584715627,
+    "checkpoint_sha256": "116e31e96970e14426cd94764be87dd83707712dbc908a6a4c3132a5dc85a9ce",
+    "config_sha256": "46a379071ce23620ab63b41e63512cce163cac952dab4aea74d176e200f14aeb",
+    "training_cores": 36000,
+    "test_accessed": false,
+    "timing": {
+      "seconds": 1.2242515000034473,
+      "rss_start_mib": 1173.52734375,
+      "sampled_peak_rss_mib": 1206.53515625,
+      "sampled_rss_growth_mib": 33.0078125,
+      "process_lifetime_peak_mib": 1335.80078125
+    }
+  },
+  "threshold_policy": "Independent fold validation only; no tuning from any fold test outcomes",
+  "test_accessed": false,
+  "protocol_sha256": "ca7a0cbcb8344e9b23f98fd6f370bc2c31f3330e188d35f73190210b878e2791"
+}

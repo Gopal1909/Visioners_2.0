@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "measurement_sha256": "c4390d6a9c47a3459cf74900ee963c922df0eb592ff576d3422fc0baa498b7d3",
+  "feature_sha256": {
+    "nearest": "85ece8730533de8841441a8bff97da01c380e0eb7be13b8bc59f60817b31c9a7",
+    "voxel": "786b55bef85af4ad823319951ca5e300790f1faf18b42745dbb9fdbf4a06af60"
+  },
+  "experiment_design_sha256": "421b03e27ce350a5192294cdaaf726bbea90fd95b05d193b68a4baf291e37319",
+  "process_timing": {
+    "seconds": 3.9541119000059552,
+    "rss_start_mib": 476.48828125,
+    "sampled_peak_rss_mib": 894.3046875,
+    "sampled_rss_growth_mib": 417.81640625,
+    "process_lifetime_peak_mib": 1028.8203125
+  },
+  "evaluator_sha256": "708dd7e87120b06b82fac2504f8d6ea3ee6eeb6cc6a9d15c34aa0ea96855ae2c",
+  "normal0_cache_reused": true,
+  "normal1_reestimated": true,
+  "no_stress_retuning": true,
+  "test_indices_original": true
+}

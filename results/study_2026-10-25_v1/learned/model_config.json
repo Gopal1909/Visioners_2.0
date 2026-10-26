@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "epochs": 30,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "patch_k": 128,
+  "patch_radius_m": 0.6,
+  "features": "relative XYZ, masks, capped source/target counts, capped target NN distance",
+  "architecture": "shared 3-32-64 point MLP; masked max+mean; concat(a,b,abs(a-b),3 auxiliary geometry); 387-64-32-1 head, dropout .1",
+  "loss": "BCEWithLogitsLoss, positive weight = training negatives / positives",
+  "model_selection": "minimum weighted calibration BCE over 30 predetermined epochs",
+  "threshold_grid": [
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "threshold_selection": "calibration pooled directional 3-class macro F1 only",
+  "device": "cuda",
+  "torch_version": "2.5.1+cu121",
+  "cuda_version": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "split_sha256": "88606b317dd1f03738860097fc68b61aac11b1b9504184ed5af8f3725c2c1588",
+  "source_sha256": "b6def400890511d6b0c84d94e9aea6bb0e06b608299b1197b9760e1ddee293c3",
+  "no_gt_in_features": true,
+  "augmentation": "none; clean-only training to measure untrained stress sensitivity"
+}

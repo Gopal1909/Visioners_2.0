@@ -1,0 +1,20 @@
+{
+  "active_exec_session_id": null,
+  "resume_script": "code/run_learning_v3.py",
+  "status": "complete_no_promotion",
+  "scope": "Construction-only BikeParkingConstruction; Office, Open_space and Underground Car Parking unused",
+  "preflight_tests_passed": 58,
+  "phases": "Fresh features for fold0, audit, three candidate fits, validation gate. Expand to five folds, seeds and unchanged stress matrix only if pilot gate passes.",
+  "no_final_performance_claim_before_verification": true,
+  "next_action": "All authorized follow-ups completed and verified. Retain v2 as strongest verified workflow. Do not rerun completed pilot, calibration or refinement. Region outputs are exploratory candidates, not verified construction progress.",
+  "postflight_expected_tests": 65,
+  "training_device": "cpu",
+  "execution_amendments": [
+    "execution_amendment_01.json",
+    "execution_amendment_02.json",
+    "execution_amendment_03.json"
+  ],
+  "last_full_unit_tests_passed": 68,
+  "followup": "results\\operating_point_followup_2026-10-26_v1",
+  "final_review": "D:\\CV_Project\\results\\construction_curriculum_refinement_2026-10-26_v1\\final_review.json"
+}

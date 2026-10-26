@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "pilot_gate_passed": false,
+  "new_test_cases_scored": 0,
+  "models_verified": 3,
+  "reason": "Predeclared validation gate not met; full five-fold/stress expansion withheld",
+  "validation_core_counts": {
+    "clean": 14400,
+    "mild": 12225,
+    "medium": 10037
+  },
+  "validation_direction_error_rows": 180,
+  "validation_pair_metric_rows": 90,
+  "previous_result_files_preserved": 2042,
+  "previous_source_files_preserved": 10,
+  "original_clouds_preserved": 12,
+  "submission_files_preserved": 97
+}

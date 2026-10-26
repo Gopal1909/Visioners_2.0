@@ -1,0 +1,139 @@
+{
+  "protocol": "temporal",
+  "pairs": [
+    "01"
+  ],
+  "candidates": [
+    {
+      "protocol": "temporal",
+      "variant": "nearest",
+      "seed": 42,
+      "threshold": 0.2,
+      "validation_objective": 0.835187768689978,
+      "validation_changed_f1": 0.7546488746771615,
+      "best_epoch": 7,
+      "best_validation_bce": 0.3930063843727112,
+      "checkpoint_sha256": "aa4fcef4f2635798ba57f755196ad37022b84757569ffe3228f65a30e331f809",
+      "config_sha256": "e40b19223e77761ba9114fdd7d3f87c2efe803fbcbbb60fbf4bc55436276191c",
+      "training_cores": 6000,
+      "validation_cores": 2400,
+      "test_accessed": false,
+      "seconds_this_process": 10.93910180000239,
+      "gpu_peak_allocated_mib": 89.013671875
+    },
+    {
+      "protocol": "temporal",
+      "variant": "voxel",
+      "seed": 42,
+      "threshold": 0.2,
+      "validation_objective": 0.7687840578863241,
+      "validation_changed_f1": 0.6799249602061699,
+      "best_epoch": 1,
+      "best_validation_bce": 0.4866536557674408,
+      "checkpoint_sha256": "f982d9570ec72e005b0ebe08336613d4deba965db1a067f84f78e6cc8bf4e73f",
+      "config_sha256": "4801b41d443d6219606facce6c2ff164bf793e14e1e38a6ffa3d7db312abec4c",
+      "training_cores": 6000,
+      "validation_cores": 2400,
+      "test_accessed": false,
+      "seconds_this_process": 10.105301199997484,
+      "gpu_peak_allocated_mib": 89.013671875
+    },
+    {
+      "protocol": "temporal",
+      "variant": "voxel_aug",
+      "seed": 42,
+      "threshold": 0.2,
+      "validation_objective": 0.7547914000724709,
+      "validation_changed_f1": 0.6645999736391195,
+      "best_epoch": 1,
+      "best_validation_bce": 0.4810565114021301,
+      "checkpoint_sha256": "970c79a080cc5b6e11a7faae89d0d9729668cf40f04619994292d571ab01b113",
+      "config_sha256": "f1125a8c26fdce1ad367135e884f7baf24d05bf246445ef8ee06c41c1f48ea01",
+      "training_cores": 6000,
+      "validation_cores": 2400,
+      "test_accessed": false,
+      "seconds_this_process": 12.652318300002662,
+      "gpu_peak_allocated_mib": 89.013671875
+    }
+  ],
+  "selected_variant": "nearest",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "repeated_models": [
+    {
+      "protocol": "temporal",
+      "variant": "nearest",
+      "seed": 42,
+      "threshold": 0.2,
+      "validation_objective": 0.835187768689978,
+      "validation_changed_f1": 0.7546488746771615,
+      "best_epoch": 7,
+      "best_validation_bce": 0.3930063843727112,
+      "checkpoint_sha256": "aa4fcef4f2635798ba57f755196ad37022b84757569ffe3228f65a30e331f809",
+      "config_sha256": "e40b19223e77761ba9114fdd7d3f87c2efe803fbcbbb60fbf4bc55436276191c",
+      "training_cores": 6000,
+      "validation_cores": 2400,
+      "test_accessed": false,
+      "seconds_this_process": 10.93910180000239,
+      "gpu_peak_allocated_mib": 89.013671875
+    },
+    {
+      "protocol": "temporal",
+      "variant": "nearest",
+      "seed": 43,
+      "threshold": 0.2,
+      "validation_objective": 0.85481995466388,
+      "validation_changed_f1": 0.7888421018924717,
+      "best_epoch": 7,
+      "best_validation_bce": 0.32891255617141724,
+      "checkpoint_sha256": "6e624dccfe1cd1e29ea870b7defc9c14bdc098cad411ce3c76714f832b0b6338",
+      "config_sha256": "050987a1815e5cab317cf606f4ffce0eb1cc6ee18c4ad765fd8e20066e7daf74",
+      "training_cores": 6000,
+      "validation_cores": 2400,
+      "test_accessed": false,
+      "seconds_this_process": 10.210833699995419,
+      "gpu_peak_allocated_mib": 89.013671875
+    },
+    {
+      "protocol": "temporal",
+      "variant": "nearest",
+      "seed": 44,
+      "threshold": 0.35,
+      "validation_objective": 0.8624496510500437,
+      "validation_changed_f1": 0.8010327142976492,
+      "best_epoch": 8,
+      "best_validation_bce": 0.30416932702064514,
+      "checkpoint_sha256": "14241b90c291984cb66c52d912a9fa299fb65c56b4b4264194dccd8e3984ce86",
+      "config_sha256": "61cdfb02ad83b3e1c525629d582702b0a1480ddd52a84f340c9c5c6c7b2cee83",
+      "training_cores": 6000,
+      "validation_cores": 2400,
+      "test_accessed": false,
+      "seconds_this_process": 10.765998999995645,
+      "gpu_peak_allocated_mib": 89.013671875
+    }
+  ],
+  "geometry_classifier": {
+    "protocol": "temporal",
+    "model": "geometry_boosted",
+    "threshold": 0.05,
+    "validation_objective": 0.6271648096960248,
+    "validation_changed_f1": 0.4036755099078174,
+    "checkpoint_sha256": "32989f53ae5e45918f8542f894752621b60e993ccd740a8f084bd86151986f91",
+    "config_sha256": "cd8e3ab4c61745053d17bb71dad1ce753226118f38d6e4c4b8494880465d8c35",
+    "training_cores": 6000,
+    "test_accessed": false,
+    "timing": {
+      "seconds": 0.4215676000021631,
+      "rss_start_mib": 1201.890625,
+      "sampled_peak_rss_mib": 1206.09375,
+      "sampled_rss_growth_mib": 4.203125,
+      "process_lifetime_peak_mib": 1355.57421875
+    }
+  },
+  "threshold_policy": "Each seed uses validation only. Architecture fixed from seed42 before test access.",
+  "test_accessed": false,
+  "protocol_sha256": "78937942675ec00acd8ef57c0922ebc598758fc251b42311b96e01f423ff7038"
+}

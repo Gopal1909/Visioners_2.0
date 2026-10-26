@@ -1,0 +1,5 @@
+{
+  "status": "stopped_for_validation_support_revision",
+  "reason": "Fold 2 validation contains only 6 changed points out of 14400; do not use it for final model selection.",
+  "next_run": "results/multipair_nested_2026-10-25_v1"
+}

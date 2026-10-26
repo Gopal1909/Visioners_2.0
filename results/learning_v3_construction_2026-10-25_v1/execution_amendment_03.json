@@ -1,0 +1,10 @@
+{
+  "reason": "Repeated CUDA allocation failures under Windows commit limits; complete the controlled pilot on CPU rather than repeating failed GPU starts",
+  "training_device": "cpu",
+  "all_new_candidates_use_same_device": true,
+  "switch_device_mid_fit": false,
+  "all_original_feature_caches_reused": true,
+  "architecture_loss_effective_batch_and_selection_unchanged": true,
+  "native_functional_adamw_equivalence_verified": true,
+  "before_any_completed_training_epoch": true
+}

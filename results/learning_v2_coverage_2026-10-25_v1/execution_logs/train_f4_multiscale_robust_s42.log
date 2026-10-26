@@ -1,0 +1,17 @@
+V2 4 multiscale_robust 42 epoch 1 clean val BCE 0.2984
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 3
+V2 4 multiscale_robust 42 epoch 5 clean val BCE 0.3417
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 6
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 9
+V2 4 multiscale_robust 42 epoch 10 clean val BCE 0.4023
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 12
+V2 4 multiscale_robust 42 epoch 15 clean val BCE 0.4111
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 15
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 18
+V2 4 multiscale_robust 42 epoch 20 clean val BCE 0.4732
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 21
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 24
+V2 4 multiscale_robust 42 epoch 25 clean val BCE 0.5831
+V2 checkpoint/recycle 4 multiscale_robust 42 epoch 27
+V2 4 multiscale_robust 42 epoch 30 clean val BCE 0.515
+V2 frozen {"variant": "multiscale_robust", "seed": 42, "fold": 4, "threshold": 0.6, "validation_objective": 0.6167685061505122, "validation_changed_f1": 0.2794485462731188, "validation_by_view": {"clean": {"binary_macro_f1": 0.6167685061505122, "changed_f1": 0.2794485462731188, "available_cores": 14400}, "mild": {"binary_macro_f1": 0.6215564033935895, "changed_f1": 0.2933546709758151, "available_cores": 12279}, "medium": {"binary_macro_f1": 0.6005942232256354, "changed_f1": 0.26385764731930555, "available_cores": 10039}}, "robustness_validation_objective": 0.6129730442565791, "best_epoch": 2, "best_clean_validation_bce": 0.2919362783432007, "checkpoint_sha256": "35fa90b400fb9c75c7769fcb1580de7192ddb18c509120ce79d8755ddcac5976", "config_sha256": "b25d3bc03a18acdb515cbc4ecc104a379c5cb780384a9bf9850c89edbad038f0", "design_sha256": "2a24a2514513b082bed21f6749f7fa3a28d3e48735e6fbe4286e276605dddb34", "test_accessed": false, "training_cores": 36000, "parameter_count": 226337, "gpu_peak_allocated_mib": 123.13720703125, "timing": {"seconds": 8.307980400000815, "rss_start_mib": 524.62890625, "sampled_peak_rss_mib": 2439.43359375, "sampled_rss_growth_mib": 1914.8046875, "process_lifetime_peak_mib": 2439.43359375}, "timing_scope": "Final worker chunk; history seconds accumulate training time over all chunks"}

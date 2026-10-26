@@ -1,0 +1,6 @@
+{
+  "folder": "results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_clean_seed42",
+  "sha256": "d2aa589fa911caf1c37347a536110ee1184ed9939344326f74d4c0d8d1497700",
+  "threshold": 0.98,
+  "probability_sha256": "1cba22bbc63d3fc7a8a0f04ac07f10893d14c3b91faabb373cbbc779a6d54ab2"
+}

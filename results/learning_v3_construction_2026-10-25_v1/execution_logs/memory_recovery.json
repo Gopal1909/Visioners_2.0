@@ -1,0 +1,22 @@
+{
+  "trigger": "MemoryError during NPZ compression in pair13 epoch10 before receipt was committed",
+  "preserved_valid_caches": 73,
+  "preserved_partial_output": "fold_0/epochs/epoch_09/pair_13_failed_partial_before_streaming.npz",
+  "recovery": [
+    "CPU cache workers recycled every two epochs",
+    "Atomic NPZ output with 256 KiB compression buffers",
+    "Same sampling seeds, labels, features, perturbation parameters and guard bounds"
+  ],
+  "bounded_writer_regression_passed": true,
+  "training_started_before_recovery": false,
+  "pre_recovery_sources": "execution_logs/pre_memory_recovery_sources",
+  "additional_recovery": [
+    "File-backed original float32/float64 support; source SHA checked",
+    "Full-scan perturbations written in bounded chunks with the same dtype and RNG sequence",
+    "Voxel partitions aligned to original grid; exact per-voxel sum order",
+    "Standard-library-only controller; CPU feature kernels no longer import plotting/pandas",
+    "Any float32 augmented support is mirrored to float64 mmap to prevent cKDTree copying"
+  ],
+  "equivalence_gate": "execution_logs/import_and_equivalence_gate.json",
+  "four_support_regression_tests_passed": true
+}

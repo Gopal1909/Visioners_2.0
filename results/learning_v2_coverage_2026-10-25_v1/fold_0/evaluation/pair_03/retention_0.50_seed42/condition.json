@@ -1,0 +1,28 @@
+{
+  "kind": "retention",
+  "severity": 0.5,
+  "seed": 42,
+  "measured_support_guard_passed": true,
+  "context_plus_observed_displacement_m": 2.219803902718557,
+  "original_source_points": 4444938,
+  "retained_target_points": 1893930,
+  "rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "target_requested_cores": 512,
+  "requested_label_counts": [
+    [
+      411,
+      101
+    ],
+    [
+      437,
+      75
+    ]
+  ],
+  "v2_total_support_guard_m": 3.075923537738569,
+  "v2_guard_passed": true,
+  "v2_test_support_displacement_bound_m": 0.0
+}

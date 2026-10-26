@@ -1,0 +1,68 @@
+V3 fresh features 0 13 epoch 1 7.4 seconds
+V3 fresh features 0 13 epoch 2 8.6 seconds
+V3 fresh features 0 13 epoch 3 9.4 seconds
+V3 fresh features 0 13 epoch 4 7.8 seconds
+V3 fresh features 0 13 epoch 5 7.9 seconds
+V3 fresh features 0 13 epoch 6 9.8 seconds
+V3 fresh features 0 13 epoch 7 7.9 seconds
+V3 fresh features 0 13 epoch 8 9.0 seconds
+V3 fresh features 0 13 epoch 9 8.5 seconds
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v3_data.py", line 160, in <module>
+    elif a.stage=='cache':cache_pair(a.out,a.fold,a.pair)
+  File "D:\CV_Project\code\learning_v3_data.py", line 127, in cache_pair
+    target=folder/f'pair_{pair}.npz';np.savez_compressed(target,**result)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\lib\_npyio_impl.py", line 763, in savez_compressed
+    _savez(file, args, kwds, True, allow_pickle=allow_pickle)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\lib\_npyio_impl.py", line 796, in _savez
+    format.write_array(fid, val,
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\lib\format.py", line 759, in write_array
+    fp.write(chunk.tobytes('C'))
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\zipfile.py", line 1158, in write
+    data = self._compressor.compress(data)
+MemoryError: Unable to allocate output buffer.
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v3_data.py", line 174, in <module>
+    elif a.stage=='cache':cache_pair(a.out,a.fold,a.pair,a.epoch_chunk)
+  File "D:\CV_Project\code\learning_v3_data.py", line 105, in cache_pair
+    trees=[cKDTree(d['xyz']) for d in data];contexts=contexts_for(trees)
+  File "D:\CV_Project\code\learning_v2_data.py", line 144, in contexts_for
+    return [[cKDTree(fixed_voxel_centroids(t.data,size)) for t in trees] for size in VOXELS]
+  File "D:\CV_Project\code\learning_v2_data.py", line 144, in <listcomp>
+    return [[cKDTree(fixed_voxel_centroids(t.data,size)) for t in trees] for size in VOXELS]
+  File "D:\CV_Project\code\learning_v2_data.py", line 144, in <listcomp>
+    return [[cKDTree(fixed_voxel_centroids(t.data,size)) for t in trees] for size in VOXELS]
+  File "D:\CV_Project\code\learning_v2_data.py", line 139, in fixed_voxel_centroids
+    _,inverse=np.unique(code,return_inverse=True);count=np.bincount(inverse)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\lib\_arraysetops_impl.py", line 286, in unique
+    ret = _unique1d(ar, return_index, return_inverse, return_counts,
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\lib\_arraysetops_impl.py", line 375, in _unique1d
+    imask = np.cumsum(mask) - 1
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\_core\fromnumeric.py", line 2955, in cumsum
+    return _wrapfunc(a, 'cumsum', axis=axis, dtype=dtype, out=out)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\numpy\_core\fromnumeric.py", line 57, in _wrapfunc
+    return bound(*args, **kwds)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 38.8 MiB for an array with shape (5089793,) and data type int64
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v3_data.py", line 175, in <module>
+    elif a.stage=='cache':cache_pair(a.out,a.fold,a.pair,a.epoch_chunk)
+  File "D:\CV_Project\code\learning_v3_data.py", line 119, in cache_pair
+    aug_context=[row[0] for row in mapped_contexts([aug_tree,cKDTree(np.empty((0,3)))])]
+  File "D:\CV_Project\code\learning_v3_support.py", line 78, in contexts
+    return [[cKDTree(bounded_voxels(tree.data,size)) for tree in trees] for size in VOXELS]
+  File "D:\CV_Project\code\learning_v3_support.py", line 78, in <listcomp>
+    return [[cKDTree(bounded_voxels(tree.data,size)) for tree in trees] for size in VOXELS]
+  File "D:\CV_Project\code\learning_v3_support.py", line 78, in <listcomp>
+    return [[cKDTree(bounded_voxels(tree.data,size)) for tree in trees] for size in VOXELS]
+  File "D:\CV_Project\code\learning_v3_support.py", line 72, in bounded_voxels
+    partition(xyz)
+  File "D:\CV_Project\code\learning_v3_support.py", line 70, in partition
+    subset=points[bins==value]
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 1.19 MiB for an array with shape (52108, 3) and data type float64
+V3 fresh features 0 13 epoch 10 8.2 seconds
+V3 fresh features 0 13 epoch 11 8.2 seconds
+V3 fresh features 0 13 epoch 12 11.0 seconds
+V3 fresh features 0 13 epoch 13 8.2 seconds
+V3 fresh features 0 13 epoch 14 8.5 seconds
+V3 fresh features 0 13 epoch 15 10.7 seconds
+V3 fresh features 0 13 epoch 16 7.5 seconds

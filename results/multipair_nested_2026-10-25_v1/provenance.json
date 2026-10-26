@@ -1,0 +1,31 @@
+{
+  "primary_dataset": "MultiChange3D, Bike Parking Construction",
+  "official_source": "https://3dom-fbk.github.io/multichange3d/",
+  "official_code": "https://github.com/3DOM-FBK/multichange3d",
+  "data_license": "CC BY-NC-SA 4.0",
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "acquisition_epochs": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "downloaded_by": "User; no dataset files downloaded by this experiment runner",
+  "integrity_evidence": "data_audit.json: original file SHA-256, archive CRC and extracted/archive CRC equality",
+  "original_data_modified": false,
+  "conslam_used_for_new_quantitative_results": false,
+  "previous_report_and_presentation_modified": false,
+  "reference_software_check": "CloudCompare v2.13.2 source conventions previously inspected; independent executable-output equivalence remains unverified",
+  "design_amendment": "A geometry-only inner validation fold had 6 changed points among 14400. Revised inner partitions use only outer-training labels for adequate class support. Original outer test cells and original indices remain fixed.",
+  "prior_exposure": "Earlier pair_01 experiments and the first prototype spatial-fold outcomes were inspected. This is a same-site empirical study, not an untouched public benchmark claim.",
+  "temporal_reference": "Preserve original pair_01-only model selection and existing pair_23 test byte-for-byte. No retuning from its observed test scores.",
+  "boosted_baseline_context_caveat": "Full-cloud nearest-point displacement vector, clipped by component, has unbounded geometric context. It uses no test labels but is not covered by the local split-buffer guarantee; predictions remain frozen.",
+  "robustness_scope": "Only fold 0 fitted models are stressed; clean spatial evaluation uses all five folds. Curve clean endpoints score the identical 512 original stress cores per scan."
+}

@@ -1,0 +1,317 @@
+{
+  "passed": true,
+  "clouds": [
+    {
+      "pair": "01",
+      "scan": 0,
+      "epoch": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud0.ply",
+      "bytes": 88898869,
+      "sha256": "bfcb0a338b230af3853f5a827c0e9a30377a9aa52eadab6274edb3b4b2e1ebec",
+      "points": 4444935,
+      "changed": 537571,
+      "unchanged": 3907364,
+      "bbox_min": [
+        27.84128761291504,
+        0.05131353810429573,
+        -5.150333404541016
+      ],
+      "bbox_max": [
+        55.562522888183594,
+        20.13508415222168,
+        1.9603674411773682
+      ],
+      "xyz_order_sha256": "95f8961c3ba3f7ed2367c76aafac2d0dca3aed0164c2e06bc5d2a1e21ce4fc81"
+    },
+    {
+      "pair": "01",
+      "scan": 1,
+      "epoch": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud1.ply",
+      "bytes": 101796029,
+      "sha256": "37f35ba46773a4e48ebabd9a764991f513aabb40b3dc298d031bd6a9b9f9cab4",
+      "points": 5089793,
+      "changed": 760362,
+      "unchanged": 4329431,
+      "bbox_min": [
+        27.786399841308594,
+        0.06879100203514099,
+        -4.453279972076416
+      ],
+      "bbox_max": [
+        55.53929901123047,
+        20.11549949645996,
+        1.9918700456619263
+      ],
+      "xyz_order_sha256": "172682f066e3b11fb76366ad5362bf89a4121f5e939c8dca7325789564edc2c4"
+    },
+    {
+      "pair": "02",
+      "scan": 0,
+      "epoch": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_02\\pair_02\\pointCloud0.ply",
+      "bytes": 88898909,
+      "sha256": "cc1d1434ff629bbae7e9b700ba28c690ffef2be33babfc460f7cf8a83eb23cde",
+      "points": 4444937,
+      "changed": 921174,
+      "unchanged": 3523763,
+      "bbox_min": [
+        27.84128761291504,
+        0.05131353810429573,
+        -5.150333404541016
+      ],
+      "bbox_max": [
+        55.562522888183594,
+        20.13508415222168,
+        1.9603674411773682
+      ],
+      "xyz_order_sha256": "a99a05bc0d19403980c750178bae019ede9bbd9cb29fc17f23feed36b0c29ce3"
+    },
+    {
+      "pair": "02",
+      "scan": 1,
+      "epoch": 2,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_02\\pair_02\\pointCloud1.ply",
+      "bytes": 69786589,
+      "sha256": "12eee81a8cb4adaa2c3b14a541bf532df9d9bb021b2c75c80a5302534d6a7425",
+      "points": 3489321,
+      "changed": 1110132,
+      "unchanged": 2379189,
+      "bbox_min": [
+        27.820293426513672,
+        0.06901160627603531,
+        -4.370481014251709
+      ],
+      "bbox_max": [
+        55.52828598022461,
+        20.1632137298584,
+        2.033687114715576
+      ],
+      "xyz_order_sha256": "3f25b36965b4428d975d3ad9d88eb242f4695f683bafd8c28f14fade7595067a"
+    },
+    {
+      "pair": "03",
+      "scan": 0,
+      "epoch": 0,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03\\pair_03\\pointCloud0.ply",
+      "bytes": 88898929,
+      "sha256": "2523cffaabba867b9e62582e51eafc290ecc14cc8c985783f84418810cada868",
+      "points": 4444938,
+      "changed": 890477,
+      "unchanged": 3554461,
+      "bbox_min": [
+        27.84128761291504,
+        0.05131353810429573,
+        -5.150333404541016
+      ],
+      "bbox_max": [
+        55.562522888183594,
+        20.13508415222168,
+        1.9603674411773682
+      ],
+      "xyz_order_sha256": "b46608e9e258738aab0d90f7a2ccbe684ae752966c147a31706fd6c3b0687eb0"
+    },
+    {
+      "pair": "03",
+      "scan": 1,
+      "epoch": 3,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03\\pair_03\\pointCloud1.ply",
+      "bytes": 75757369,
+      "sha256": "4836d5255b8d3e7c243f2507647ee824a36caf44ab9957788d9aa9266f387ae4",
+      "points": 3787860,
+      "changed": 2289914,
+      "unchanged": 1497946,
+      "bbox_min": [
+        27.809276580810547,
+        0.046790946274995804,
+        -4.3553080558776855
+      ],
+      "bbox_max": [
+        55.35232162475586,
+        20.18523406982422,
+        2.041414499282837
+      ],
+      "xyz_order_sha256": "3d6cd552b5c5ded0a0f001297c7b231ea9e499643a43bb9614ed6cc1e54c74e8"
+    },
+    {
+      "pair": "12",
+      "scan": 0,
+      "epoch": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_12\\pair_12\\pointCloud0.ply",
+      "bytes": 101796029,
+      "sha256": "c870d90a6fe557e123e4247d8c2de2561c29fcd03897bd7a7ada8549adf3a889",
+      "points": 5089793,
+      "changed": 761519,
+      "unchanged": 4328274,
+      "bbox_min": [
+        27.786399841308594,
+        0.06879100203514099,
+        -4.453279972076416
+      ],
+      "bbox_max": [
+        55.53929901123047,
+        20.11549949645996,
+        1.9918700456619263
+      ],
+      "xyz_order_sha256": "eae008668b660f3b58f297db71aa4df31edab918c557737544683e0958f5de05"
+    },
+    {
+      "pair": "12",
+      "scan": 1,
+      "epoch": 2,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_12\\pair_12\\pointCloud1.ply",
+      "bytes": 69786609,
+      "sha256": "0e1193fa0de64b9d2dce558e75ff8ff10231042b26362af88f3d04f29627877a",
+      "points": 3489322,
+      "changed": 675814,
+      "unchanged": 2813508,
+      "bbox_min": [
+        27.820293426513672,
+        0.06901160627603531,
+        -4.370481014251709
+      ],
+      "bbox_max": [
+        55.52828598022461,
+        20.1632137298584,
+        2.033687114715576
+      ],
+      "xyz_order_sha256": "54754cb15f4f6d61a36765546f0008fe8e4987105948c074d0df5370e36bf27a"
+    },
+    {
+      "pair": "13",
+      "scan": 0,
+      "epoch": 1,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_13\\pair_13\\pointCloud0.ply",
+      "bytes": 101796029,
+      "sha256": "9cd24110f735fb8e20cb167c3638f25f1550991aa9a8b4eba3673a893ac76b9c",
+      "points": 5089793,
+      "changed": 925710,
+      "unchanged": 4164083,
+      "bbox_min": [
+        27.786399841308594,
+        0.06879100203514099,
+        -4.453279972076416
+      ],
+      "bbox_max": [
+        55.53929901123047,
+        20.11549949645996,
+        1.9918700456619263
+      ],
+      "xyz_order_sha256": "958263fa101a990a5a2796eb2e646612a7195286234aded07cfbf2ea44978f28"
+    },
+    {
+      "pair": "13",
+      "scan": 1,
+      "epoch": 3,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_13\\pair_13\\pointCloud1.ply",
+      "bytes": 75757369,
+      "sha256": "6ce6b79d72be5676e78c6d2cf56a9f96d4b55099722ff03adc506cbe63dba295",
+      "points": 3787860,
+      "changed": 1219307,
+      "unchanged": 2568553,
+      "bbox_min": [
+        27.809276580810547,
+        0.046790946274995804,
+        -4.3553080558776855
+      ],
+      "bbox_max": [
+        55.35232162475586,
+        20.18523406982422,
+        2.041414499282837
+      ],
+      "xyz_order_sha256": "0f8560f7427e0b7a8f2dd10d96db5b6a4886e8cc990ced1e44ece16836b67581"
+    },
+    {
+      "pair": "23",
+      "scan": 0,
+      "epoch": 2,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23\\pair_23\\pointCloud0.ply",
+      "bytes": 69786609,
+      "sha256": "09856f132e21546514ec5a137f55aed65034d4e06caa70adbe5b460a3c964f5b",
+      "points": 3489322,
+      "changed": 48589,
+      "unchanged": 3440733,
+      "bbox_min": [
+        27.820293426513672,
+        0.06901160627603531,
+        -4.370481014251709
+      ],
+      "bbox_max": [
+        55.52828598022461,
+        20.1632137298584,
+        2.033687114715576
+      ],
+      "xyz_order_sha256": "675a93a0ec6c82769413e3a20df65b4f699ac0a9bb9e61cb8be8920cf73d2653"
+    },
+    {
+      "pair": "23",
+      "scan": 1,
+      "epoch": 3,
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23\\pair_23\\pointCloud1.ply",
+      "bytes": 75757609,
+      "sha256": "8efcc2fd096bc9e07c1c281cc6a9329487554a0057aef8e336272b31d4c473fe",
+      "points": 3787872,
+      "changed": 129550,
+      "unchanged": 3658322,
+      "bbox_min": [
+        27.809276580810547,
+        0.046790946274995804,
+        -4.3553080558776855
+      ],
+      "bbox_max": [
+        55.35232162475586,
+        20.18523406982422,
+        2.041414499282837
+      ],
+      "xyz_order_sha256": "0f4436c34a7609592fde8d199910651965422ab37b1284e6919a86b3bce14593"
+    }
+  ],
+  "archives": [
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01.zip",
+      "bytes": 190695196,
+      "sha256": "56d0d5a92827c79a28fe597c4238d30a8837213062f4b7fdf1e710904c7f00cd",
+      "crc_passed": true,
+      "extracted_crc_match": true
+    },
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_02.zip",
+      "bytes": 158685796,
+      "sha256": "7f1ca2f521f8e16ffaddfff5ebdc9a276fdac3a29f425dccd32807af6a7738f1",
+      "crc_passed": true,
+      "extracted_crc_match": true
+    },
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03.zip",
+      "bytes": 164656596,
+      "sha256": "585b0e71aaa2c8b0803938e0108f2cba2cc145f11aa4db36047a0d5d50d249d8",
+      "crc_passed": true,
+      "extracted_crc_match": true
+    },
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_12.zip",
+      "bytes": 171582936,
+      "sha256": "6c9b6af69918a8e039645df115a63bf3af21b5f761216d6489b169705a9b019d",
+      "crc_passed": true,
+      "extracted_crc_match": true
+    },
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_13.zip",
+      "bytes": 177553696,
+      "sha256": "a3039ef21eac5470d78d4a429e716edc677ee57a7810093abd58e721d7703d92",
+      "crc_passed": true,
+      "extracted_crc_match": true
+    },
+    {
+      "path": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23.zip",
+      "bytes": 145544516,
+      "sha256": "7037e5a50251b66e36c0179912d01fa611dede97360f2047effcadf1df00d445",
+      "crc_passed": true,
+      "extracted_crc_match": true
+    }
+  ],
+  "original_files_immutable": true,
+  "labels": "0 unchanged; 1 changed; earlier removed/later added",
+  "epoch_repetition": "Six pairs from four shared acquisition epochs, not six independent scenes",
+  "row_identity": "Pair files have different geometry/order hashes and sometimes sizes; preserve per-file indices"
+}

@@ -1,0 +1,11 @@
+{
+  "best_epoch": 1,
+  "threshold": 0.7,
+  "best_calibration_loss": 0.5514857172966003,
+  "calibration_macro_f1": 0.7648522525647073,
+  "checkpoint_sha256": "3a17eef49185a928e1c40afa0a06fea7c022c35e4c873bdb6052a50d0b4e16cd",
+  "configuration_sha256": "7ccd6c5cea94ad9bd1926b5cfb719e3afeae6fe52c3ee4aa35443216321b2417",
+  "split_sha256": "88606b317dd1f03738860097fc68b61aac11b1b9504184ed5af8f3725c2c1588",
+  "frozen_before_test_inference": true,
+  "caveat": "Same-scene spatial holdout, one seed and architecture, inherited historical pilot/C2C test exposure"
+}

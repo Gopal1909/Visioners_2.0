@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "profile": "compact",
+  "unit_tests": 83,
+  "test_log_sha256": "898d9ce6936a29d31a7150004eff1c278c1ba83a8264f838c35896fd5316599b",
+  "historical_demo_passed": true,
+  "scope": "Compact checkout without datasets or bulk caches; existing numerical environment, no fresh pip installation",
+  "raw_dataset_present": false,
+  "bulk_arrays_excluded": true,
+  "selected_v2_checkpoints": 6,
+  "source_research_files_modified": false
+}

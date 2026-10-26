@@ -1,0 +1,43 @@
+{
+  "candidate": "graph_fresh_focal",
+  "fold": 0,
+  "seed": 42,
+  "threshold": 0.75,
+  "validation_objective": 0.8180980776966194,
+  "validation_changed_f1": 0.6820465387370321,
+  "validation_by_view": {
+    "clean": {
+      "binary_macro_f1": 0.8180980776966194,
+      "changed_f1": 0.6820465387370321,
+      "available_cores": 14400
+    },
+    "mild": {
+      "binary_macro_f1": 0.798509714049649,
+      "changed_f1": 0.6493435331009227,
+      "available_cores": 12225
+    },
+    "medium": {
+      "binary_macro_f1": 0.6315409350146206,
+      "changed_f1": 0.3459082887613493,
+      "available_cores": 10037
+    }
+  },
+  "robustness_validation_objective": 0.7493829089202962,
+  "best_epoch": 9,
+  "best_clean_validation_bce": 0.22468072175979614,
+  "test_accessed": false,
+  "parameter_count": 241633,
+  "checkpoint_sha256": "9361ac43c81030206a39bd15516f96470cd40f4b62d308cfafadd55be5fc31ed",
+  "config_sha256": "8b9f8dc4a80db989ed22d290de7c9eadbbc0be27209220fb4977ab9992107317",
+  "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f",
+  "timing_scope": "Final worker chunk; per-epoch seconds in history",
+  "timing": {
+    "seconds": 136.68555349999951,
+    "rss_start_mib": 367.3203125,
+    "sampled_peak_rss_mib": 863.80078125,
+    "sampled_rss_growth_mib": 496.48046875,
+    "process_lifetime_peak_mib": 863.80859375
+  },
+  "training_device": "cpu",
+  "gpu_peak_allocated_mib": 0.0
+}

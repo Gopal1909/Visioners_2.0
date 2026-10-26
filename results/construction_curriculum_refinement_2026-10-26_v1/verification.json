@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "validation_threshold_rows_recomputed": 115,
+  "prediction_checkpoint_probes": 480,
+  "maximum_probability_probe_delta": 0.0,
+  "original_validation_ids_labels_and_availability_preserved": true,
+  "promotion_gate_not_relaxed": true,
+  "original_focal_checkpoint_retained": true,
+  "new_test_cases_scored": 0,
+  "previous_result_files_preserved": 2042,
+  "previous_source_files_preserved": 10,
+  "original_clouds_preserved": 12,
+  "submission_files_preserved": 97
+}

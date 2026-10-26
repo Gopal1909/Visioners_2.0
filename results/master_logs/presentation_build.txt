@@ -1,0 +1,2 @@
+Inspect result written to file: D:\CV_Project\results\submission_build\slides\candidate.pptx.inspect.ndjson
+Final presentation D:\CV_Project\final_submission\presentation\project_presentation.pptx duration 480

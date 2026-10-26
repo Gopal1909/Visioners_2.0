@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "independent_scene_evaluated": true,
+  "scene": "User-supplied MultiChange3D Open_space",
+  "source_clouds_verified": 2,
+  "uniform_original_cores_verified": 10000,
+  "metric_rows_independently_recomputed": 5,
+  "all_thresholds_frozen_on_BikeParkingConstruction": true,
+  "independent_scene_never_used_for_training_or_selection": true,
+  "scope": "One additional scene, not a multi-scene generalization benchmark; full support with uniformly sampled original evaluation cores."
+}

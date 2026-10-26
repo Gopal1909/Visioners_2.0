@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "center_used_float32_m": [
+    38.89581298828125,
+    6.9866228103637695,
+    -2.3325648307800293
+  ],
+  "center_float64_diagnostic_m": [
+    39.16554732332148,
+    6.991527060853595,
+    -2.3381029236844117
+  ],
+  "translation_direction": [
+    0.23116513807972336,
+    -0.7889550192379909,
+    0.5693089289267855
+  ],
+  "rotation_axis": [
+    0.23116513807972336,
+    -0.7889550192379909,
+    0.5693089289267855
+  ],
+  "note": "Exact Stage 3 mean/seed arithmetic retained. Float64 center is diagnostic only; not substituted."
+}

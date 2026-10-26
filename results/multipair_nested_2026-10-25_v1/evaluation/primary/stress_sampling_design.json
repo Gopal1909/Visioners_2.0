@@ -1,0 +1,7 @@
+{
+  "cores_per_scan": 512,
+  "rule": "Fixed uniform subset of clean test original IDs; same subset for all perturbations and methods",
+  "seed_rule": "7025 + 2*int(pair) + scan; independent of perturbation seed",
+  "model_policy": "Selected architecture at seeds42/43/44 plus nearest, voxel-clean and voxel-augmentation controls at seed42",
+  "purpose": "Bounded repeated stress study; clean/current deltas intersect these original IDs"
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "fold": 0,
+  "pair": "02",
+  "epoch": 1,
+  "seed": 735201,
+  "parameters": {
+    "translation_m": 0.0,
+    "rotation_deg": 1.2,
+    "retention": 0.4,
+    "noise_sigma_m": 0.03
+  },
+  "attempts": 1,
+  "maximum_observed_training_displacement_m": 0.4251304556219564,
+  "total_support_guard_m": 4.700581014856853,
+  "sha256": "dc9f0b25a52023383fab9efe8f2cf18998782ceee9fef26ccf40d34f91c12404",
+  "sampling": [
+    {
+      "scan": 0,
+      "cores": 1500,
+      "unique_original_ids": 1496,
+      "changed": 750
+    },
+    {
+      "scan": 1,
+      "cores": 1500,
+      "unique_original_ids": 1495,
+      "changed": 750
+    }
+  ],
+  "training_cells_only": true,
+  "full_scan_transformed_before_rebuilding": true,
+  "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f",
+  "feature_source_sha256": "c16620b71974cf7979e7f54ada5f4377f6572790bea01e617ab7c053dff4b326",
+  "timing": {
+    "seconds": 7.338670099999945,
+    "rss_start_mib": 785.58203125,
+    "sampled_peak_rss_mib": 1020.4140625,
+    "sampled_rss_growth_mib": 234.83203125,
+    "process_lifetime_peak_mib": 1287.7578125
+  }
+}

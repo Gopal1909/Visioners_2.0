@@ -1,0 +1,10 @@
+{
+  "condition": "translation_0.10",
+  "seed": 42,
+  "full_support_points0": 4444935,
+  "full_support_points1": 5089793,
+  "normal0_cached": false,
+  "normal1_reestimated": true,
+  "configuration_hash": "86fad93a528255418221091e589962c319d1ab5ed1f49caacc4d4940fbc93904",
+  "measurement_hash": "cd113bc0105edc330a849b0bafb7bf14e7bb3ec6abd3d3e510269b589b85b03e"
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "complete_no_promotion",
+  "complete": true,
+  "no_active_workers": true,
+  "pilot_gate_passed": false,
+  "new_test_cases_scored": 0,
+  "verification": "final_review.json"
+}

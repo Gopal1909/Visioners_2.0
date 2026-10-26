@@ -1,0 +1,22 @@
+{
+  "reason": "Windows system commit / CUDA allocation failure before completion of first epoch; all original data and feature caches remain valid",
+  "before_any_completed_training_epoch": true,
+  "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f",
+  "microbatch_size": 16,
+  "effective_batch_size": 128,
+  "gradient_accumulation_microbatches": 8,
+  "validation_batch_size": 32,
+  "optimizer_foreach": false,
+  "gradient_clipping_foreach": false,
+  "unchanged": [
+    "Architecture",
+    "Learning-rate schedule",
+    "Epoch count",
+    "Fresh core IDs and labels",
+    "Perturbation parameters",
+    "Spatial regions and buffers",
+    "Loss variants",
+    "Validation gate and thresholds"
+  ],
+  "failed_attempt_preserved": "results\\learning_v3_construction_2026-10-25_v1\\fold_0\\learning\\pool_fresh_bce_seed42_failed_before_first_epoch"
+}

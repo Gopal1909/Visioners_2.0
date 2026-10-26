@@ -1,0 +1,16 @@
+{
+  "exposure": "Previous held-out results informed this architectural follow-up. These are comparative same-site results, not an untouched final benchmark.",
+  "selected_variants": {
+    "0": "multiscale_clean",
+    "1": "multiscale_robust",
+    "2": "multiscale_robust_hard",
+    "3": "multiscale_clean",
+    "4": "multiscale_robust"
+  },
+  "primary_metric": "Same pair/direction binary macro F1 and changed F1 as previous study; zero convention retained for absent classes",
+  "source_of_selection": "Validation only; comparison_all_metrics contains tests for descriptive assessment",
+  "stress": "Fold0 models only; 16 conditions x 3 seeds x 6 pairs",
+  "independent_site_available": true,
+  "independent_site_results": "Separate untuned evaluation in external_open_space; not included in the same-site means",
+  "full_scan_augmentation": "Two fixed full-scan perturbed training views, distinct validation seeds; finite-bank augmentation, not freshly generated each epoch"
+}

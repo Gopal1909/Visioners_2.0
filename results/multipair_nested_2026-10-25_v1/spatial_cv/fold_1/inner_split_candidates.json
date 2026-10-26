@@ -1,0 +1,1203 @@
+{
+  "candidates": [
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "expected_validation_changed": 2177.662552923721,
+      "expected_training_changed": 2130.3869211763645,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.0953613874677409,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1132.184658203786,
+      "expected_training_changed": 4298.859808205018,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.037108579607621525,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1481.0653038901135,
+      "expected_training_changed": 3844.7756835070095,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.0594722392485387,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1072.1627917415035,
+      "expected_training_changed": 4561.259734831689,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.03408048204110415,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1026.5329789977877,
+      "expected_training_changed": 4882.035217597135,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.041969326807276504,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1005.5699999008266,
+      "expected_training_changed": 4584.395854438518,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.0352207356505229,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1860.0903545394667,
+      "expected_training_changed": 3230.7877091233486,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.0710768877463358,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1935.579304626567,
+      "expected_training_changed": 2404.727260721162,
+      "validation_directions_expected_ge10": 11,
+      "class_fraction_imbalance": 0.12728896649136784,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1656.3391481057777,
+      "expected_training_changed": 3394.2273612804065,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.07431202819546001,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1570.4455781224415,
+      "expected_training_changed": 3746.6741602196103,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.07118721456443432,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1661.0868006400422,
+      "expected_training_changed": 3454.3856752424003,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.07436746307909319,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expected_validation_changed": 979.192321561548,
+      "expected_training_changed": 4711.914328074331,
+      "validation_directions_expected_ge10": 8,
+      "class_fraction_imbalance": 0.04861775328230069,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 75.88493341738682,
+      "expected_training_changed": 5102.4754590240445,
+      "validation_directions_expected_ge10": 3,
+      "class_fraction_imbalance": 0.07170732710926625,
+      "feasible": false
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 210.66513521135445,
+      "expected_training_changed": 5449.425496618858,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.06498027358293985,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 62.94284089585574,
+      "expected_training_changed": 5153.023592504622,
+      "validation_directions_expected_ge10": 3,
+      "class_fraction_imbalance": 0.07476889534580704,
+      "feasible": false
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 881.113023901218,
+      "expected_training_changed": 4962.653732501511,
+      "validation_directions_expected_ge10": 8,
+      "class_fraction_imbalance": 0.05064174520500549,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 930.9162142361707,
+      "expected_training_changed": 5537.467148885729,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.0639960588787448,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 876.5082885097148,
+      "expected_training_changed": 5033.581897010893,
+      "validation_directions_expected_ge10": 8,
+      "class_fraction_imbalance": 0.05075909420836974,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 205.33646055284223,
+      "expected_training_changed": 5745.946366625728,
+      "validation_directions_expected_ge10": 3,
+      "class_fraction_imbalance": 0.0640666128629041,
+      "feasible": false
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 13.468655869725318,
+      "expected_training_changed": 5393.674154510033,
+      "validation_directions_expected_ge10": 0,
+      "class_fraction_imbalance": 0.07053371918484977,
+      "feasible": false
+    },
+    {
+      "validation_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 175.0689048556938,
+      "expected_training_changed": 5810.764169617933,
+      "validation_directions_expected_ge10": 3,
+      "class_fraction_imbalance": 0.06513897901016023,
+      "feasible": false
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected_validation_changed": 2882.79253049011,
+      "expected_training_changed": 1782.2830182489683,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.0884844115276173,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expected_validation_changed": 2639.629110076736,
+      "expected_training_changed": 348.8410950022389,
+      "validation_directions_expected_ge10": 11,
+      "class_fraction_imbalance": 0.17908655649919483,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 2658.8483140296985,
+      "expected_training_changed": 1899.7378667730109,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.08843064829330358,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 2395.919511281517,
+      "expected_training_changed": 1862.4601542341777,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.09451220700056406,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 2603.9441299326013,
+      "expected_training_changed": 1912.527263237068,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.0870982559855058,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1978.0539302005639,
+      "expected_training_changed": 3086.577833113906,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.059719384770695084,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1773.3862596618865,
+      "expected_training_changed": 3856.6738217199645,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.04512998868767722,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1330.0885324506062,
+      "expected_training_changed": 4000.622937247784,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.04760930749963703,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1612.2748513904269,
+      "expected_training_changed": 3876.116191566394,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.04680372973278709,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1816.5478596836613,
+      "expected_training_changed": 3314.2676553005485,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.05845447300996195,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1653.1814800965797,
+      "expected_training_changed": 3558.5784884524232,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.08101515902198743,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1764.5255263334914,
+      "expected_training_changed": 3323.3019910503203,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.05718399482189527,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1315.359833001044,
+      "expected_training_changed": 4252.562981579723,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.04340674309616334,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1460.615404671868,
+      "expected_training_changed": 4080.925252791145,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.03927964988839188,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1217.5842630111972,
+      "expected_training_changed": 4266.918666557222,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.04309128205198853,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "expected_validation_changed": 2456.6931809802436,
+      "expected_training_changed": 1922.798179129316,
+      "validation_directions_expected_ge10": 11,
+      "class_fraction_imbalance": 0.11097726726412022,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 2364.498703001818,
+      "expected_training_changed": 2861.4406045374412,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.06880269009262908,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 2047.2362788701666,
+      "expected_training_changed": 2988.0366807006126,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.06026835050739083,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 2351.135421954894,
+      "expected_training_changed": 2910.750045343368,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.06939161241195337,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 2268.79822996271,
+      "expected_training_changed": 1961.6415755589423,
+      "validation_directions_expected_ge10": 11,
+      "class_fraction_imbalance": 0.11597559351902867,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 2128.178831793592,
+      "expected_training_changed": 2128.756991472875,
+      "validation_directions_expected_ge10": 11,
+      "class_fraction_imbalance": 0.12752262113385612,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 2243.419269846376,
+      "expected_training_changed": 2056.031875001421,
+      "validation_directions_expected_ge10": 11,
+      "class_fraction_imbalance": 0.11362029660517642,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1876.5796311249849,
+      "expected_training_changed": 3155.365400571522,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.06232902411955873,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 2061.281392258652,
+      "expected_training_changed": 3023.8411173732884,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.06813077058319973,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1847.3661807329293,
+      "expected_training_changed": 3205.264159850653,
+      "validation_directions_expected_ge10": 10,
+      "class_fraction_imbalance": 0.06092874434959834,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "expected_validation_changed": 1211.347273734369,
+      "expected_training_changed": 4123.446930869005,
+      "validation_directions_expected_ge10": 8,
+      "class_fraction_imbalance": 0.052256528564454556,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1253.2334500052598,
+      "expected_training_changed": 4386.610937285226,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.0602013162839813,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1198.3937098518365,
+      "expected_training_changed": 4178.788679750242,
+      "validation_directions_expected_ge10": 8,
+      "class_fraction_imbalance": 0.05290736500350992,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 284.56816201312927,
+      "expected_training_changed": 4814.243683784079,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.07107423139255731,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 136.19920880656682,
+      "expected_training_changed": 4634.276436657663,
+      "validation_directions_expected_ge10": 3,
+      "class_fraction_imbalance": 0.08348435110440662,
+      "feasible": false
+    },
+    {
+      "validation_cells": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 243.22520565525286,
+      "expected_training_changed": 4855.048994150317,
+      "validation_directions_expected_ge10": 6,
+      "class_fraction_imbalance": 0.07268008497550457,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "expected_validation_changed": 1081.4938082106505,
+      "expected_training_changed": 4658.741638665504,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.06105084136972979,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1035.7389938069846,
+      "expected_training_changed": 4369.331015792424,
+      "validation_directions_expected_ge10": 8,
+      "class_fraction_imbalance": 0.050435374648336875,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 1070.3561497154271,
+      "expected_training_changed": 4704.378623723087,
+      "validation_directions_expected_ge10": 9,
+      "class_fraction_imbalance": 0.0597124757195005,
+      "feasible": true
+    },
+    {
+      "validation_cells": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "expected_validation_changed": 230.10266699044996,
+      "expected_training_changed": 5086.939282331203,
+      "validation_directions_expected_ge10": 3,
+      "class_fraction_imbalance": 0.06727044197759094,
+      "feasible": false
+    }
+  ],
+  "chosen": {
+    "validation_cells": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "expected_validation_changed": 1072.1627917415035,
+    "expected_training_changed": 4561.259734831689,
+    "validation_directions_expected_ge10": 6,
+    "class_fraction_imbalance": 0.03408048204110415,
+    "feasible": true
+  },
+  "outer_test_labels_used": false,
+  "inventory_sha256": "b288f80e120cec462dbd55ffd25ea517f923eac21d3a3958a6c49672f9202cc9"
+}

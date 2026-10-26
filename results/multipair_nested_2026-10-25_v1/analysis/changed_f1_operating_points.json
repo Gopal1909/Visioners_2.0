@@ -1,0 +1,203 @@
+{
+  "catalog": {
+    "0": {
+      "thresholds": {
+        "c2c_calibrated": {
+          "threshold": 0.075,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "m3c2_calibrated": {
+          "threshold": 0.05,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "geometry_boosted": {
+          "threshold": 0.8,
+          "source": "learning/primary/geometry_boosted/thresholds.csv"
+        },
+        "nearest_seed42": {
+          "threshold": 0.7,
+          "source": "learning/primary/nearest_seed42/thresholds.csv"
+        },
+        "voxel_aug_seed42": {
+          "threshold": 0.75,
+          "source": "learning/primary/voxel_aug_seed42/thresholds.csv"
+        },
+        "voxel_aug_seed43": {
+          "threshold": 0.9,
+          "source": "learning/primary/voxel_aug_seed43/thresholds.csv"
+        },
+        "voxel_aug_seed44": {
+          "threshold": 0.65,
+          "source": "learning/primary/voxel_aug_seed44/thresholds.csv"
+        },
+        "voxel_seed42": {
+          "threshold": 0.9,
+          "source": "learning/primary/voxel_seed42/thresholds.csv"
+        }
+      },
+      "validation_sha256": {
+        "geometry_calibration/all_candidate_metrics.csv": "e8254f03477bf80c439ff147612401fc443762c6fa596d48c643380ba5f7e638",
+        "learning/primary/geometry_boosted/thresholds.csv": "29df77e5f01b38d0087f6672d8b690e40d6b3c31c9a009da93d419b8bfb0092b",
+        "learning/primary/nearest_seed42/thresholds.csv": "049e620d18742f9043221dc7a51da0811f567b7480bd4875b25ac330a1ac70e9",
+        "learning/primary/voxel_aug_seed42/thresholds.csv": "66a71776a3a6ef5f468dff5e7f7fb5953617e103f617b2a88b1257ec8502b940",
+        "learning/primary/voxel_aug_seed43/thresholds.csv": "f30af9b426371316d97ece124ec207438cfb91b77a2cb165cc7f8b85ccfea027",
+        "learning/primary/voxel_aug_seed44/thresholds.csv": "c8ed21296209d571668165272e6d86294849754a6430ff61b0807f16b0d97460",
+        "learning/primary/voxel_seed42/thresholds.csv": "90f9b4db9fc64977b61da9ab5fb372e1166a7edcd45f4e526735b10bdce70dbd"
+      },
+      "geometry_and_model_parameters_fixed": true,
+      "unknown_masks_fixed": true
+    },
+    "1": {
+      "thresholds": {
+        "c2c_calibrated": {
+          "threshold": 0.15,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "m3c2_calibrated": {
+          "threshold": 0.15,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "geometry_boosted": {
+          "threshold": 0.5,
+          "source": "learning/primary/geometry_boosted/thresholds.csv"
+        },
+        "nearest_seed42": {
+          "threshold": 0.8,
+          "source": "learning/primary/nearest_seed42/thresholds.csv"
+        },
+        "voxel_aug_seed42": {
+          "threshold": 0.55,
+          "source": "learning/primary/voxel_aug_seed42/thresholds.csv"
+        },
+        "voxel_seed42": {
+          "threshold": 0.7,
+          "source": "learning/primary/voxel_seed42/thresholds.csv"
+        }
+      },
+      "validation_sha256": {
+        "geometry_calibration/all_candidate_metrics.csv": "da57c5d665611070b6eb7f2b8df5a6316c470bf83247f3f64aa6b1687ba30109",
+        "learning/primary/geometry_boosted/thresholds.csv": "e03007c85e5742ecb8156ab1b764bde00c2f2a0d401cba27bf83fb01b4fb9613",
+        "learning/primary/nearest_seed42/thresholds.csv": "ab119b61cca9b91dab9c6bfecbd3f359274dfef65c1465e294cdbee0b65a2890",
+        "learning/primary/voxel_aug_seed42/thresholds.csv": "ec4bcb2f30d67cfc75773affdcbf2c0e0150b7d03b1403e9616de938cd71fbbc",
+        "learning/primary/voxel_seed42/thresholds.csv": "0aae84696b7ebc3b0b93f17be40ef0eeb69683e0fabbb5206b8235115ff39949"
+      },
+      "geometry_and_model_parameters_fixed": true,
+      "unknown_masks_fixed": true
+    },
+    "2": {
+      "thresholds": {
+        "c2c_calibrated": {
+          "threshold": 0.075,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "m3c2_calibrated": {
+          "threshold": 0.05,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "geometry_boosted": {
+          "threshold": 0.85,
+          "source": "learning/primary/geometry_boosted/thresholds.csv"
+        },
+        "nearest_seed42": {
+          "threshold": 0.8,
+          "source": "learning/primary/nearest_seed42/thresholds.csv"
+        },
+        "voxel_aug_seed42": {
+          "threshold": 0.9,
+          "source": "learning/primary/voxel_aug_seed42/thresholds.csv"
+        },
+        "voxel_seed42": {
+          "threshold": 0.75,
+          "source": "learning/primary/voxel_seed42/thresholds.csv"
+        }
+      },
+      "validation_sha256": {
+        "geometry_calibration/all_candidate_metrics.csv": "d8e9f43302b53cf3a2fb327db58e843b7f19d8e8f5dc14f01829b53cd4d93e3f",
+        "learning/primary/geometry_boosted/thresholds.csv": "3f20cfd9fc903584d78e063c7596fcb920fe2769dd83b884d43d3cd00f68fb18",
+        "learning/primary/nearest_seed42/thresholds.csv": "1892be1e261a779eadac54ef7a8fba8571708aad081f318b385ffba7683a0b5f",
+        "learning/primary/voxel_aug_seed42/thresholds.csv": "31669dee8879fca2ffd825a22482ec77859d8b6d37001134726a44fb6f5e2bfa",
+        "learning/primary/voxel_seed42/thresholds.csv": "1746377ad01896bb0e4357664592dd31391a18ac69f6854c03bef5809674a355"
+      },
+      "geometry_and_model_parameters_fixed": true,
+      "unknown_masks_fixed": true
+    },
+    "3": {
+      "thresholds": {
+        "c2c_calibrated": {
+          "threshold": 0.075,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "m3c2_calibrated": {
+          "threshold": 0.05,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "geometry_boosted": {
+          "threshold": 0.8,
+          "source": "learning/primary/geometry_boosted/thresholds.csv"
+        },
+        "nearest_seed42": {
+          "threshold": 0.65,
+          "source": "learning/primary/nearest_seed42/thresholds.csv"
+        },
+        "voxel_aug_seed42": {
+          "threshold": 0.6,
+          "source": "learning/primary/voxel_aug_seed42/thresholds.csv"
+        },
+        "voxel_seed42": {
+          "threshold": 0.55,
+          "source": "learning/primary/voxel_seed42/thresholds.csv"
+        }
+      },
+      "validation_sha256": {
+        "geometry_calibration/all_candidate_metrics.csv": "e8254f03477bf80c439ff147612401fc443762c6fa596d48c643380ba5f7e638",
+        "learning/primary/geometry_boosted/thresholds.csv": "8138b0345c602329a98e57f2eab9b8bf1df9d9f7813cd0546d58bbbf81dfe3fc",
+        "learning/primary/nearest_seed42/thresholds.csv": "4c9c65c33c6fe2153b4f4915debf2bed224e01ee09b8def01076bbc343f01078",
+        "learning/primary/voxel_aug_seed42/thresholds.csv": "87c148a471df3772403b4d9315aa6b99d944e6a7cd35d91c6736dff8cd8a8af1",
+        "learning/primary/voxel_seed42/thresholds.csv": "e68f8d564d54b931f2d7e3bc399a10de3f4c60b037569f06d013eae753ca18d1"
+      },
+      "geometry_and_model_parameters_fixed": true,
+      "unknown_masks_fixed": true
+    },
+    "4": {
+      "thresholds": {
+        "c2c_calibrated": {
+          "threshold": 0.075,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "m3c2_calibrated": {
+          "threshold": 0.05,
+          "source": "geometry_calibration/all_candidate_metrics.csv"
+        },
+        "geometry_boosted": {
+          "threshold": 0.15,
+          "source": "learning/primary/geometry_boosted/thresholds.csv"
+        },
+        "nearest_seed42": {
+          "threshold": 0.5,
+          "source": "learning/primary/nearest_seed42/thresholds.csv"
+        },
+        "voxel_aug_seed42": {
+          "threshold": 0.9,
+          "source": "learning/primary/voxel_aug_seed42/thresholds.csv"
+        },
+        "voxel_seed42": {
+          "threshold": 0.6,
+          "source": "learning/primary/voxel_seed42/thresholds.csv"
+        }
+      },
+      "validation_sha256": {
+        "geometry_calibration/all_candidate_metrics.csv": "74b673705b741d3f6f9e7569f7bb959884a4347adfd5294ae69f1840b6003ffb",
+        "learning/primary/geometry_boosted/thresholds.csv": "2e2fc53fb9e9b2caac5a419a7d95b5a86bfee303dd38ea669866f831ffdd1421",
+        "learning/primary/nearest_seed42/thresholds.csv": "4a557fbdc9ff7e24daa9f15f0c4c198b5f7f26f827b7dd4ee85b9a26466e7de2",
+        "learning/primary/voxel_aug_seed42/thresholds.csv": "6e037c245d03f129ac7dae1faf73d6b097cfb76745a8391d044c802c0d470c43",
+        "learning/primary/voxel_seed42/thresholds.csv": "0b38287124eab3946a6629b376e75d15de0e3d9077d2dc20959a78f342babde1"
+      },
+      "geometry_and_model_parameters_fixed": true,
+      "unknown_masks_fixed": true
+    }
+  },
+  "temporal_reference_excluded": true,
+  "decision_source": "Clean validation rows only; no test-score maximization. Architecture and unknown masks stay fixed.",
+  "frozen_catalog_sha256": "aa7a75cd058087304978130efd84dd74e9a0bf55c5b62fa7d0d04b09ca983595",
+  "source_sha256": "cff03a6f5c41944d90393f2e1f0e4979f4a161f18568df8f31ee1854e260ead4"
+}

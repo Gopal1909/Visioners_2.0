@@ -1,0 +1,12 @@
+{
+  "seconds": 23.47290570000041,
+  "rss_start_mib": 669.703125,
+  "sampled_peak_rss_mib": 1135.953125,
+  "sampled_rss_growth_mib": 466.25,
+  "process_lifetime_peak_mib": 1350.5703125,
+  "gpu_peak_allocated_mib": 88.99658203125,
+  "gpu_peak_reserved_mib": 108.0,
+  "positive_weight": 3.6975924838520258,
+  "training_points": 16000,
+  "training_changed": 3406
+}

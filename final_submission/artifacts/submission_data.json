@@ -1,0 +1,345 @@
+{
+  "primary": [
+    {
+      "method": "M3C2-style",
+      "combined_macro_f1": 0.2341500358187738,
+      "combined_macro_mIoU": 0.1561267132977436,
+      "directional_macro_f1": 0.0653938816259781,
+      "coverage": 0.66875,
+      "unknown_rate": 0.33125,
+      "conservative_accuracy_lower_bound": 0.276125,
+      "geometry_seconds": 24.835789199996725,
+      "sampled_process_peak_rss_mib": 912.6796875
+    },
+    {
+      "method": "C2C common",
+      "combined_macro_f1": 0.411777915168141,
+      "combined_macro_mIoU": 0.3339554285019259,
+      "directional_macro_f1": 0.1698774015426646,
+      "coverage": 0.66875,
+      "unknown_rate": 0.0,
+      "conservative_accuracy_lower_bound": 0.54475,
+      "geometry_seconds": 2.446719399998983,
+      "sampled_process_peak_rss_mib": 912.6796875
+    },
+    {
+      "method": "Siamese PointNet common",
+      "combined_macro_f1": 0.3817049869731714,
+      "combined_macro_mIoU": 0.3090990906402235,
+      "directional_macro_f1": 0.1340302684115799,
+      "coverage": 0.66875,
+      "unknown_rate": 0.0,
+      "conservative_accuracy_lower_bound": 0.52475,
+      "geometry_seconds": 2.835834100000284,
+      "sampled_process_peak_rss_mib": 1631.703125
+    }
+  ],
+  "learned_spatial_test_all_macro_f1": 0.393585439586159,
+  "split": {
+    "axis": "X",
+    "bounds_m": {
+      "train": [
+        27.786399841308594,
+        40.28565521240235
+      ],
+      "calibration": [
+        42.507745056152345,
+        45.28535736083984
+      ],
+      "test": [
+        47.50744720458984,
+        55.562522888183594
+      ]
+    },
+    "gap_m": 2.22208984375,
+    "maximum_geometric_support_halo_m": 1.004987562112089,
+    "learned_patch_radius_m": 0.6,
+    "support_halos_disjoint": true,
+    "seeds": "20261025 + 100*split_order + scan",
+    "epochs": {
+      "train": [
+        0,
+        1
+      ],
+      "calibration": [
+        0,
+        1
+      ],
+      "test": [
+        0,
+        1
+      ]
+    },
+    "scene": "BikeParkingConstruction",
+    "pair": "01",
+    "selection": "geometry-only fixed X fractions .45/.53/.63/.71; no label-based spatial selection",
+    "caveat": "Same scene and epochs; model spatial holdout only. Historic C2C threshold and pilot used this pair, so not an unbiased benchmark test.",
+    "samples": [
+      {
+        "split": "train",
+        "scan": 0,
+        "cores": 8000,
+        "eligible": 2417367,
+        "changed": 1238,
+        "seed": 20261025,
+        "tile_m": 2.0,
+        "tile_origin_m": [
+          27.84128761291504,
+          0.05131353810429573,
+          -4.112242698669434
+        ],
+        "occupied_tiles": 115,
+        "sampled_tiles": 115,
+        "rule": "balanced occupied 3D tiles; random original points without replacement"
+      },
+      {
+        "split": "train",
+        "scan": 1,
+        "cores": 8000,
+        "eligible": 3034837,
+        "changed": 2168,
+        "seed": 20261026,
+        "tile_m": 2.0,
+        "tile_origin_m": [
+          27.786399841308594,
+          0.06879100203514099,
+          -4.144480228424072
+        ],
+        "occupied_tiles": 120,
+        "sampled_tiles": 120,
+        "rule": "balanced occupied 3D tiles; random original points without replacement"
+      },
+      {
+        "split": "calibration",
+        "scan": 0,
+        "cores": 1000,
+        "eligible": 614237,
+        "changed": 222,
+        "seed": 20261125,
+        "tile_m": 2.0,
+        "tile_origin_m": [
+          42.507747650146484,
+          0.11537349224090576,
+          -3.7581276893615723
+        ],
+        "occupied_tiles": 31,
+        "sampled_tiles": 31,
+        "rule": "balanced occupied 3D tiles; random original points without replacement"
+      },
+      {
+        "split": "calibration",
+        "scan": 1,
+        "cores": 1000,
+        "eligible": 484374,
+        "changed": 165,
+        "seed": 20261126,
+        "tile_m": 2.0,
+        "tile_origin_m": [
+          42.5078010559082,
+          0.10469000041484833,
+          -3.787130117416382
+        ],
+        "occupied_tiles": 31,
+        "sampled_tiles": 31,
+        "rule": "balanced occupied 3D tiles; random original points without replacement"
+      },
+      {
+        "split": "test",
+        "scan": 0,
+        "cores": 4000,
+        "eligible": 598526,
+        "changed": 111,
+        "seed": 20261225,
+        "tile_m": 2.0,
+        "tile_origin_m": [
+          47.50747299194336,
+          0.1373327076435089,
+          -5.150333404541016
+        ],
+        "occupied_tiles": 76,
+        "sampled_tiles": 76,
+        "rule": "balanced occupied 3D tiles; random original points without replacement"
+      },
+      {
+        "split": "test",
+        "scan": 1,
+        "cores": 4000,
+        "eligible": 901354,
+        "changed": 273,
+        "seed": 20261226,
+        "tile_m": 2.0,
+        "tile_origin_m": [
+          47.50749969482422,
+          0.11681400239467621,
+          -4.453279972076416
+        ],
+        "occupied_tiles": 58,
+        "sampled_tiles": 58,
+        "rule": "balanced occupied 3D tiles; random original points without replacement"
+      }
+    ]
+  },
+  "learned": {
+    "best_epoch": 1,
+    "threshold": 0.7,
+    "best_calibration_loss": 0.5514857172966003,
+    "calibration_macro_f1": 0.7648522525647073,
+    "checkpoint_sha256": "3a17eef49185a928e1c40afa0a06fea7c022c35e4c873bdb6052a50d0b4e16cd",
+    "configuration_sha256": "7ccd6c5cea94ad9bd1926b5cfb719e3afeae6fe52c3ee4aa35443216321b2417",
+    "split_sha256": "88606b317dd1f03738860097fc68b61aac11b1b9504184ed5af8f3725c2c1588",
+    "frozen_before_test_inference": true,
+    "caveat": "Same-scene spatial holdout, one seed and architecture, inherited historical pilot/C2C test exposure"
+  },
+  "training": {
+    "seconds": 23.47290570000041,
+    "rss_start_mib": 669.703125,
+    "sampled_peak_rss_mib": 1135.953125,
+    "sampled_rss_growth_mib": 466.25,
+    "process_lifetime_peak_mib": 1350.5703125,
+    "gpu_peak_allocated_mib": 88.99658203125,
+    "gpu_peak_reserved_mib": 108.0,
+    "positive_weight": 3.6975924838520258,
+    "training_points": 16000,
+    "training_changed": 3406
+  },
+  "supplementary_occlusion": [
+    {
+      "condition": "clean",
+      "protocol": "standard",
+      "method": "M3C2-style",
+      "combined_macro_f1": 0.352880232885683,
+      "combined_macro_mIoU": 0.2212269920324925,
+      "coverage": 0.6335,
+      "unknown_rate": 0.3665
+    },
+    {
+      "condition": "clean",
+      "protocol": "standard",
+      "method": "C2C common",
+      "combined_macro_f1": 0.6274167630602466,
+      "combined_macro_mIoU": 0.4978293770727955,
+      "coverage": 0.6335,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "clean",
+      "protocol": "standard",
+      "method": "C2C all",
+      "combined_macro_f1": 0.7135983551947579,
+      "combined_macro_mIoU": 0.5741017213533968,
+      "coverage": 1.0,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_4.6",
+      "protocol": "A",
+      "method": "M3C2-style",
+      "combined_macro_f1": 0.3476068250735152,
+      "combined_macro_mIoU": 0.2200795079628294,
+      "coverage": 0.6077844311377245,
+      "unknown_rate": 0.3922155688622754
+    },
+    {
+      "condition": "occlusion_4.6",
+      "protocol": "A",
+      "method": "C2C common",
+      "combined_macro_f1": 0.6200546314552492,
+      "combined_macro_mIoU": 0.4923055129203073,
+      "coverage": 0.6077844311377245,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_4.6",
+      "protocol": "A",
+      "method": "C2C all",
+      "combined_macro_f1": 0.665873802860787,
+      "combined_macro_mIoU": 0.5190560098291693,
+      "coverage": 1.0,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_4.6",
+      "protocol": "B",
+      "method": "M3C2-style",
+      "combined_macro_f1": 0.3470105663282457,
+      "combined_macro_mIoU": 0.2196881089080095,
+      "coverage": 0.6543427230046949,
+      "unknown_rate": 0.3456572769953052
+    },
+    {
+      "condition": "occlusion_4.6",
+      "protocol": "B",
+      "method": "C2C common",
+      "combined_macro_f1": 0.6190985629924338,
+      "combined_macro_mIoU": 0.4916008852063991,
+      "coverage": 0.6543427230046949,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_4.6",
+      "protocol": "B",
+      "method": "C2C all",
+      "combined_macro_f1": 0.6853903272332614,
+      "combined_macro_mIoU": 0.5430876579614605,
+      "coverage": 1.0,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_7.6",
+      "protocol": "A",
+      "method": "M3C2-style",
+      "combined_macro_f1": 0.306601262253387,
+      "combined_macro_mIoU": 0.1927312368294295,
+      "coverage": 0.5195424213536701,
+      "unknown_rate": 0.4804575786463298
+    },
+    {
+      "condition": "occlusion_7.6",
+      "protocol": "A",
+      "method": "C2C common",
+      "combined_macro_f1": 0.592521408608212,
+      "combined_macro_mIoU": 0.4679990797701887,
+      "coverage": 0.5195424213536701,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_7.6",
+      "protocol": "A",
+      "method": "C2C all",
+      "combined_macro_f1": 0.5809225159982306,
+      "combined_macro_mIoU": 0.4231823643614231,
+      "coverage": 1.0,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_7.6",
+      "protocol": "B",
+      "method": "M3C2-style",
+      "combined_macro_f1": 0.3074219720002732,
+      "combined_macro_mIoU": 0.1932978136401845,
+      "coverage": 0.6703749484960857,
+      "unknown_rate": 0.3296250515039143
+    },
+    {
+      "condition": "occlusion_7.6",
+      "protocol": "B",
+      "method": "C2C common",
+      "combined_macro_f1": 0.5950290597477288,
+      "combined_macro_mIoU": 0.4702062504079747,
+      "coverage": 0.6703749484960857,
+      "unknown_rate": 0.0
+    },
+    {
+      "condition": "occlusion_7.6",
+      "protocol": "B",
+      "method": "C2C all",
+      "combined_macro_f1": 0.6460193779499478,
+      "combined_macro_mIoU": 0.4986706850356121,
+      "coverage": 1.0,
+      "unknown_rate": 0.0
+    }
+  ],
+  "main_occlusion_note": "Fixed spatial test stripe is outside both deletion cylinders; identical scores are not occlusion robustness evidence.",
+  "numerical_center_note": "Stage 3 float32 mean center preserved exactly. Its X is 38.895813 m versus float64 mean 39.165547 m, about 0.27 m apart. This affects the defined stress location, not the equality of method inputs.",
+  "protocol": "Same-scene spatial holdout for learning; full pair threshold selection history and prior pilot exposure prevent independent benchmark claims."
+}

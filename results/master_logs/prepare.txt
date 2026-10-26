@@ -1,0 +1,104 @@
+[
+  {
+    "split": "train",
+    "scan": 0,
+    "cores": 8000,
+    "eligible": 2417367,
+    "changed": 1238,
+    "seed": 20261025,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      27.84128761291504,
+      0.05131353810429573,
+      -4.112242698669434
+    ],
+    "occupied_tiles": 115,
+    "sampled_tiles": 115,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  },
+  {
+    "split": "train",
+    "scan": 1,
+    "cores": 8000,
+    "eligible": 3034837,
+    "changed": 2168,
+    "seed": 20261026,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      27.786399841308594,
+      0.06879100203514099,
+      -4.144480228424072
+    ],
+    "occupied_tiles": 120,
+    "sampled_tiles": 120,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  },
+  {
+    "split": "calibration",
+    "scan": 0,
+    "cores": 1000,
+    "eligible": 614237,
+    "changed": 222,
+    "seed": 20261125,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      42.507747650146484,
+      0.11537349224090576,
+      -3.7581276893615723
+    ],
+    "occupied_tiles": 31,
+    "sampled_tiles": 31,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  },
+  {
+    "split": "calibration",
+    "scan": 1,
+    "cores": 1000,
+    "eligible": 484374,
+    "changed": 165,
+    "seed": 20261126,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      42.5078010559082,
+      0.10469000041484833,
+      -3.787130117416382
+    ],
+    "occupied_tiles": 31,
+    "sampled_tiles": 31,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  },
+  {
+    "split": "test",
+    "scan": 0,
+    "cores": 4000,
+    "eligible": 598526,
+    "changed": 111,
+    "seed": 20261225,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      47.50747299194336,
+      0.1373327076435089,
+      -5.150333404541016
+    ],
+    "occupied_tiles": 76,
+    "sampled_tiles": 76,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  },
+  {
+    "split": "test",
+    "scan": 1,
+    "cores": 4000,
+    "eligible": 901354,
+    "changed": 273,
+    "seed": 20261226,
+    "tile_m": 2.0,
+    "tile_origin_m": [
+      47.50749969482422,
+      0.11681400239467621,
+      -4.453279972076416
+    ],
+    "occupied_tiles": 58,
+    "sampled_tiles": 58,
+    "rule": "balanced occupied 3D tiles; random original points without replacement"
+  }
+]

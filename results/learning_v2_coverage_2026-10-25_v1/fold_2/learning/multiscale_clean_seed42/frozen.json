@@ -1,0 +1,43 @@
+{
+  "variant": "multiscale_clean",
+  "seed": 42,
+  "fold": 2,
+  "threshold": 0.85,
+  "validation_objective": 0.7295255126385914,
+  "validation_changed_f1": 0.5382320509405322,
+  "validation_by_view": {
+    "clean": {
+      "binary_macro_f1": 0.7295255126385914,
+      "changed_f1": 0.5382320509405322,
+      "available_cores": 14400
+    },
+    "mild": {
+      "binary_macro_f1": 0.5701766561566202,
+      "changed_f1": 0.3534443309346044,
+      "available_cores": 12190
+    },
+    "medium": {
+      "binary_macro_f1": 0.4506249607996094,
+      "changed_f1": 0.3302257713593696,
+      "available_cores": 10058
+    }
+  },
+  "robustness_validation_objective": 0.5834423765316069,
+  "best_epoch": 1,
+  "best_clean_validation_bce": 0.49853643774986267,
+  "checkpoint_sha256": "a2dc6c0f95faf69e0518486c5adc0ddc5269c8f5b41e1062a606de930996e3cd",
+  "config_sha256": "302c1aa526c661fdc64fdf0b30d5f5d4f0d8882728771d96289046c1e688dcbe",
+  "design_sha256": "2a24a2514513b082bed21f6749f7fa3a28d3e48735e6fbe4286e276605dddb34",
+  "test_accessed": false,
+  "training_cores": 36000,
+  "parameter_count": 226337,
+  "gpu_peak_allocated_mib": 123.13720703125,
+  "timing": {
+    "seconds": 8.35332550000021,
+    "rss_start_mib": 524.296875,
+    "sampled_peak_rss_mib": 1883.94140625,
+    "sampled_rss_growth_mib": 1359.64453125,
+    "process_lifetime_peak_mib": 1884.15234375
+  },
+  "timing_scope": "Final worker chunk; history seconds accumulate training time over all chunks"
+}

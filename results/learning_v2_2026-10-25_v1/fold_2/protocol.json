@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "scene": "BikeParkingConstruction",
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "seed": 20261025,
+  "cell_size_m": 8.0,
+  "core_boundary_guard_m": 2.5,
+  "origin_xy_m": [
+    24.0,
+    0.0
+  ],
+  "bbox_min": [
+    27.786399841308594,
+    0.046790946274995804,
+    -5.150333404541016
+  ],
+  "bbox_max": [
+    55.562522888183594,
+    20.18523406982422,
+    2.041414499282837
+  ],
+  "counts": {
+    "train": 3000,
+    "validation": 1200,
+    "test": 1500
+  },
+  "sampling": "Uniform original points without replacement within fixed split cells; no class balancing at evaluation",
+  "split_rule": "Outer test cells fixed geometry-only; inner train/validation cells stratified from outer training labels only",
+  "geometry_support_halo_bound_m": 1.019803902718557,
+  "learning_support_bound_m": 1.2,
+  "stress_rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "max_rotation_deg": 5.0,
+  "max_translation_m": 0.5,
+  "exposure": "Earlier prototype fold0 predictions were inspected. Revision triggered by inadequate validation positives, not a change to outer test regions. No cross-scene or untouched public benchmark claim.",
+  "test_policy": "No test prediction scoring until method configurations are frozen. Retrain from scratch; no old checkpoint initialization.",
+  "temporal_protocol": {
+    "training_pair": "01",
+    "validation": "pair_01 spatial validation cells",
+    "test_pair": "23",
+    "train_epochs": [
+      0,
+      1
+    ],
+    "test_epochs": [
+      2,
+      3
+    ],
+    "other_pairs": "Not used for temporal-model selection"
+  },
+  "rigid_stress_displacement_bound_m": 2.0290391219962505,
+  "minimum_cross_split_core_distance_m": 5.0,
+  "worst_clean_train_vs_stressed_test_support_sum_m": 4.248843024714807,
+  "cells": {
+    "train": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "validation": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "test": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "occupied_core_cell_counts": {
+    "0,0": 647550,
+    "0,1": 234120,
+    "1,0": 620994,
+    "1,1": 1051416,
+    "1,2": 170616,
+    "2,0": 1095792,
+    "2,1": 844935,
+    "2,2": 303777,
+    "3,0": 505998,
+    "3,1": 316677,
+    "3,2": 6
+  },
+  "spatial_fold_id": 2,
+  "parent_outer_protocol_sha256": "f3a9ab084e0556b870eecca08d857d30ba2d558e3cbb275ab1838833d7355d84",
+  "inner_validation_design": {
+    "validation_cells": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "expected_validation_changed": 2298.723907901482,
+    "expected_training_changed": 8221.52681604724,
+    "validation_directions_expected_ge10": 11,
+    "class_fraction_imbalance": 0.03045068525649185,
+    "feasible": true
+  }
+}

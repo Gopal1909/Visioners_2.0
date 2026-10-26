@@ -1,0 +1,13 @@
+{
+  "purpose": "Assess the tradeoff between binary macro F1 and changed-class F1 selection",
+  "decision_data": "Previously saved clean validation metrics only",
+  "test_data_used_for_threshold_selection": false,
+  "models_and_geometry_reselected": false,
+  "unknown_masks_changed": false,
+  "parameters": "C2C distance threshold, M3C2 effect floor on fixed selected geometry, classifier probability thresholds",
+  "stress_retuning": false,
+  "tie_break": "Higher threshold for equal validation changed F1",
+  "primary_operating_point_preserved": "Original binary macro F1 validation choice remains in all raw experiment results",
+  "temporal_reference": "Excluded from this analysis to preserve its original frozen choices",
+  "status_at_design": "Revised fold0 test predictions generated, fold1 evaluation running; revised test scores not inspected for this choice"
+}

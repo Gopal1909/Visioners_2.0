@@ -1,0 +1,8 @@
+V2 1 multiscale_robust_hard 42 epoch 1 clean val BCE 0.2453
+V2 1 multiscale_robust_hard 42 epoch 5 clean val BCE 0.1402
+V2 1 multiscale_robust_hard 42 epoch 10 clean val BCE 0.1316
+V2 1 multiscale_robust_hard 42 epoch 15 clean val BCE 0.1435
+V2 1 multiscale_robust_hard 42 epoch 20 clean val BCE 0.1511
+V2 1 multiscale_robust_hard 42 epoch 25 clean val BCE 0.1493
+V2 1 multiscale_robust_hard 42 epoch 30 clean val BCE 0.1703
+V2 frozen {"variant": "multiscale_robust_hard", "seed": 42, "fold": 1, "threshold": 0.55, "validation_objective": 0.6652916481203692, "validation_changed_f1": 0.3538953753637635, "validation_by_view": {"clean": {"binary_macro_f1": 0.6652916481203692, "changed_f1": 0.3538953753637635, "available_cores": 14400}, "mild": {"binary_macro_f1": 0.6620922124652678, "changed_f1": 0.35118476488999373, "available_cores": 12249}, "medium": {"binary_macro_f1": 0.5932922684260232, "changed_f1": 0.2673946871228243, "available_cores": 10073}}, "robustness_validation_objective": 0.6402253763372201, "best_epoch": 19, "best_clean_validation_bce": 0.13116773962974548, "checkpoint_sha256": "b652c6a0e0484fa69bc21bf0cfb435d53cf38e4348a0b20c6bca7b34b538e086", "config_sha256": "d3395d82d11bf1f9980c6c546053b6bd7b360be6b8eae7c66ea8385aed24ecb5", "design_sha256": "c271beeb99ae2176e916dcc4d505cfa538a3ebcf31c61918846c9f8e406df46e", "test_accessed": false, "training_cores": 36000, "parameter_count": 226337, "gpu_peak_allocated_mib": 123.13037109375, "timing": {"seconds": 79.8093391999937, "rss_start_mib": 648.3984375, "sampled_peak_rss_mib": 2754.33203125, "sampled_rss_growth_mib": 2105.93359375, "process_lifetime_peak_mib": 2759.1796875}}

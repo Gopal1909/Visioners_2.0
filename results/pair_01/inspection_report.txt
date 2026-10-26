@@ -1,0 +1,122 @@
+================================================================================
+           STAGE 1: DATASET INSPECTION & COMPATIBILITY REPORT                   
+  Robust 3D Change Detection for Construction Progress Monitoring (MultiChange3D)
+================================================================================
+
+1. ENVIRONMENT & GPU VERIFICATION
+---------------------------------
+Python Interpreter : C:\Users\prani\anaconda3\envs\dl_env\python.exe
+Python Version     : 3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]
+PyTorch Version    : 2.5.1+cu121
+CUDA Available     : True
+GPU Device Count   : 1
+GPU Device Name    : NVIDIA GeForce RTX 4050 Laptop GPU
+CUDA Version       : 12.1
+Open3D Version     : 0.20.0
+Environment Status : VERIFIED (dl_env with active NVIDIA GPU acceleration)
+
+2. DATASET FILE PROPERTIES & PLY HEADERS
+----------------------------------------
+Scene: MultiChange3D / BikeParkingConstruction / pair_01
+
+Point Cloud 0 (t0):
+  File Path         : D:\CV_Project\dataset\MultiChange3D\BikeParkingConstruction\pair_01\pointCloud0.ply
+  File Size         : 84.78 MB (88,898,869 bytes)
+  Element Name      : 'params'
+  Point Count       : 4,444,935 points
+  Available Fields  : x, y, z, intensity, cd_type
+  PLY Header Excerpt:
+    ply
+    format binary_little_endian 1.0
+    element params 4444935
+    property float x
+    property float y
+    property float z
+    property float intensity
+    property float cd_type
+    end_header
+
+Point Cloud 1 (t1):
+  File Path         : D:\CV_Project\dataset\MultiChange3D\BikeParkingConstruction\pair_01\pointCloud1.ply
+  File Size         : 97.08 MB (101,796,029 bytes)
+  Element Name      : 'params'
+  Point Count       : 5,089,793 points
+  Available Fields  : x, y, z, intensity, cd_type
+  PLY Header Excerpt:
+    ply
+    format binary_little_endian 1.0
+    element params 5089793
+    property float x
+    property float y
+    property float z
+    property float intensity
+    property float cd_type
+    end_header
+
+3. COORDINATE RANGES & STATISTICAL METRICS
+------------------------------------------
+Metric             | Point Cloud 0 (t0)           | Point Cloud 1 (t1)          
+--------------------------------------------------------------------------------
+X Range (m)        | [27.8413, 55.5625] (span=27.72m) | [27.7864, 55.5393] (span=27.75m)
+Y Range (m)        | [0.0513, 20.1351] (span=20.08m) | [0.0688, 20.1155] (span=20.05m)
+Z Range (m)        | [-5.1503, 1.9604] (span=7.11m) | [-4.4533, 1.9919] (span=6.45m)
+Centroid (X,Y,Z)   | (39.53, 7.27, -2.23)           | (39.17, 6.99, -2.34)
+Intensity Range    | [0.0, 255.0] (mean=48.4)      | [0.0, 255.0] (mean=51.5)
+Data Validity      | NaNs: False, Infs: False               | NaNs: False, Infs: False
+
+4. GROUND-TRUTH LABELS VERIFICATION
+-----------------------------------
+Status: EMBEDDED & VERIFIED from upstream MultiChange3D official code repository
+(ISPRS Annals 2026, 3DOM-FBK/multichange3d, evaluation/compute_metrics.py & scripts/prepare_gt_labels.py)
+
+Semantic Meaning of 'cd_type' property:
+  0.0 = Unchanged static background/structures (present and consistent in both epochs)
+  1.0 = Geometric change:
+        - In pointCloud0 (Epoch 0): Represents removed/demolished structures
+        - In pointCloud1 (Epoch 1): Represents newly constructed/added structures
+
+Label Counts & Class Balance:
+  PointCloud0 (t0):
+    Label 0.0: 3,907,364 points (87.91%)
+    Label 1.0: 537,571 points (12.09%)
+  PointCloud1 (t1):
+    Label 0.0: 4,329,431 points (85.06%)
+    Label 1.0: 760,362 points (14.94%)
+
+5. COORDINATE SYSTEM COMPATIBILITY & REGISTRATION ACCURACY
+----------------------------------------------------------
+Centroid Distance      : 0.4731 m
+Bounding Box IoU       : 0.8940 (>85% required)
+Nearest Neighbor Alignment for Unchanged Points (cd_type == 0):
+  Median Distance      : 1.64 cm (0.0164 m)
+  Mean Distance        : 3.00 cm
+  90th Percentile      : 6.34 cm
+  95th Percentile      : 10.46 cm
+Conclusion             : HIGHLY COMPATIBLE & CO-REGISTERED
+  The scans occupy the exact same metric coordinate frame. The median offset between
+  unchanged points (~1.6 cm) matches the intrinsic MLS LiDAR sampling density (~2 cm).
+
+6. DATASET FORMAT ISSUES & HANDLING
+-----------------------------------
+- PLY Element Header Convention:
+  The dataset headers define 'element params <N>' instead of standard 'element vertex <N>'.
+  Native Open3D C++ loader ('o3d.io.read_point_cloud') expects 'element vertex' and returns 0 points.
+  Resolution: Use 'plyfile' or NumPy structured array to load attributes, then wrap in
+  'open3d.geometry.PointCloud(o3d.utility.Vector3dVector(xyz))'. This is fully robust
+  and preserves all custom scalar fields (intensity, cd_type).
+
+7. GENERATED VISUALIZATIONS
+---------------------------
+  - D:\CV_Project\results\pair_01\scans_spatial_overview.png
+  - D:\CV_Project\results\pair_01\scans_overlay_alignment.png
+  - D:\CV_Project\results\pair_01\ground_truth_change_labels.png
+  - D:\CV_Project\results\pair_01\feature_distributions.png
+
+8. SUITABILITY FOR NEXT EXPERIMENT
+----------------------------------
+Status: FULLY SUITABLE AND VERIFIED.
+The pair provides clean XYZ coordinates, calibrated LiDAR intensity, and verified
+ground-truth binary change labels with realistic construction changes (~12-15% changed points).
+Baseline experiments (C2C, M3C2, subsampled distance metrics, and DL representations)
+can proceed directly.
+================================================================================

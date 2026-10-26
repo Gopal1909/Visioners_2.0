@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "candidate": "fresh_geometry",
+  "iterations": 200,
+  "columns": 165,
+  "checkpoint_sha256": "2bf767787304df23c3c0e0a1016ac70e2fc06d909bd6eaf18a50a0ff0a266ab2",
+  "probability_sha256": {
+    "clean": "a1b6a8c796dba96e26c2728e574405f2bfe1151b4e02be3643cab6431cf7b192",
+    "mild": "955d2acf1879dfca8e3af8592b2735b039dbdcb2fa493be437f9378d296769fe",
+    "medium": "7b8259b5e687cc194f6a66cf343199854a28526ac08b7faf72f7c52393192ae0"
+  },
+  "design_sha256": "ed7c12b93c33bab6f673cbc24a91f4d65592b795f69128a1f96552629b9a7a82",
+  "timing": {
+    "seconds": 18.190541399999347,
+    "rss_start_mib": 144.39453125,
+    "sampled_peak_rss_mib": 1193.71484375,
+    "sampled_rss_growth_mib": 1049.3203125,
+    "process_lifetime_peak_mib": 1194.234375
+  },
+  "training_only_labels_used": true,
+  "test_accessed": false
+}

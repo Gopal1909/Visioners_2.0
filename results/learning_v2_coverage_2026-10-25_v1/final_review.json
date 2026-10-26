@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "completed_at_utc": "2026-10-25T14:20:00.160518+00:00",
+  "completed_cases": 318,
+  "model_artifacts_verified": 22,
+  "metric_rows_recomputed": 4152,
+  "unit_tests": 53,
+  "primary_verification_sha256": "b2111039cb40cf365087f3d3755af82371f098b49c149d2fbbcccd383fb09a97",
+  "independent_verification_sha256": "ba2a2b361120b19e7f347ae0dbbf83c59d3b613e12c95c59271f3fc1374dae38",
+  "postflight_tests_sha256": "ee430561b4f0ce19964300dfcdaa41373f6edbf567c85777aec8603a43ace681",
+  "final_sources_manifest_sha256": "507b8c307ddce4a160118f77eec8ae8f7d42413443f44a7f8def16d54ea3cfd8",
+  "visually_inspected_figures": {
+    "robustness_binary_macro.png": "3fc3f5d1aa062482ecb260c716c9098c07dd7a560a14f4f600f2a39dfb208619",
+    "robustness_changed_f1.png": "61d7000143131517ad07ff8453a76433c5a1f3958a110c810580c025e323f03d",
+    "validation_learning_curves.png": "6ece1ae71716e4eadcb91256fc969b7ccbd26b8f689e2358ef0686177578b24a",
+    "crossvalidated_maps/pair_01.png": "7c2c4e12e60040ccdca95a93d95327d6516714b4d5b5f7ae526b434ab2a3f6c8",
+    "crossvalidated_maps/pair_23.png": "2fea3dbab5e6808f4ab9a4bd9e1418d718b61756debdcdbee6ca2a3df0ee0aea",
+    "error_maps/pair_23.png": "5940e57617c0a161d464aefa3e9e5de6b0fb2b0c16a3a6e72c66949e85760051"
+  },
+  "layout_repair": "Six crossvalidated overview maps rerendered with nonoverlapping row titles and labels; predictions, thresholds and metric files unchanged.",
+  "same_site_clean": {
+    "previous_validation_selected": {
+      "binary_macro_f1": 0.6211906039032457,
+      "changed_f1": 0.3455000971806939
+    },
+    "v2_validation_selected": {
+      "binary_macro_f1": 0.6536591206208738,
+      "changed_f1": 0.3899887030904223
+    }
+  },
+  "independent_scene": {
+    "previous_pointnet": {
+      "selection_binary_macro_f1": 0.7911659773956062,
+      "directional_changed_f1": 0.5893025246041934
+    },
+    "v2_validation_selected": {
+      "selection_binary_macro_f1": 0.7856562142491037,
+      "directional_changed_f1": 0.5768852861704741
+    },
+    "c2c_calibrated": {
+      "selection_binary_macro_f1": 0.8595841391741599,
+      "directional_changed_f1": 0.7236403527277331
+    }
+  },
+  "scope": "All six BikeParkingConstruction pairs; five buffered spatial folds. Architecture informed by prior test findings, so same-site comparisons are follow-up results. Separate untouched Open_space scene evaluated using predeclared fold0 model and Bike validation thresholds, without fitting or selection on external labels.",
+  "data_usage": "Full clouds provide geometric support; model training and scoring use sampled original cores, not every point as a training example.",
+  "reports_and_presentations_untouched": true
+}

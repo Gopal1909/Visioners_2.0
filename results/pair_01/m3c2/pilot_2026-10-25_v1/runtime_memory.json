@@ -1,0 +1,76 @@
+{
+  "load": {
+    "seconds": 0.18065200000091863,
+    "rss_start_mib": 125.27734375,
+    "sampled_peak_rss_mib": 518.7890625,
+    "sampled_rss_growth_mib": 393.51171875,
+    "process_lifetime_peak_mib": 525.578125
+  },
+  "sampling": {
+    "seconds": 1.057992699999886,
+    "rss_start_mib": 452.7578125,
+    "sampled_peak_rss_mib": 692.43359375,
+    "sampled_rss_growth_mib": 239.67578125,
+    "process_lifetime_peak_mib": 697.2890625
+  },
+  "shared_full_support_trees": {
+    "seconds": 2.298298399999112,
+    "rss_start_mib": 452.5390625,
+    "sampled_peak_rss_mib": 885.96875,
+    "sampled_rss_growth_mib": 433.4296875,
+    "process_lifetime_peak_mib": 885.9765625
+  },
+  "normal_scan0": {
+    "seconds": 1.0511884999996255,
+    "rss_start_mib": 885.94921875,
+    "sampled_peak_rss_mib": 889.04296875,
+    "sampled_rss_growth_mib": 3.09375,
+    "process_lifetime_peak_mib": 889.6796875
+  },
+  "projection_scan0": {
+    "seconds": 5.574078999999983,
+    "rss_start_mib": 888.5078125,
+    "sampled_peak_rss_mib": 898.703125,
+    "sampled_rss_growth_mib": 10.1953125,
+    "process_lifetime_peak_mib": 899.77734375
+  },
+  "normal_scan1": {
+    "seconds": 1.1690448000008473,
+    "rss_start_mib": 889.36328125,
+    "sampled_peak_rss_mib": 893.22265625,
+    "sampled_rss_growth_mib": 3.859375,
+    "process_lifetime_peak_mib": 899.77734375
+  },
+  "projection_scan1": {
+    "seconds": 5.694814399999814,
+    "rss_start_mib": 891.79296875,
+    "sampled_peak_rss_mib": 898.42578125,
+    "sampled_rss_growth_mib": 6.6328125,
+    "process_lifetime_peak_mib": 901.1328125
+  },
+  "c2c_sample_queries": {
+    "seconds": 0.0377386000000115,
+    "rss_start_mib": 893.5546875,
+    "sampled_peak_rss_mib": 893.62890625,
+    "sampled_rss_growth_mib": 0.07421875,
+    "process_lifetime_peak_mib": 901.1328125
+  },
+  "half_length_diagnostic_scan0": {
+    "seconds": 0.10994790000040666,
+    "rss_start_mib": 892.19921875,
+    "sampled_peak_rss_mib": 894.8203125,
+    "sampled_rss_growth_mib": 2.62109375,
+    "process_lifetime_peak_mib": 913.0859375
+  },
+  "half_length_diagnostic_scan1": {
+    "seconds": 0.10827470000003814,
+    "rss_start_mib": 894.81640625,
+    "sampled_peak_rss_mib": 894.8359375,
+    "sampled_rss_growth_mib": 0.01953125,
+    "process_lifetime_peak_mib": 913.0859375
+  },
+  "experiment_seconds_before_plotting": 17.5697282000001,
+  "m3c2_primary_geometry_seconds": 15.787425099999382,
+  "c2c_primary_search_seconds": 2.3360369999991235,
+  "scope_notes": "Both search totals include the same shared tree build once. M3C2 projection time computes all three radii jointly; single-radius cost was not isolated. RSS is shared-process absolute memory with scoped sampled growth, not independent-process algorithm peak attribution."
+}

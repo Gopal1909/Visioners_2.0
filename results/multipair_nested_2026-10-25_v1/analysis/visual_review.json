@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "reviewed_figures": [
+    "measured_robustness.png",
+    "learning_robustness_ablation.png",
+    "error_maps/pair_03.png"
+  ],
+  "findings": "Readable labels and legends, ordered retention levels, correct seed-variation wording, clean endpoints on identical original stress cores, sparse 3D ticks without overlap.",
+  "stress_summary_independently_matched_csv_aggregation": true,
+  "rows": 162
+}

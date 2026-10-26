@@ -1,0 +1,22 @@
+{
+  "protocol": "temporal",
+  "pairs": [
+    "01"
+  ],
+  "model": "HistGradientBoostingClassifier",
+  "max_iter": 200,
+  "max_leaf_nodes": 15,
+  "learning_rate": 0.05,
+  "l2_regularization": 1.0,
+  "min_samples_leaf": 30,
+  "early_stopping": false,
+  "random_state": 42,
+  "selection": "Fixed tabular control, same validation-only threshold objective as neural models",
+  "no_absolute_coordinates": true,
+  "source_sha256": {
+    "multipair_learning.py": "5ce08aebbddb81bf5b8e0c85f46d011de59ad5cca8c098f19f95f440a8da2c22",
+    "multipair_features.py": "b17e53d86850b994ebe7ef2436562fd8ca5c908e3d8a54195003634b8f9a1140",
+    "multipair_metrics.py": "8f068ad0fa31783b95603e8094ab81bb06114958df13807cb052a299e6d6effa",
+    "siamese_pointnet.py": "27eceb44d39f3cde4c243df6202771c2d875ba9789f2d0b5eb46ec2ed2a66667"
+  }
+}

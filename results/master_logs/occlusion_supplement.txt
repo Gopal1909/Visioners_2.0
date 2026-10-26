@@ -1,0 +1,59 @@
+RUN clean
+  normals 128/2000
+  normals 640/2000
+  normals 1152/2000
+  normals 1664/2000
+  cylinders 128/2000
+  cylinders 640/2000
+  cylinders 1152/2000
+  cylinders 1664/2000
+  normals 128/2000
+  normals 640/2000
+  normals 1152/2000
+  normals 1664/2000
+  cylinders 128/2000
+  cylinders 640/2000
+  cylinders 1152/2000
+  cylinders 1664/2000
+    method protocol  combined_macro_f1  coverage  unknown_rate
+M3C2-style standard           0.352880    0.6335        0.3665
+C2C common standard           0.627417    0.6335        0.0000
+   C2C all standard           0.713598    1.0000        0.0000
+RUN occlusion_4.6
+  cylinders 128/2000
+  cylinders 640/2000
+  cylinders 1152/2000
+  cylinders 1664/2000
+  normals 128/1674
+  normals 640/1674
+  normals 1152/1674
+  normals 1664/1674
+  cylinders 128/1674
+  cylinders 640/1674
+  cylinders 1152/1674
+  cylinders 1664/1674
+    method protocol  combined_macro_f1  coverage  unknown_rate
+M3C2-style        A           0.347607  0.607784      0.392216
+C2C common        A           0.620055  0.607784      0.000000
+   C2C all        A           0.665874  1.000000      0.000000
+M3C2-style        B           0.347011  0.654343      0.345657
+C2C common        B           0.619099  0.654343      0.000000
+   C2C all        B           0.685390  1.000000      0.000000
+RUN occlusion_7.6
+  cylinders 128/2000
+  cylinders 640/2000
+  cylinders 1152/2000
+  cylinders 1664/2000
+  normals 128/1147
+  normals 640/1147
+  normals 1147/1147
+  cylinders 128/1147
+  cylinders 640/1147
+  cylinders 1147/1147
+    method protocol  combined_macro_f1  coverage  unknown_rate
+M3C2-style        A           0.306601  0.519542      0.480458
+C2C common        A           0.592521  0.519542      0.000000
+   C2C all        A           0.580923  1.000000      0.000000
+M3C2-style        B           0.307422  0.670375      0.329625
+C2C common        B           0.595029  0.670375      0.000000
+   C2C all        B           0.646019  1.000000      0.000000

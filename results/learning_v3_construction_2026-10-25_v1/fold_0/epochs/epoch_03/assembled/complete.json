@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "epoch": 3,
+  "rows": 18000,
+  "source_sha256": {
+    "01": "47c8eb4ab665b0b19dbe0c89ee9d2065a3b82769942cd3dac8a1d9ec3dcfbd06",
+    "02": "cfe3fbf00aa8051f39701f31b377086e8a11637d468c0465be4ec265c639dfd9",
+    "03": "625e1ae4ab276545d467225c1494b07efeca25cefdc66ddd845c8b942117410b",
+    "12": "b6e1407711dfa8fccff14bde68162adbec3ca5b30efac3873e1c3ae252d6f7c8",
+    "13": "4e99c3e92f2350096d0fd8b3adb8dfb87935d60dd7aa1a4303a65311fd0bed34",
+    "23": "088e43d3549ad9a27c54bf94536892d636941fb126957720a1576c4390fa6e3e"
+  }
+}

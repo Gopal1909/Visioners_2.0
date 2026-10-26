@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "folds": [
+    0,
+    1
+  ],
+  "pairs": [
+    "01",
+    "23"
+  ],
+  "original_gt_xyz_observations_checked": 33600,
+  "independently_matched_feature_row_probes": 128,
+  "test_predictions_accessed": false
+}

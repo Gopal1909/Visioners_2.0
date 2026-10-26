@@ -1,0 +1,8 @@
+{
+  "tests_passed": 50,
+  "test_log": "execution_logs/preflight_tests.txt",
+  "models_trained_at_protocol_freeze": 0,
+  "prior_attempt": "results/learning_v2_2026-10-25_v1",
+  "revision_trigger": "Measured geometric patch reach, not held-out prediction performance",
+  "new_test_predictions_generated": 0
+}

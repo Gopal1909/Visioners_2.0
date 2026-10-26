@@ -1,0 +1,12 @@
+{
+  "tests_passed": 49,
+  "test_log": "execution_logs/preflight_tests.txt",
+  "voxel_grid_anchor_m": [
+    0,
+    0,
+    0
+  ],
+  "bounded_feature_support_m": 1.1799038105676658,
+  "models_trained_at_freeze": 0,
+  "test_exposure": "Previous study outcomes informed this follow-up; no untouched final benchmark claim."
+}

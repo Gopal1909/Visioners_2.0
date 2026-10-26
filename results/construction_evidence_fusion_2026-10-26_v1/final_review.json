@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "status": "complete_no_model_promotion",
+  "completed_at_utc": "2026-10-26T03:11:45.636541+00:00",
+  "unit_tests_passed": 80,
+  "postflight_tests_sha256": "6fe3ca9038973d721e27f28ff2e72cb3760ad91119031c57fcce89f10d0d10d3",
+  "new_model_fits": 2,
+  "fit_budget": "200 boosting iterations per model, same 288000 cached fresh training observations; no new neural training",
+  "validation_scope": "New learned geometry and fusion: fold0, all six pairs, clean/mild/medium; geometric veto/agreement: all five folds. These are reused same-site development data, not untouched held-out results.",
+  "scores": [
+    {
+      "method": "existing_v2_robust_reference",
+      "clean_macro": 0.8140561797758314,
+      "mean_three_view_macro": 0.7607923359031633,
+      "eligible": true
+    },
+    {
+      "method": "fresh_geometry",
+      "clean_macro": 0.7624560356261272,
+      "mean_three_view_macro": 0.7272489576607774,
+      "eligible": false,
+      "interpretation": "Unconstrained diagnostic only if eligibility is false"
+    },
+    {
+      "method": "fresh_match_distributions",
+      "clean_macro": 0.7803178592425258,
+      "mean_three_view_macro": 0.7510117146359135,
+      "eligible": false,
+      "interpretation": "Unconstrained diagnostic only if eligibility is false"
+    },
+    {
+      "method": "neural_geometry_fusion",
+      "clean_macro": 0.8165625968635993,
+      "mean_three_view_macro": 0.7696393182648141,
+      "eligible": true,
+      "required_gain": 0.01,
+      "actual_gain": 0.008846982361650824,
+      "weight": 0.25,
+      "threshold": 0.75,
+      "gate_passed": false
+    }
+  ],
+  "new_test_cases_scored": 0,
+  "retained_workflow": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1",
+  "diagnostic": {
+    "primary_clean_validation_false_positive_observations": 2850,
+    "within_4cm": 216,
+    "within_4cm_fraction": 0.07578947368421053,
+    "at_least_8cm": 2319,
+    "distance_bin_counts": {
+      "0 to 0.01 m": 28,
+      "0.01 to 0.02 m": 51,
+      "0.02 to 0.04 m": 137,
+      "0.04 to 0.08 m": 315,
+      "0.08 to 0.25 m": 1093,
+      "0.25 to inf m": 1226
+    },
+    "scope": "Validation point observations across five overlapping-development folds; not independent objects",
+    "causality": "NN gaps alone cannot distinguish actual changes from occlusion, incomplete coverage, registration errors, or label semantics"
+  },
+  "decision": "Simple geometric veto, frozen-model agreement, standalone match distributions and score fusion did not meet predeclared acceptance gates. Retain original v2 workflows and held-out scores.",
+  "meaningful_complement": "Richer match-distribution features improved over the matched fresh-geometry control in validation, and their fusion gave a small validation gain. Neither establishes improved held-out performance.",
+  "causality": "Missing coverage, occlusion, residual registration, and change-label semantics remain hypotheses; NN gaps do not identify the cause.",
+  "next_research_target": "Coverage and visibility evidence, and construction-specific semantics; preserve failed candidates and do not repeat these completed fits or lower gates after inspecting results.",
+  "verification_receipts": {
+    "D:\\CV_Project\\results\\construction_evidence_2026-10-26_v1\\verification.json": "c8462f4f81c4264aa091c719ea73d00d7d61ab69830872c4af221425a1d28869",
+    "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\verification.json": "894ffbeaa35795d7ced311af8610d90441cbdf78baa461e653ae85f6c0f8d993",
+    "D:\\CV_Project\\results\\construction_evidence_fusion_2026-10-26_v1\\verification.json": "79542b3efb4567ab8b271efcca315543b72979193da633829bd3925d8a9c063c"
+  },
+  "final_sources_manifest_sha256": "f74373aaa64e2a92e53c757060ed436749d931542ac4966eded3fc3ec27a4dc2",
+  "visually_inspected_figures": [
+    "D:\\CV_Project\\results\\construction_evidence_2026-10-26_v1\\validation_diagnosis.png",
+    "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\validation_comparison.png"
+  ],
+  "no_new_data_downloads": true,
+  "reports_and_presentations_untouched": true,
+  "previous_result_files_preserved": 2042,
+  "previous_source_files_preserved": 10,
+  "original_clouds_preserved": 12,
+  "submission_files_preserved": 97
+}

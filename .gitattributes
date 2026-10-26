@@ -1,0 +1,3 @@
+# Preserve bytes covered by historical SHA-256 manifests.
+# This disables newline conversion, not textual diffs.
+* -text

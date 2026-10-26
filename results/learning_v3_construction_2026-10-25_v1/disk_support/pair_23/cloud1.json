@@ -1,0 +1,10 @@
+{
+  "source": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_23\\pair_23\\pointCloud1.ply",
+  "source_sha256": "8efcc2fd096bc9e07c1c281cc6a9329487554a0057aef8e336272b31d4c473fe",
+  "rows": 3787872,
+  "arrays": {
+    "xyz": "990899cfaaf22c0510ee9bd3c89f3d4cdb7511e8a388e579f896cd48b3b1441b",
+    "support": "482ad376f2927bfc2e630dacb30f8af8e7d191bf952c39f398652539417de93c",
+    "labels": "f37fbd3ad73eec9f24b35a0162ba550149a66e03b6ba6235d342ab390c21e7a6"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "inference_controller_external_controller_and_runner_import_no_heavy_libraries": [
+    "torch",
+    "matplotlib",
+    "pandas",
+    "scipy",
+    "sklearn"
+  ],
+  "rss_MiB": 30.828125
+}

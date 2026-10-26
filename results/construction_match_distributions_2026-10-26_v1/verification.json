@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "original_input_files_preserved": 175,
+  "validation_threshold_rows_independently_recomputed": 46,
+  "model_probability_probes": 192,
+  "independent_descriptor_neighborhood_probes": 23,
+  "original_validation_ids_labels_availability_preserved": true,
+  "fixed_200_iteration_budget_verified": true,
+  "pilot_gate_passed": false,
+  "new_test_cases_scored": 0,
+  "design_sha256": "ed7c12b93c33bab6f673cbc24a91f4d65592b795f69128a1f96552629b9a7a82",
+  "frozen_selection_sha256": "1aed9b800a83237e89e7ee1222a98a1a55119ac28a4fd5555714411271e9e2e7"
+}

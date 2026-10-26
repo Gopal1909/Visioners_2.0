@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "original_input_files_preserved": 73,
+  "previous_sources_and_results_preserved": 90,
+  "original_intensity_observations_verified": 331200,
+  "shuffle_groups_verified": 48,
+  "original_381_geometry_columns_unchanged": true,
+  "original_labels_indices_availability_preserved": true,
+  "validation_threshold_rows_independently_recomputed": 69,
+  "model_probability_probes": 288,
+  "atlas_example_original_rows_verified": 12,
+  "pilot_gate_passed": false,
+  "source_control_not_refit": true,
+  "new_test_cases_scored": 0,
+  "design_sha256": "f5e39b1e182d1a28badd114371dc7b8a06d3ac0579eba3f36326fda638447e81",
+  "frozen_selection_sha256": "e4289ca152c8320b77db6e49bbac9d1a7c0c1f5388bfe7b7739db0b74ac8ccaf"
+}

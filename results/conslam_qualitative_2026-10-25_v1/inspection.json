@@ -1,0 +1,100 @@
+{
+  "sequence": 3,
+  "total_pcd_files": 6014,
+  "selected_frames": [
+    {
+      "pcd": "D:\\CV_Project\\dataset\\Sequence 3\\Copy of lidar-pcd\\lidar-pcd\\1654763770508343.pcd",
+      "pose": "D:\\CV_Project\\dataset\\Sequence 3\\Copy of lidar_pose_normalized\\normalized\\1654763770508343.txt",
+      "points": 12816,
+      "pcd_bytes": 153964,
+      "pcd_sha256": "1a504ae24dd5d23496c434f378d4d550f7a792117fdbc2ff9b11bd8bd4d091a9",
+      "pose_sha256": "476c7b59631c9ea790bfb08357da454ba9a12a506a8d67234db232d3cdacc680",
+      "pose_matrix": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pcd": "D:\\CV_Project\\dataset\\Sequence 3\\Copy of lidar-pcd\\lidar-pcd\\1654763808827598.pcd",
+      "pose": "D:\\CV_Project\\dataset\\Sequence 3\\Copy of lidar_pose_normalized\\normalized\\1654763808827598.txt",
+      "points": 12467,
+      "pcd_bytes": 149776,
+      "pcd_sha256": "dcc376c29580ee648aec58eed2d876277daa1f8d067d69bc4f8d045791ab6667",
+      "pose_sha256": "fc7489aa816866f7717f7537646f8d518c062dba9b51d53f162890414473caba",
+      "pose_matrix": [
+        [
+          0.350901,
+          0.93463,
+          -0.057761,
+          11.969908
+        ],
+        [
+          -0.936334,
+          0.349399,
+          -0.034658,
+          -1.710344
+        ],
+        [
+          -0.01221,
+          0.066244,
+          0.997729,
+          1.215314
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "timestamp_matched_frame_count": 520,
+  "frame_index_gap": 373,
+  "time_gap_seconds": 38.319255,
+  "tls_points": 104548932,
+  "tls_sampled_points": 50000,
+  "tls_bytes": 1986430042,
+  "tls_element_fields": [
+    "x",
+    "y",
+    "z",
+    "red",
+    "green",
+    "blue",
+    "scalar_Intensity"
+  ],
+  "median_nn_raw_frame_m": 0.7731042822153313,
+  "median_nn_pose_applied_m": 4.044955609883749,
+  "sampled_scan0_fraction_distance_above_0_075_m": 0.997,
+  "transform_convention": "Apply normalized 4x4 pose as local-to-normalized-frame; no independent TLS registration check",
+  "limitations": [
+    "One acquisition sequence, not a cross-month construction comparison",
+    "No official per-point change labels; no accuracy/F1/IoU or learned generalization score",
+    "Proximity changes can arise from viewpoint/coverage, registration and motion",
+    "TLS coordinate relation to normalized LiDAR poses is unverified; TLS shown separately"
+  ],
+  "citation": "Trzeciak et al. (2023), ConSLAM: Construction Data Set for SLAM, doi:10.1061/JCCEE5.CPENG-5212"
+}

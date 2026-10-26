@@ -1,0 +1,16 @@
+{
+  "primary_clean_validation_false_positive_observations": 2850,
+  "within_4cm": 216,
+  "within_4cm_fraction": 0.07578947368421053,
+  "at_least_8cm": 2319,
+  "distance_bin_counts": {
+    "0 to 0.01 m": 28,
+    "0.01 to 0.02 m": 51,
+    "0.02 to 0.04 m": 137,
+    "0.04 to 0.08 m": 315,
+    "0.08 to 0.25 m": 1093,
+    "0.25 to inf m": 1226
+  },
+  "scope": "Validation point observations across five overlapping-development folds; not independent objects",
+  "causality": "NN gaps alone cannot distinguish actual changes from occlusion, incomplete coverage, registration errors, or label semantics"
+}

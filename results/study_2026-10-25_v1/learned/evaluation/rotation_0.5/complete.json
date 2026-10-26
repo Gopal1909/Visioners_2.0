@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "3a17eef49185a928e1c40afa0a06fea7c022c35e4c873bdb6052a50d0b4e16cd",
+  "threshold": 0.7,
+  "geometry_measurement_sha256": "19a2fb395826b25c0665055769ff266c408449904fd7a8dc76209bea70711cb0",
+  "no_stress_retuning": true
+}

@@ -1,0 +1,5 @@
+                 method  combined_macro_f1  combined_macro_mIoU  coverage  unknown_rate
+             M3C2-style           0.234150             0.156127   0.66875       0.33125
+             C2C common           0.411778             0.333955   0.66875       0.00000
+Siamese PointNet common           0.381705             0.309099   0.66875       0.00000
+Audited 39 matched rows

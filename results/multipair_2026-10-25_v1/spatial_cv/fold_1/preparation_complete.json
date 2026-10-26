@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "protocol_sha256": "cb933edfc05ef11675ef4a0d444bddd72ec9934944519d2ac503852d6e1c732b",
+  "split_sha256": {
+    "01": "227df9dd0c09da2f8cd7c288e56a3a909c79d98aabf6e2c54ba49fddf025d396",
+    "02": "939acf1bfb6a83e3e5186dd53d37738eb712d06f875d12c7b9af1a28f1b0f7b2",
+    "03": "c8b62fd151d0e51515f4992ffb4ca24892d38624cc0d45a98943e0d04bc9a475",
+    "12": "ca30ba60ee796e1d7a729ce9376bf9d13d040079e8f24f390d13823aa8920e4c",
+    "13": "6c8dda53948067b132a18157786cb460a81dbd807e1f43467c7b556635d9ecf2",
+    "23": "6075222fa706fbe3a26dfd6b6afe5e97a930699efed1da7bcec1a6d8b0309426"
+  },
+  "core_counts": {
+    "train": 3000,
+    "validation": 1200,
+    "test": 1500
+  },
+  "no_test_predictions_scored": true
+}

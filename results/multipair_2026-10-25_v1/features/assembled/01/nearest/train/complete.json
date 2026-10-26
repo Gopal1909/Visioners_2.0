@@ -1,0 +1,11 @@
+{
+  "rows": 6000,
+  "pairs": [
+    "01"
+  ],
+  "variant": "nearest",
+  "split": "train",
+  "source_cache_sha256": {
+    "01": "d799ea7e2f7c5fb70e686077645145cbff363a3e685bc8c854701b445852f4ee"
+  }
+}

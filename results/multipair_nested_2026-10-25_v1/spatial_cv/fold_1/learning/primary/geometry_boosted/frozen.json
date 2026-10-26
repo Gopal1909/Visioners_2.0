@@ -1,0 +1,18 @@
+{
+  "protocol": "primary",
+  "model": "geometry_boosted",
+  "threshold": 0.7,
+  "validation_objective": 0.6796855290513361,
+  "validation_changed_f1": 0.37389704627800907,
+  "checkpoint_sha256": "727983dde443bd4b360b6d646a515bb2955b9abb1a1528b7f15bcdb7b24a922e",
+  "config_sha256": "46a379071ce23620ab63b41e63512cce163cac952dab4aea74d176e200f14aeb",
+  "training_cores": 36000,
+  "test_accessed": false,
+  "timing": {
+    "seconds": 1.9591274999984307,
+    "rss_start_mib": 1175.5,
+    "sampled_peak_rss_mib": 1208.23046875,
+    "sampled_rss_growth_mib": 32.73046875,
+    "process_lifetime_peak_mib": 1337.765625
+  }
+}

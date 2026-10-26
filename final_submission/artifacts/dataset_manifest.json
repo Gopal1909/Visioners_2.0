@@ -1,0 +1,26 @@
+{
+  "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud0.ply": {
+    "bytes": 88898869,
+    "sha256": "bfcb0a338b230af3853f5a827c0e9a30377a9aa52eadab6274edb3b4b2e1ebec",
+    "fields": [
+      "x",
+      "y",
+      "z",
+      "intensity",
+      "cd_type"
+    ],
+    "points": 4444935
+  },
+  "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_01\\pointCloud1.ply": {
+    "bytes": 101796029,
+    "sha256": "37f35ba46773a4e48ebabd9a764991f513aabb40b3dc298d031bd6a9b9f9cab4",
+    "fields": [
+      "x",
+      "y",
+      "z",
+      "intensity",
+      "cd_type"
+    ],
+    "points": 5089793
+  }
+}

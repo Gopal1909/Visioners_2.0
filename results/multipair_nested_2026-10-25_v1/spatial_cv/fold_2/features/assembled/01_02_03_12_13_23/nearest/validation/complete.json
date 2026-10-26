@@ -1,0 +1,21 @@
+{
+  "rows": 14400,
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "variant": "nearest",
+  "split": "validation",
+  "source_cache_sha256": {
+    "01": "eb1f77ba0b0a6f0a29b2e8201358537ea77ed2a9202133fcbeb14af6371a82f3",
+    "02": "a54d0891123bbeea0ee03d918a65d85b4073eabcca91f2a8de20478a78c17cc1",
+    "03": "6a86d9c07e1612b5a8624d8757d990ed50b5ad43511076c7000fad366a44f398",
+    "12": "59248f7e96e4db65afd9b6508e9618b5d25f35144133ded52dbe62d1ec2b29a0",
+    "13": "8a8c0d1c4f2d1f3c353fef0b01da48ff9fe3e7ce424024092dd3524150cc37c4",
+    "23": "01481e00f15235c0d70b11956cbb9fa98d046b56bd0e48ff5c3163f7531cac22"
+  }
+}

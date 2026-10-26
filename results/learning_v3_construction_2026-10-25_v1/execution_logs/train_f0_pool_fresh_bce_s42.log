@@ -1,0 +1,80 @@
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v3_model.py", line 238, in <module>
+    elif a.stage=='train':train(a.out,a.fold,a.candidate,a.seed,a.epoch_chunk)
+  File "D:\CV_Project\code\learning_v3_model.py", line 182, in train
+    nn.utils.clip_grad_norm_(model.parameters(),1.);optimizer.step()
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\nn\utils\clip_grad.py", line 30, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\nn\utils\clip_grad.py", line 86, in clip_grad_norm_
+    norms.extend(torch._foreach_norm(device_grads, norm_type))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v3_model.py", line 242, in <module>
+    elif a.stage=='train':train(a.out,a.fold,a.candidate,a.seed,a.epoch_chunk)
+  File "D:\CV_Project\code\learning_v3_model.py", line 145, in train
+    optimizer=torch.optim.AdamW(model.parameters(),lr=.0006,weight_decay=.01,foreach=False)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\adamw.py", line 77, in __init__
+    super().__init__(params, defaults)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\optim\optimizer.py", line 371, in __init__
+    self.add_param_group(cast(dict, param_group))
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\_compile.py", line 27, in inner
+    import torch._dynamo
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\_dynamo\__init__.py", line 3, in <module>
+    from . import convert_frame, eval_frame, resume_execution
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\_dynamo\convert_frame.py", line 31, in <module>
+    from torch._dynamo.utils import CompileTimeInstructionCounter
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\_dynamo\utils.py", line 62, in <module>
+    import torch.fx.experimental.symbolic_shapes
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\fx\experimental\symbolic_shapes.py", line 65, in <module>
+    from torch.utils._sympy.functions import (
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\utils\_sympy\functions.py", line 7, in <module>
+    import sympy
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\sympy\__init__.py", line 74, in <module>
+    from .polys import (Poly, PurePoly, poly_from_expr, parallel_poly_from_expr,
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\sympy\polys\__init__.py", line 68, in <module>
+    from .polytools import (Poly, PurePoly, poly_from_expr,
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+MemoryError
+fatal   : Memory allocation failure
+Traceback (most recent call last):
+  File "D:\CV_Project\code\learning_v3_model.py", line 245, in <module>
+    elif a.stage=='train':train(a.out,a.fold,a.candidate,a.seed,a.epoch_chunk)
+  File "D:\CV_Project\code\learning_v3_model.py", line 189, in train
+    nn.utils.clip_grad_norm_(model.parameters(),1.,foreach=False);optimizer.step()
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\nn\utils\clip_grad.py", line 30, in _no_grad_wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\nn\utils\clip_grad.py", line 92, in clip_grad_norm_
+    norms.extend([torch.linalg.vector_norm(g, norm_type) for g in device_grads])
+  File "C:\Users\prani\anaconda3\envs\dl_env\lib\site-packages\torch\nn\utils\clip_grad.py", line 92, in <listcomp>
+    norms.extend([torch.linalg.vector_norm(g, norm_type) for g in device_grads])
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+V3 epoch 0 pool_fresh_bce 42 1 val BCE 0.7783 seconds 9.1
+V3 epoch 0 pool_fresh_bce 42 2 val BCE 0.3964 seconds 7.2
+V3 epoch 0 pool_fresh_bce 42 3 val BCE 0.382 seconds 7.8
+V3 epoch 0 pool_fresh_bce 42 4 val BCE 0.4566 seconds 8.1
+V3 epoch 0 pool_fresh_bce 42 5 val BCE 0.4987 seconds 8.4
+V3 epoch 0 pool_fresh_bce 42 6 val BCE 0.4733 seconds 8.0
+V3 epoch 0 pool_fresh_bce 42 7 val BCE 0.4826 seconds 8.4
+V3 epoch 0 pool_fresh_bce 42 8 val BCE 0.407 seconds 8.2
+V3 epoch 0 pool_fresh_bce 42 9 val BCE 0.3945 seconds 8.4
+V3 epoch 0 pool_fresh_bce 42 10 val BCE 0.4163 seconds 8.0
+V3 epoch 0 pool_fresh_bce 42 11 val BCE 0.3829 seconds 8.6
+V3 epoch 0 pool_fresh_bce 42 12 val BCE 0.4499 seconds 8.1
+V3 epoch 0 pool_fresh_bce 42 13 val BCE 0.4352 seconds 8.6
+V3 epoch 0 pool_fresh_bce 42 14 val BCE 0.4182 seconds 8.2
+V3 epoch 0 pool_fresh_bce 42 15 val BCE 0.4472 seconds 8.7
+V3 epoch 0 pool_fresh_bce 42 16 val BCE 0.4605 seconds 8.1
+V3 frozen {"candidate": "pool_fresh_bce", "fold": 0, "seed": 42, "threshold": 0.7, "validation_objective": 0.7562853531650218, "validation_changed_f1": 0.5910395809366772, "validation_by_view": {"clean": {"binary_macro_f1": 0.7562853531650218, "changed_f1": 0.5910395809366772, "available_cores": 14400}, "mild": {"binary_macro_f1": 0.7216363282035312, "changed_f1": 0.5409694490890264, "available_cores": 12225}, "medium": {"binary_macro_f1": 0.5319340473280598, "changed_f1": 0.3358547894908001, "available_cores": 10037}}, "robustness_validation_objective": 0.6699519095655376, "best_epoch": 3, "best_clean_validation_bce": 0.38199537992477417, "test_accessed": false, "parameter_count": 226337, "checkpoint_sha256": "2b0110930e7101a430892982f3f56282ec6cdc6043bab1d2f664ab8a391e3e2a", "config_sha256": "f91368a2a6708b3e42c32c0d510bf99b7bd62169b9064231765f0a052aabf291", "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f", "timing_scope": "Final worker chunk; per-epoch seconds in history", "timing": {"seconds": 21.562009600000238, "rss_start_mib": 366.44921875, "sampled_peak_rss_mib": 812.3984375, "sampled_rss_growth_mib": 445.94921875, "process_lifetime_peak_mib": 812.40625}, "training_device": "cpu", "gpu_peak_allocated_mib": 0.0}

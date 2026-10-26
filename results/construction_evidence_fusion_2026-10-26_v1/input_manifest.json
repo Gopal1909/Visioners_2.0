@@ -1,0 +1,13 @@
+{
+  "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_seed42\\validation_clean.npz": "6348f8592a7a879481745daf9a90a95f71103290f67a85ac3862b1adfb2c19c1",
+  "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_seed42\\validation_medium.npz": "d1012da51e581d518101656a1016e99fe38ef00bc7d2fc39f29c4df52570057e",
+  "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_seed42\\validation_mild.npz": "62e7865b0fdf56b0f35f1a2f636ff2d52b5f432ea731723667a4e94b25228558",
+  "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\models\\fresh_match_distributions\\validation_clean.npz": "6efd29db20fa04e58d2d863d204aee63c9b289572680381cb16a297526137794",
+  "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\models\\fresh_match_distributions\\validation_medium.npz": "d81b5f7b3d455968bece1054f77e5da886f467143524fc24aec2a50f5c3fcb70",
+  "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\models\\fresh_match_distributions\\validation_mild.npz": "9a5981c6f225a2f7e13883dc665e3400b0572ba21ced0da7eacc26f2130792a2",
+  "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_seed42\\frozen.json": "07bfe8786a3c7b76b5b5dd900b98a434f86ab920cedab2ce1d924796f5ea7865",
+  "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\models\\fresh_match_distributions\\fit_complete.json": "b58a05a255274ae9b16a282fda5753b6b51d8a2684e17d101c320c8e3b59f267",
+  "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\models\\fresh_match_distributions\\model.joblib": "3fe7f43f4dafb820fb343d8acd478d55906b0ab871cd03467f227fb38b9f49a9",
+  "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_seed42\\best.pt": "232a254f4f6585913e5850cb40de64f42424a7086f3750217984fa75a0bf2b14",
+  "D:\\CV_Project\\results\\construction_match_distributions_2026-10-26_v1\\verification.json": "894ffbeaa35795d7ced311af8610d90441cbdf78baa461e653ae85f6c0f8d993"
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "rotation",
+  "severity": 2.0,
+  "seed": 43,
+  "maximum_observed_perturbation_m": 0.5945464540764667,
+  "measured_support_guard_passed": true,
+  "context_plus_observed_displacement_m": 2.814350356795024,
+  "original_source_points": 4444937,
+  "retained_target_points": 3489321,
+  "rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "target_requested_cores": 512,
+  "requested_label_counts": [
+    [
+      410,
+      102
+    ],
+    [
+      429,
+      83
+    ]
+  ]
+}

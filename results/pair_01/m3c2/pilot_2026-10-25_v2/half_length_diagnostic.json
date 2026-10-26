@@ -1,0 +1,16 @@
+[
+  {
+    "scan": 0,
+    "cores": 128,
+    "common_valid": 76,
+    "median_absolute_distance_difference_m": 0.0,
+    "max_absolute_distance_difference_m": 0.42653684156115423
+  },
+  {
+    "scan": 1,
+    "cores": 128,
+    "common_valid": 77,
+    "median_absolute_distance_difference_m": 0.0,
+    "max_absolute_distance_difference_m": 0.4164656338429702
+  }
+]

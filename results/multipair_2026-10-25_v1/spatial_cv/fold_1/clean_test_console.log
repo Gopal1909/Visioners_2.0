@@ -1,0 +1,162 @@
+TEST primary 01 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 01 clean 42 18.1 seconds
+TEST primary 02 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 02 clean 42 17.5 seconds
+TEST primary 03 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 03 clean 42 23.2 seconds
+TEST primary 12 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 12 clean 42 17.6 seconds
+TEST primary 13 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 13 clean 42 24.7 seconds
+TEST primary 23 clean seed 42
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+  normals 128/1500
+  normals 640/1500
+  normals 1152/1500
+  cylinders 128/1500
+  cylinders 640/1500
+  cylinders 1152/1500
+Completed 23 clean 42 27.7 seconds
+Inference complete primary 01 clean 42
+Inference complete primary 02 clean 42
+Inference complete primary 03 clean 42
+Inference complete primary 12 clean 42
+Inference complete primary 13 clean 42
+Inference complete primary 23 clean 42

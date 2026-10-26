@@ -1,0 +1,33 @@
+{
+  "active_unified_exec_session_id": null,
+  "primary_run": "code/run_learning_v2.py",
+  "important": "Current restarted parent includes independent-scene stages automatically. No second run is required if complete_evidence.json says independent_scene_evaluated=true.",
+  "independent_scene_path": "D:/CV_Project/dataset/MultiChange3D/Open_space",
+  "external_schema_header_only": "params; float x,y,z,intensity,cd_type; 4245825/3111491 points. No payload or GT inspected yet.",
+  "superseded_attempt": "results/learning_v2_2026-10-25_v1",
+  "superseded_reason": "Measured nearest-64 patch cap reached only .245m at nominal .8m; fixed full-radius selection now measured .7996m. Old checkpoints, cache and exact sources preserved, no tests generated there.",
+  "completed_previous_study": "results/multipair_nested_2026-10-25_v1",
+  "preflight_tests_passed": 50,
+  "expected_primary_cases": 318,
+  "expected_primary_model_artifacts": 22,
+  "expected_training_validation_feature_views": 180,
+  "reports_and_slides": "Leave unchanged",
+  "final_requirements": [
+    "Finish all primary stages and independent scene stages",
+    "Run postflight unit suite after heavy workers finish",
+    "Inspect primary verification and external verification",
+    "Visually inspect actual robustness and error-map PNGs",
+    "Report measured improvement or lack of improvement honestly; keep validation and held-out metrics separate"
+  ],
+  "memory_recovery": "Pure GPU training runtime, lightweight parent, bounded reusable host buffers, worker recycle every 3 epochs with exact RNG/optimizer checkpoint resume. CUDA model remains batch128,30 epochs,226337 params.",
+  "postflight_expected_unit_tests": 53,
+  "last_full_unit_tests_passed": 53,
+  "postflight_sources": "Copy all code/learning_v2*.py, run_learning_v2.py, test_learning_v2.py into final_sources; parent loaded before infer/legacy/scores modules were added.",
+  "new_gpu_prediction_path": "learning_v2_evaluate.py CLI inference dispatches before heavy imports to learning_v2_infer.py. It recycles GPU processes every 8 cases. Exact legacy network and metrics cloned to pure modules, verified AST-identical.",
+  "external_prediction": "learning_v2_external.py keeps CPU loaders lazy and runs each frozen model in its own process. Five methods, same predeclared fixed thresholds.",
+  "next_action": "All authorized experiment stages completed and audited. No active workers or required remaining experiment work. Reports, slides and submission bundle remain unchanged.",
+  "independent_scene_evaluated": true,
+  "independent_verification": "external_open_space/verification.json",
+  "status": "complete",
+  "final_review": "final_review.json"
+}

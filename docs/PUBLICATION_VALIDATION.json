@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "Dataset-free publication checkout under the existing numerical environment; no fresh dependency installation or retraining",
+  "unit_tests": 83,
+  "test_log_sha256": "02e46ff41a22c5181691366c1f5f5511544da23b230ad66fed6cec715502b9e2",
+  "historical_demo_synthetic_check_passed": true,
+  "raw_dataset_present": false,
+  "excluded_feature_caches_present": false,
+  "source_research_files_modified": false,
+  "original_environment": "Python3.10 / PyTorch2.5.1+cu121, tests executed on CPU"
+}

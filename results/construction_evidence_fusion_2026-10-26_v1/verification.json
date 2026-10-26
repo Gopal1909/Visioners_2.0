@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "original_input_files_preserved": 11,
+  "validation_grid_rows_independently_recomputed": 115,
+  "source_probability_confusions_reproduced": true,
+  "mean_validation_macro_gain": 0.008846982361650824,
+  "required_gain": 0.01,
+  "pilot_gate_passed": false,
+  "gate_not_relaxed": true,
+  "new_test_cases_scored": 0,
+  "original_v2_retained": true,
+  "design_sha256": "f3d519b77c43437a7b6b08fbbb035f90791eb483777a6fd772c192f42934e282",
+  "frozen_selection_sha256": "f3780edf7676cbbe9b276527712a3ea7eb85424b97857273c870c4c4cf3ba26f"
+}

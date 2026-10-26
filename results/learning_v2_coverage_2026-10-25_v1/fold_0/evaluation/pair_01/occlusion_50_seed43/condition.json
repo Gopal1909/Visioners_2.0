@@ -1,0 +1,37 @@
+{
+  "kind": "occlusion",
+  "severity": 0.5,
+  "seed": 43,
+  "blind_center_m": [
+    43.313899993896484,
+    19.519100189208984,
+    -1.6895699501037598
+  ],
+  "radius_m": 15.932575674606898,
+  "full_cloud_deleted_fraction": 0.4899154052041016,
+  "desired_test_core_deleted_fraction": 0.5,
+  "full_cloud_deleted_count": 2493568,
+  "measured_support_guard_passed": true,
+  "context_plus_observed_displacement_m": 2.219803902718557,
+  "original_source_points": 4444935,
+  "retained_target_points": 2596225,
+  "rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "target_requested_cores": 512,
+  "requested_label_counts": [
+    [
+      503,
+      9
+    ],
+    [
+      461,
+      51
+    ]
+  ],
+  "v2_total_support_guard_m": 3.075923537738569,
+  "v2_guard_passed": true,
+  "v2_test_support_displacement_bound_m": 0.0
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "implementation": "Existing native PyTorch; no environment installs",
+  "absent_libraries": [
+    "torch_geometric",
+    "torch_cluster",
+    "torch_scatter",
+    "torch_points3d",
+    "torch_points_kernels"
+  ],
+  "published_reference": "https://github.com/IdeGelis/torch-points3d-SiamKPConvVariants",
+  "published_model_reproduced": false
+}

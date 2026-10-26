@@ -1,0 +1,118 @@
+================================================================================
+        STAGE 2: CLOUD-TO-CLOUD (C2C) BASELINE REPORT (PAIR_01 PILOT)          
+  Robust 3D Change Detection for Construction Progress Monitoring (MultiChange3D)
+================================================================================
+
+1. METHOD DESCRIPTION & FORMULATION
+------------------------------------
+Cloud-to-Cloud (C2C) distance thresholding is the canonical geometric baseline for
+point-cloud change detection. For two co-registered point clouds P0 (Epoch 0, t0) and
+P1 (Epoch 1, t1):
+
+1. Forward Direction (P0 -> P1):
+   For each point p_i in P0, the nearest-neighbor Euclidean distance is calculated as:
+       d_{0->1}(p_i) = min_{q_j in P1} ||p_i - q_j||_2
+   A point is classified as changed (removed) if d_{0->1}(p_i) > tau.
+
+2. Reverse Direction (P1 -> P0):
+   For each point q_j in P1, the nearest-neighbor Euclidean distance is calculated as:
+       d_{1->0}(q_j) = min_{p_i in P0} ||q_j - p_i||_2
+   A point is classified as changed (added) if d_{1->0}(q_j) > tau.
+
+3. Combined Directional 3-Class Interpretation:
+   - Points in P0 with d > tau -> Removed (Class 1)
+   - Points in P1 with d > tau -> Added (Class 2)
+   - Points in either cloud with d <= tau -> Unchanged (Class 0)
+
+2. UNDERLYING ASSUMPTIONS & THEORETICAL LIMITATIONS
+--------------------------------------------------
+A. Core Assumption:
+   C2C assumes that unchanged surfaces are densely and uniformly sampled in both scans,
+   such that any point on a static surface in Epoch t0 finds a corresponding point in Epoch
+   t1 within the sensor's sampling resolution (approx. 2 cm for this Livox Mid-360 MLS scanner).
+
+B. Major Limitations in Construction Environments:
+   1. Point Density & Range Variations: MLS point density decreases quadratically with
+      distance from the scanner path and degrades on surfaces viewed at grazing angles.
+      Sparsely sampled static surfaces produce artificially large C2C distances (>5 cm),
+      generating false positives without any physical change.
+   2. Occlusions & Shadowing: Equipment, workers, or newly delivered materials cast
+      occlusion shadows. Points on static surfaces behind these occlusions in one scan
+      have no counterparts in the other scan, falsely triggering change detections.
+   3. Lack of Orientation/Normal Awareness: Unlike M3C2, C2C ignores local surface normals.
+      Consequently, C2C measures orthogonal distance to the closest point anywhere in space,
+      making it vulnerable to tangential sampling noise and edge artifacts.
+   4. Sensitivity to Registration Jitter: While global co-registration is verified
+      (median static error 1.64 cm), localized SLAM drift or vibration causes boundary
+      pixels along building edges to exceed centimetre thresholds.
+   5. No Semantic Context: Distance alone cannot distinguish temporary construction
+      equipment (scaffolding, containers, vehicles) from permanent structural changes
+      (columns, slabs, walls).
+
+3. RUNTIME & COMPUTATIONAL EFFICIENCY
+-------------------------------------
+Point Cloud 0 Count : 4,444,935 points
+Point Cloud 1 Count : 5,089,793 points
+Total Points        : 9,534,728 points
+KD-Tree Build Time  : P1 tree = 1.32s, P0 tree = 1.14s
+KD-Tree Query Time  : d_{0->1} query = 4.15s, d_{1->0} query = 8.86s
+Total Search Time   : 15.49s (CPU multi-threaded, workers=-1)
+Peak RAM Utilized   : Chunked query kept memory stable (< 5.0 GB used)
+
+4. THRESHOLD SWEEP QUANTITATIVE RESULTS
+---------------------------------------
+Note: These results represent the pair_01 pilot baseline. Cross-scene generalization is not claimed.
+
+Thr(m)  | Scan0 Prec | Scan0 Rec  | Scan0 F1   | Scan0 IoU  | Scan1 Prec | Scan1 Rec  | Scan1 F1   | Scan1 IoU  | Comb Macro F1 | Comb mIoU 
+-----------------------------------------------------------------------------------------------------------------------------
+0.010   | 0.1544     | 0.9820     | 0.2668     | 0.1540     | 0.1864     | 0.9880     | 0.3136     | 0.1860     | 0.3269        | 0.1967    
+0.020   | 0.2416     | 0.9390     | 0.3843     | 0.2379     | 0.2863     | 0.9591     | 0.4410     | 0.2828     | 0.5204        | 0.3677    
+0.030   | 0.3268     | 0.8940     | 0.4787     | 0.3146     | 0.3756     | 0.9335     | 0.5357     | 0.3658     | 0.6188        | 0.4692    
+0.040   | 0.4000     | 0.8466     | 0.5433     | 0.3730     | 0.4483     | 0.9053     | 0.5996     | 0.4282     | 0.6771        | 0.5335    
+0.050   | 0.4557     | 0.7973     | 0.5799     | 0.4084     | 0.5097     | 0.8713     | 0.6432     | 0.4740     | 0.7119        | 0.5739    
+0.060   | 0.4978     | 0.7461     | 0.5971     | 0.4257     | 0.5586     | 0.8288     | 0.6674     | 0.5008     | 0.7302        | 0.5963    
+0.075   | 0.5450     | 0.6674     | 0.6000     | 0.4286     | 0.6064     | 0.7530     | 0.6718     | 0.5058     | 0.7359        | 0.6046    
+0.100   | 0.5989     | 0.5574     | 0.5774     | 0.4059     | 0.6547     | 0.6408     | 0.6477     | 0.4789     | 0.7222        | 0.5914    
+0.125   | 0.6435     | 0.4848     | 0.5530     | 0.3822     | 0.6945     | 0.5801     | 0.6322     | 0.4622     | 0.7098        | 0.5795    
+0.150   | 0.6888     | 0.4338     | 0.5323     | 0.3627     | 0.7383     | 0.5394     | 0.6233     | 0.4528     | 0.7007        | 0.5712    
+0.200   | 0.7765     | 0.3470     | 0.4797     | 0.3155     | 0.8165     | 0.4665     | 0.5937     | 0.4222     | 0.6738        | 0.5463    
+
+5. OPTIMAL THRESHOLD & PILOT BASELINE PERFORMANCE
+-------------------------------------------------
+Optimal Threshold Selected (by Macro F1) : tau = 0.075 m (7.5 cm)
+
+A. Scan 0 (Removals) at tau = 7.5 cm:
+   - Precision : 0.5450
+   - Recall    : 0.6674
+   - F1-Score  : 0.6000
+   - IoU (Chg) : 0.4286
+   - mIoU      : 0.6558
+   - Confusion : TP=358,760, FP=299,522, FN=178,811, TN=3,607,842
+
+B. Scan 1 (Additions) at tau = 7.5 cm:
+   - Precision : 0.6064
+   - Recall    : 0.7530
+   - F1-Score  : 0.6718
+   - IoU (Chg) : 0.5058
+   - mIoU      : 0.6910
+   - Confusion : TP=572,572, FP=371,688, FN=187,790, TN=3,957,743
+
+C. Combined Directional 3-Class System at tau = 7.5 cm:
+   - Overall Accuracy : 89.12%
+   - Macro F1-Score   : 0.7359
+   - Macro mIoU       : 0.6046
+   - Unchanged Class  : Precision=0.9538, Recall=0.9185, F1=0.9358, IoU=0.8794
+   - Removed Class    : Precision=0.5450, Recall=0.6674, F1=0.6000, IoU=0.4286
+   - Added Class      : Precision=0.6064, Recall=0.7530, F1=0.6718, IoU=0.5058
+
+6. KEY FINDINGS & STAGE 3 IMPLICATIONS
+--------------------------------------
+1. Trade-off Characteristic: Small thresholds (1-3 cm) capture almost all real changes
+   (Recall > 90%), but suffer severe false positive rates (Precision 24-37%) because
+   sensor sampling noise (~2 cm) exceeds the threshold on static surfaces.
+2. Large thresholds (> 10 cm) eliminate false positives (Precision > 65%), but miss thin
+   structural elements, fences, and subtle ground elevation modifications (Recall drops to 55-64%).
+3. The optimal compromise on this MLS pair is around 7.5 cm (F1 ~ 0.60 for removals, 0.67 for additions).
+4. Next Stage Goal: Demonstrate how surface normal projection (M3C2) and robust neighborhood
+   confidence intervals suppress tangential noise and improve change detection reliability.
+================================================================================

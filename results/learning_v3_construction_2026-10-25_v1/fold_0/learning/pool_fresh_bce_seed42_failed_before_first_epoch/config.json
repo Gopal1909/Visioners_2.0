@@ -1,0 +1,27 @@
+{
+  "candidate": "pool_fresh_bce",
+  "fold": 0,
+  "seed": 42,
+  "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f",
+  "fresh_features_verification_sha256": "956b32d6b1f5a5e5300f4ea61e9495ea0c6c3f4d85d011f3fccd7f95fc38605f",
+  "source_sha256": {
+    "learning_v3_audit.py": "5261953c2d265d6109eb4182b9dff3b89dfb95f8f3a411b2380dece99ebf9503",
+    "learning_v3_control.py": "3035052b9c175e735065a5c137ef83db8d79ad9949609a3afab7efca7233eb89",
+    "learning_v3_data.py": "af5d2625c64c98b385a4594d5108275d3767bb60bd64fb3dbfecdbebbad0e2e0",
+    "learning_v3_evaluate.py": "ef254e4a465e2664cddc9316166324c71a9ad8b792b59b871af4f10413bd3179",
+    "learning_v3_kernels.py": "9c5784e0718546ea9f1e8323fc37dff59f6cc07d06e5fb081bcf6a0448672450",
+    "learning_v3_metrics.py": "e45b32d718cd2d1cd56c6efdcdd3c7d049d5eb0426f406884275ef56f211e10c",
+    "learning_v3_model.py": "25bb0dd4236b229d0da2c93ae52ae3f840aa817e87111c56ea1158cc30b8b0d3",
+    "learning_v3_runtime.py": "63bbc58845bb7ae4c8ac047967100ad38b2b76df17d1ee7ef84c085ef039ecc2",
+    "learning_v3_support.py": "2373ec4186a1596c6b08b8679b6f0279e38fab4c06d09a0442c95d115a3df5e8",
+    "learning_v2_model.py": "5cd583f13953a0b6433641674cdde11f5684f9f4a30dec1f1626a0cec5c71517",
+    "learning_v2_runtime.py": "5be78c9cdd8e870a08974462d91a32953cfb5f5ea474af17cab873c5d31aee86",
+    "learning_v2_data.py": "c902ca6b9d629b8a15b5ec710773569ee7be2b8a74a5b394a2556a0a88a0bfc2",
+    "multipair_metrics.py": "c1349a071d564751252d8e43ada0768403743514a44b98ca8765a69682e6fcf1",
+    "multipair_data.py": "7409b1722bcc161d15b2c376958634558c16886b3aa301501dae3df83e2387ae",
+    "c2c_robustness.py": "ef519d43b5bd077f6d444d33edce46539541f3aff6271a4b359ce9050ec60e91"
+  },
+  "loss": "Pair/class weighted BCE",
+  "test_accessed": false,
+  "parameter_count": 226337
+}

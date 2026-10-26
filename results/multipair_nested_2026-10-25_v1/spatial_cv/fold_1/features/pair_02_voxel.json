@@ -1,0 +1,85 @@
+{
+  "sha256": "4f2f5d0b034f2f0e7a8879524b7646e82bd6c6939f89e64b8eea925d311c8b89",
+  "protocol_sha256": "43e59dd399f362a4f4be73db918bc23d51fba4c6d9954739acc3c83278dc94d4",
+  "source_sha256": "f30c7062bd9ecc92efb4d6840b5225eb5260b8f6580cf74f1a480d963edb2002",
+  "variant": "voxel",
+  "context_points": [
+    253289,
+    222141
+  ],
+  "full_points": [
+    4444937,
+    3489321
+  ],
+  "patch_radius_m": 0.6,
+  "voxel_size_m": 0.075,
+  "k": 128,
+  "original_labels_never_voxelized": true,
+  "test_accessed": false,
+  "diagnostics": [
+    {
+      "variant": "nearest",
+      "split": "train",
+      "scan": 0,
+      "median_outer_radius_m": 0.06363898515701294,
+      "q90_outer_radius_m": 0.10040057450532913,
+      "empty_target_rate": 0.0033333333333333335
+    },
+    {
+      "variant": "nearest",
+      "split": "train",
+      "scan": 1,
+      "median_outer_radius_m": 0.07863150537014008,
+      "q90_outer_radius_m": 0.13884304463863373,
+      "empty_target_rate": 0.0
+    },
+    {
+      "variant": "nearest",
+      "split": "validation",
+      "scan": 0,
+      "median_outer_radius_m": 0.07296158373355865,
+      "q90_outer_radius_m": 0.10949047654867172,
+      "empty_target_rate": 0.09333333333333334
+    },
+    {
+      "variant": "nearest",
+      "split": "validation",
+      "scan": 1,
+      "median_outer_radius_m": 0.11335484683513641,
+      "q90_outer_radius_m": 0.16556094586849213,
+      "empty_target_rate": 0.0008333333333333334
+    },
+    {
+      "variant": "voxel",
+      "split": "train",
+      "scan": 0,
+      "median_outer_radius_m": 0.33853381872177124,
+      "q90_outer_radius_m": 0.36772677302360535,
+      "empty_target_rate": 0.0033333333333333335
+    },
+    {
+      "variant": "voxel",
+      "split": "train",
+      "scan": 1,
+      "median_outer_radius_m": 0.3365221917629242,
+      "q90_outer_radius_m": 0.3969791531562805,
+      "empty_target_rate": 0.0
+    },
+    {
+      "variant": "voxel",
+      "split": "validation",
+      "scan": 0,
+      "median_outer_radius_m": 0.3407440185546875,
+      "q90_outer_radius_m": 0.38018226623535156,
+      "empty_target_rate": 0.09333333333333334
+    },
+    {
+      "variant": "voxel",
+      "split": "validation",
+      "scan": 1,
+      "median_outer_radius_m": 0.32422804832458496,
+      "q90_outer_radius_m": 0.3670375347137451,
+      "empty_target_rate": 0.0008333333333333334
+    }
+  ]
+}

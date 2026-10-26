@@ -1,0 +1,21 @@
+{
+  "rows": 36000,
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "variant": "nearest",
+  "split": "train",
+  "source_cache_sha256": {
+    "01": "63d55582565c550dd4021701005462962c1f4aee2f32a3ad2a76ae37d87e670f",
+    "02": "609c4914b3cfa5f40dfd0e677addb5dd67d430c2b61834351ea745b98c99b8c6",
+    "03": "8234c17cd5f94aaff979aae47ffa7b3682792c7f54d8fc5a48e503b0b44a2b3d",
+    "12": "e5d3744224187709a765dfe76359ae7c60c27a31814256111d11c51c69e91e9b",
+    "13": "a29d0194596037021ebe988619afde80763b980ac57079ca039023b177f0cc7e",
+    "23": "878c67fba5056fe3eb711499a468a43664065ce972feb43260f9f9c63ed142df"
+  }
+}

@@ -1,0 +1,17 @@
+V3 epoch 0 graph_fresh_focal 42 1 val BCE 0.397 seconds 53.6
+V3 epoch 0 graph_fresh_focal 42 2 val BCE 0.4078 seconds 48.6
+V3 epoch 0 graph_fresh_focal 42 3 val BCE 0.3253 seconds 50.1
+V3 epoch 0 graph_fresh_focal 42 4 val BCE 0.368 seconds 49.3
+V3 epoch 0 graph_fresh_focal 42 5 val BCE 0.3118 seconds 49.0
+V3 epoch 0 graph_fresh_focal 42 6 val BCE 0.3757 seconds 50.0
+V3 epoch 0 graph_fresh_focal 42 7 val BCE 0.3473 seconds 50.1
+V3 epoch 0 graph_fresh_focal 42 8 val BCE 0.2585 seconds 49.4
+V3 epoch 0 graph_fresh_focal 42 9 val BCE 0.2247 seconds 50.3
+V3 epoch 0 graph_fresh_focal 42 10 val BCE 0.2794 seconds 49.9
+V3 epoch 0 graph_fresh_focal 42 11 val BCE 0.2398 seconds 50.5
+V3 epoch 0 graph_fresh_focal 42 12 val BCE 0.279 seconds 49.3
+V3 epoch 0 graph_fresh_focal 42 13 val BCE 0.3124 seconds 49.6
+V3 epoch 0 graph_fresh_focal 42 14 val BCE 0.3261 seconds 50.1
+V3 epoch 0 graph_fresh_focal 42 15 val BCE 0.3185 seconds 50.5
+V3 epoch 0 graph_fresh_focal 42 16 val BCE 0.3444 seconds 48.4
+V3 frozen {"candidate": "graph_fresh_focal", "fold": 0, "seed": 42, "threshold": 0.75, "validation_objective": 0.8180980776966194, "validation_changed_f1": 0.6820465387370321, "validation_by_view": {"clean": {"binary_macro_f1": 0.8180980776966194, "changed_f1": 0.6820465387370321, "available_cores": 14400}, "mild": {"binary_macro_f1": 0.798509714049649, "changed_f1": 0.6493435331009227, "available_cores": 12225}, "medium": {"binary_macro_f1": 0.6315409350146206, "changed_f1": 0.3459082887613493, "available_cores": 10037}}, "robustness_validation_objective": 0.7493829089202962, "best_epoch": 9, "best_clean_validation_bce": 0.22468072175979614, "test_accessed": false, "parameter_count": 241633, "checkpoint_sha256": "9361ac43c81030206a39bd15516f96470cd40f4b62d308cfafadd55be5fc31ed", "config_sha256": "8b9f8dc4a80db989ed22d290de7c9eadbbc0be27209220fb4977ab9992107317", "design_sha256": "d44eb17ac2a275f859b9959d0200737571fab5cabc0cec04f54819e75944bb2f", "timing_scope": "Final worker chunk; per-epoch seconds in history", "timing": {"seconds": 136.68555349999951, "rss_start_mib": 367.3203125, "sampled_peak_rss_mib": 863.80078125, "sampled_rss_growth_mib": 496.48046875, "process_lifetime_peak_mib": 863.80859375}, "training_device": "cpu", "gpu_peak_allocated_mib": 0.0}

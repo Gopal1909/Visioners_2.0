@@ -1,0 +1,131 @@
+{
+  "purpose": "Reduce coherent false positives with bounded geometric corroboration and frozen-model agreement",
+  "source_study": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1",
+  "candidates": [
+    {
+      "name": "primary_d000mm",
+      "rule": "primary",
+      "minimum_distance_m": 0.0,
+      "order": 0
+    },
+    {
+      "name": "primary_d010mm",
+      "rule": "primary",
+      "minimum_distance_m": 0.01,
+      "order": 1
+    },
+    {
+      "name": "primary_d020mm",
+      "rule": "primary",
+      "minimum_distance_m": 0.02,
+      "order": 2
+    },
+    {
+      "name": "primary_d040mm",
+      "rule": "primary",
+      "minimum_distance_m": 0.04,
+      "order": 3
+    },
+    {
+      "name": "robust_d000mm",
+      "rule": "robust",
+      "minimum_distance_m": 0.0,
+      "order": 4
+    },
+    {
+      "name": "robust_d010mm",
+      "rule": "robust",
+      "minimum_distance_m": 0.01,
+      "order": 5
+    },
+    {
+      "name": "robust_d020mm",
+      "rule": "robust",
+      "minimum_distance_m": 0.02,
+      "order": 6
+    },
+    {
+      "name": "robust_d040mm",
+      "rule": "robust",
+      "minimum_distance_m": 0.04,
+      "order": 7
+    },
+    {
+      "name": "agreement_d000mm",
+      "rule": "agreement",
+      "minimum_distance_m": 0.0,
+      "order": 8
+    },
+    {
+      "name": "agreement_d010mm",
+      "rule": "agreement",
+      "minimum_distance_m": 0.01,
+      "order": 9
+    },
+    {
+      "name": "agreement_d020mm",
+      "rule": "agreement",
+      "minimum_distance_m": 0.02,
+      "order": 10
+    },
+    {
+      "name": "agreement_d040mm",
+      "rule": "agreement",
+      "minimum_distance_m": 0.04,
+      "order": 11
+    },
+    {
+      "name": "mean_margin_d000mm",
+      "rule": "mean_margin",
+      "minimum_distance_m": 0.0,
+      "order": 12
+    },
+    {
+      "name": "mean_margin_d010mm",
+      "rule": "mean_margin",
+      "minimum_distance_m": 0.01,
+      "order": 13
+    },
+    {
+      "name": "mean_margin_d020mm",
+      "rule": "mean_margin",
+      "minimum_distance_m": 0.02,
+      "order": 14
+    },
+    {
+      "name": "mean_margin_d040mm",
+      "rule": "mean_margin",
+      "minimum_distance_m": 0.04,
+      "order": 15
+    }
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "views": [
+    "clean",
+    "mild",
+    "medium"
+  ],
+  "distance": "Original core-to-opposite-full-scan NN distance capped at .25 m, geo[:,50]*.25; repeated columns 105 and 160 must agree",
+  "frozen_networks": "Per-fold original seed42 primary and secondary robust best checkpoints and original thresholds; no new fitting",
+  "ensemble": "Positive only if both frozen decisions agree, or mean of threshold-centered logit margins >=0",
+  "selection": "One global rule/distance per lane across all five validation folds and six pairs; no fold/pair-specific changes",
+  "clean_gate": "Clean mean-fold macro +.01; changed-F1 noninferior; FPR nonincreasing; recall loss <=.02; three-view macro loss <=.005 relative to original primary",
+  "robust_gate": "Three-view mean-fold macro +.01; changed-F1 noninferior; clean macro loss <=.005; clean FPR rise <=.005; three-view recall loss <=.02 relative to original secondary robust",
+  "tie_break": "Lane macro, lane changed-F1, lower clean FPR, original candidate order",
+  "exposure": "Previously inspected same-site held-out errors motivated this hypothesis. This is follow-up development, not an untouched benchmark.",
+  "labels": "Validation labels used for selection. Previously viewed test errors are descriptive only. No pair-specific exceptions.",
+  "masks": "Original availability and original IDs/labels retained; no abstention added and no points excluded",
+  "support": "No new neighbourhoods or support dependencies, so original buffered-split support guard remains applicable",
+  "heldout_policy": "Freeze all selections first. Apply only lanes passing their gates. Reuse saved predictions/features; do not run neural inference or regenerate geometry.",
+  "test_access_before_freeze": false,
+  "input_manifest_sha256": "9e6cc3451a6f47d78d4f7e2a376fdec11917dd0a9f237eac92ba720b05554500",
+  "source_sha256": "8a4d8ce9878be1999a0641389ee2a8f2211274e735f7d17462f427a8a0b5ef08",
+  "reports_or_presentations": false,
+  "data": "BikeParkingConstruction only; no downloads or additional data required"
+}

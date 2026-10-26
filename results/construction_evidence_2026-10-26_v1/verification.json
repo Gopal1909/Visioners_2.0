@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "validation_direction_rows": 2880,
+  "candidate_summary_rows": 16,
+  "original_input_files_preserved": 140,
+  "previous_sources_and_result_receipts_preserved": 82,
+  "independent_confusion_to_score_recomputation": true,
+  "no_test_scoring": true,
+  "clean_gate_passed": false,
+  "robust_gate_passed": false,
+  "existing_v2_retained": true,
+  "design_sha256": "802c64bce9f2de35f56dcf679a740ae3dedcb42e2a436a3aca74113bbd586f5c",
+  "frozen_selection_sha256": "c1be4fe2f7c0735952bc0f04351923c0cc1d1f5a395e491cb3ea66f127652070"
+}

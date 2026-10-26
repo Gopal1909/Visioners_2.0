@@ -1,0 +1,27 @@
+D:\CV_Project\code\siamese_pointnet.py:94: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_numpy.cpp:212.)
+  return [torch.from_numpy(features[key][ids]).to(device) for key in ('p0','m0','p1','m1','aux')]
+primary nearest 42 epoch 1 validation BCE 0.4111
+primary nearest 42 epoch 5 validation BCE 0.5196
+primary nearest 42 epoch 10 validation BCE 0.4914
+primary nearest 42 epoch 15 validation BCE 0.4815
+primary nearest 42 epoch 20 validation BCE 0.4892
+primary nearest 42 epoch 25 validation BCE 0.6817
+primary nearest 42 epoch 30 validation BCE 0.4515
+Frozen neural: {"protocol": "primary", "variant": "nearest", "seed": 42, "threshold": 0.8, "validation_objective": 0.7533924964700843, "validation_changed_f1": 0.5653724641250595, "best_epoch": 22, "best_validation_bce": 0.37726208567619324, "checkpoint_sha256": "5d08c710be8664e385dd74ee1027906e6277bc5d461b9daf51fca189597efe98", "config_sha256": "f39350a2042a177288cb95463074167cd490e88840c15e1333b62cc46f660e4c", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 55.86209130000498, "gpu_peak_allocated_mib": 89.013671875}
+primary voxel 42 epoch 1 validation BCE 0.5528
+primary voxel 42 epoch 5 validation BCE 0.4835
+primary voxel 42 epoch 10 validation BCE 0.4212
+primary voxel 42 epoch 15 validation BCE 0.3904
+primary voxel 42 epoch 20 validation BCE 0.5173
+primary voxel 42 epoch 25 validation BCE 0.7062
+primary voxel 42 epoch 30 validation BCE 0.5359
+Frozen neural: {"protocol": "primary", "variant": "voxel", "seed": 42, "threshold": 0.9, "validation_objective": 0.7510494755766527, "validation_changed_f1": 0.5601181227006482, "best_epoch": 15, "best_validation_bce": 0.3903675973415375, "checkpoint_sha256": "541e32766021ca161675236fa3ff598862812f944c58fb287dc5239aafcc24f7", "config_sha256": "a41b4df283ac81a3bec0b7ea25beedee7c12e883d0bf2f5e150a90019fb9ddf2", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 54.783521599994856, "gpu_peak_allocated_mib": 89.013671875}
+primary voxel_aug 42 epoch 1 validation BCE 0.486
+primary voxel_aug 42 epoch 5 validation BCE 0.5131
+primary voxel_aug 42 epoch 10 validation BCE 0.4256
+primary voxel_aug 42 epoch 15 validation BCE 0.4133
+primary voxel_aug 42 epoch 20 validation BCE 0.5362
+primary voxel_aug 42 epoch 25 validation BCE 0.5639
+primary voxel_aug 42 epoch 30 validation BCE 0.7374
+Frozen neural: {"protocol": "primary", "variant": "voxel_aug", "seed": 42, "threshold": 0.9, "validation_objective": 0.7540078931018334, "validation_changed_f1": 0.5639105170513641, "best_epoch": 15, "best_validation_bce": 0.4133019745349884, "checkpoint_sha256": "ca1d63df3cca6f1f98474ccf37cf3bfe6a5326a8c470983ca23dd6346c23886e", "config_sha256": "c240ee757f04cd0a02ad5b22b6bc35a66051ae9c2be2e41b4d21c4b3cf723b78", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 66.837537899999, "gpu_peak_allocated_mib": 89.013671875}
+Frozen geometry classifier: {"protocol": "primary", "model": "geometry_boosted", "threshold": 0.85, "validation_objective": 0.7574312675352385, "validation_changed_f1": 0.5641480761918943, "checkpoint_sha256": "1e35892080fb480c308d35dd18b85943c1619c40962b5f3e5d156af84969849d", "config_sha256": "46a379071ce23620ab63b41e63512cce163cac952dab4aea74d176e200f14aeb", "training_cores": 36000, "test_accessed": false, "timing": {"seconds": 1.2926963999998407, "rss_start_mib": 1173.79296875, "sampled_peak_rss_mib": 1207.0390625, "sampled_rss_growth_mib": 33.24609375, "process_lifetime_peak_mib": 1336.06640625}}

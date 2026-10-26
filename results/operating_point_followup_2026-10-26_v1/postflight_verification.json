@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "source_checkpoint_pairs_verified": 36,
+  "selected_policy_metrics_independently_recomputed": true,
+  "no_promotion_after_failed_gate": true,
+  "new_test_cases_scored": 0
+}

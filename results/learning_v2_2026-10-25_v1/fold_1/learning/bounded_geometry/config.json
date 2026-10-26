@@ -1,0 +1,23 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "max_iter": 200,
+  "max_leaf_nodes": 15,
+  "learning_rate": 0.05,
+  "l2_regularization": 1.0,
+  "min_samples_leaf": 30,
+  "early_stopping": false,
+  "random_state": 42,
+  "geometry": "Same 165 bounded multiscale geometry channels used by neural head; no point encoder",
+  "source_sha256": {
+    "learning_v2_data.py": "51aaf4c982bc31a6e239a681f3a45c01f9348db8fe61280d64ec6e0ed5a1a9c3",
+    "learning_v2_model.py": "421c6e2d64fcf8002637e2224be5232b1e0a2a52a2ef02cfe47d5770bf018444",
+    "multipair_metrics.py": "c1349a071d564751252d8e43ada0768403743514a44b98ca8765a69682e6fcf1",
+    "multipair_features.py": "f30c7062bd9ecc92efb4d6840b5225eb5260b8f6580cf74f1a480d963edb2002",
+    "multipair_data.py": "7409b1722bcc161d15b2c376958634558c16886b3aa301501dae3df83e2387ae",
+    "multipair_learning.py": "9e72bcce7a0db0623a05330d60ce96fb7cf7a81bf083f367ed87cfd46c27d6ec",
+    "m3c2_baseline.py": "4dd7e8321de5b50ef5590914a686663a8165809675d2f8289d8a4d093eb3703c",
+    "c2c_robustness.py": "ef519d43b5bd077f6d444d33edce46539541f3aff6271a4b359ce9050ec60e91",
+    "siamese_pointnet.py": "27eceb44d39f3cde4c243df6202771c2d875ba9789f2d0b5eb46ec2ed2a66667"
+  },
+  "design_sha256": "c271beeb99ae2176e916dcc4d505cfa538a3ebcf31c61918846c9f8e406df46e"
+}

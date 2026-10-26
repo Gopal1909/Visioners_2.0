@@ -1,0 +1,36 @@
+scan,projection_radius_m,reason_code,reason,count,fraction
+0,0.05,0,valid,1089,0.5445
+0,0.05,1,normal insufficient,2,0.001
+0,0.05,2,normal degenerate/quality rejected,196,0.098
+0,0.05,3,normal unstable,282,0.141
+0,0.05,4,source support,82,0.041
+0,0.05,8,target support,218,0.109
+0,0.05,12,source support + target support,131,0.0655
+0,0.1,0,valid,1246,0.623
+0,0.1,1,normal insufficient,2,0.001
+0,0.1,2,normal degenerate/quality rejected,196,0.098
+0,0.1,3,normal unstable,282,0.141
+0,0.1,4,source support,36,0.018
+0,0.1,8,target support,202,0.101
+0,0.1,12,source support + target support,36,0.018
+0,0.2,0,valid,1386,0.693
+0,0.2,1,normal insufficient,2,0.001
+0,0.2,2,normal degenerate/quality rejected,196,0.098
+0,0.2,3,normal unstable,282,0.141
+0,0.2,8,target support,134,0.067
+1,0.05,0,valid,1063,0.5315
+1,0.05,2,normal degenerate/quality rejected,240,0.12
+1,0.05,3,normal unstable,227,0.1135
+1,0.05,4,source support,44,0.022
+1,0.05,8,target support,317,0.1585
+1,0.05,12,source support + target support,109,0.0545
+1,0.1,0,valid,1288,0.644
+1,0.1,2,normal degenerate/quality rejected,240,0.12
+1,0.1,3,normal unstable,227,0.1135
+1,0.1,4,source support,20,0.01
+1,0.1,8,target support,211,0.1055
+1,0.1,12,source support + target support,14,0.007
+1,0.2,0,valid,1417,0.7085
+1,0.2,2,normal degenerate/quality rejected,240,0.12
+1,0.2,3,normal unstable,227,0.1135
+1,0.2,8,target support,116,0.058

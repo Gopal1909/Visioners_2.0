@@ -1,0 +1,15 @@
+{
+  "failure": "CUDA allocation failure with 4.76 GiB device memory free; system commit headroom about 2.1 GiB. Heavy imported-worker full-batch smoke failed, minimal Torch worker passed.",
+  "recovery": "Pure lightweight training runtime; removed eager matplotlib, pandas, SciPy, sklearn and legacy training imports from CUDA training path.",
+  "same_architecture_loss_optimizer_effective_batch_thresholds_rng_setup": true,
+  "effective_batch_size": 128,
+  "smoke_test": "light_worker_smoke.json",
+  "old_completed_checkpoints_kept": true,
+  "new_parent_includes_independent_scene_stages": true,
+  "parent_runner_also_lightweight": true,
+  "worker_epoch_chunk": 3,
+  "reusable_host_buffers": true,
+  "checkpoint_restart_and_host_gather_regression_tests_passed": true,
+  "tests_passed": 52,
+  "mathematical_training_policy_unchanged": true
+}

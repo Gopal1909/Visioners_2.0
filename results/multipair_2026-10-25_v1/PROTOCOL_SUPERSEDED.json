@@ -1,0 +1,6 @@
+{
+  "reason": "Inner validation support inadequate in geometry-only rotating split",
+  "preserve": "All completed clean/temporal models and predictions; no deletion or score-based retuning",
+  "replacement": "results/multipair_nested_2026-10-25_v1",
+  "outer_test_cells_unchanged": true
+}

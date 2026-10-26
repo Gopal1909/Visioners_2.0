@@ -1,0 +1,76 @@
+{
+  "config": {
+    "normal_radii_m": [
+      0.1,
+      0.2,
+      0.4
+    ],
+    "projection_radii_m": [
+      0.1
+    ],
+    "half_length_m": 1.0,
+    "min_normal_points": 10,
+    "min_projected_points": 10,
+    "max_curvature": 0.1,
+    "min_eigengap": 0.1,
+    "min_tangent_ratio": 0.05,
+    "max_stability_angle_deg": 30.0,
+    "max_candidates": 250000,
+    "core_chunk_size": 128,
+    "registration_error_m": 0.0,
+    "minimum_effect_m": 0.02
+  },
+  "c2c_threshold_m": 0.075,
+  "calibration_valid_counts": [
+    678,
+    689
+  ],
+  "calibration_cores": [
+    1000,
+    1000
+  ],
+  "calibration_runtime": {
+    "normals0": {
+      "seconds": 0.5621286000005057,
+      "rss_start_mib": 857.78515625,
+      "sampled_peak_rss_mib": 861.33203125,
+      "sampled_rss_growth_mib": 3.546875,
+      "process_lifetime_peak_mib": 865.203125
+    },
+    "cylinders0": {
+      "seconds": 2.2648432000005414,
+      "rss_start_mib": 860.890625,
+      "sampled_peak_rss_mib": 867.640625,
+      "sampled_rss_growth_mib": 6.75,
+      "process_lifetime_peak_mib": 870.125
+    },
+    "normals1": {
+      "seconds": 0.48256690000016533,
+      "rss_start_mib": 862.8515625,
+      "sampled_peak_rss_mib": 862.85546875,
+      "sampled_rss_growth_mib": 0.00390625,
+      "process_lifetime_peak_mib": 870.125
+    },
+    "cylinders1": {
+      "seconds": 2.2740209000003233,
+      "rss_start_mib": 861.42578125,
+      "sampled_peak_rss_mib": 867.8515625,
+      "sampled_rss_growth_mib": 6.42578125,
+      "process_lifetime_peak_mib": 872.33203125
+    },
+    "c2c_queries": {
+      "seconds": 0.009013099999719998,
+      "rss_start_mib": 860.16015625,
+      "sampled_peak_rss_mib": 860.19140625,
+      "sampled_rss_growth_mib": 0.03125,
+      "process_lifetime_peak_mib": 872.33203125
+    }
+  },
+  "decision": "Retain predeclared pilot geometry/effect/registration parameters after independent geometry audit and buffered calibration support inspection; no metric maximization.",
+  "scope": "Frozen before new spatial-test or stress scoring. Earlier full-pair exploratory pilot is disclosed.",
+  "split_hash": "efc57091cc471335c696f057fba027c6d41f8bcff6540ef473d03f04c39fdeea",
+  "implementation_hash": "4dd7e8321de5b50ef5590914a686663a8165809675d2f8289d8a4d093eb3703c",
+  "evaluation_scope": "exploratory all-scene pilot cores; geometric-only occlusion supplement",
+  "selection": "Reuse original pilot spatially balanced indices unchanged",
+  "rationale": "Buffered test stripe is outside planned blind cylinders; add a separately labelled geometric footprint study rather than imply a no-effect result demonstrates robustness."
+}

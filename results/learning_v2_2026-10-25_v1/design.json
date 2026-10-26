@@ -1,0 +1,78 @@
+{
+  "baseline": "D:\\CV_Project\\results\\multipair_nested_2026-10-25_v1",
+  "scene": "BikeParkingConstruction",
+  "pairs": [
+    "01",
+    "02",
+    "03",
+    "12",
+    "13",
+    "23"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "variants": [
+    "multiscale_clean",
+    "multiscale_robust",
+    "multiscale_robust_hard"
+  ],
+  "seed": 42,
+  "repeat_primary_fold0_seeds": [
+    43,
+    44
+  ],
+  "epochs": 30,
+  "batch_size": 128,
+  "radii_m": [
+    0.15,
+    0.4,
+    0.8
+  ],
+  "voxel_sizes_m": [
+    0.025,
+    0.05,
+    0.075
+  ],
+  "points_per_patch": 64,
+  "cross_point_match_cap_m": 0.25,
+  "bounded_feature_support_m": 1.1799038105676658,
+  "maximum_previous_test_displacement_m": 1.4905124824776093,
+  "views": {
+    "clean": {
+      "translation_m": 0.0,
+      "rotation_deg": 0.0,
+      "retention": 1.0,
+      "clipped_noise_sigma_m": 0.0
+    },
+    "mild": {
+      "translation_m": 0.1,
+      "rotation_deg": 1.0,
+      "retention": 0.7,
+      "clipped_noise_sigma_m": 0.005
+    },
+    "medium": {
+      "translation_m": 0.2,
+      "rotation_deg": 2.0,
+      "retention": 0.4,
+      "clipped_noise_sigma_m": 0.01
+    }
+  },
+  "training_seed_rule": "610000 + 100*int(pair) + 10*fold + view_id; validation base 810000",
+  "checkpoint": "Minimum clean validation BCE for every neural candidate",
+  "threshold": "Clean validation mean pair/direction binary macro F1; fixed previous threshold grid",
+  "primary_selection": "Maximum clean validation binary macro F1; fixed variant order breaks ties",
+  "secondary_selection": "Mean clean/mild/medium validation binary macro F1 at the same clean-calibrated threshold",
+  "hard_sampling": "70% uniform + 30% running loss emphasis within each pair/class; original group size preserved; existing class/pair loss weights retained",
+  "robust_sampling": "Each original core chooses clean/mild/medium with equal probability; an unavailable deleted target core falls back to its clean view",
+  "evaluation": "Same previous original test IDs; 1500/scan clean in all five folds; all 288 previous fold0 stress cases",
+  "exposure": "Previous held-out results informed this architectural follow-up. These are comparative same-site results, not an untouched final benchmark.",
+  "independent_site_available": false,
+  "temporal_reference_not_retuned": true,
+  "reports_and_presentations_untouched": true,
+  "architecture": "Custom shared multiscale PointNet with bounded per-point cross-scan match channels and a geometry branch; not a PointNet++ or KPConv reproduction"
+}

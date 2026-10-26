@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "stock_adamw_equivalence_test_passed": true,
+  "checkpoint_restart_equivalence_passed": true,
+  "compiler_and_sympy_loaded": false,
+  "torch_version": "2.5.1+cu121"
+}

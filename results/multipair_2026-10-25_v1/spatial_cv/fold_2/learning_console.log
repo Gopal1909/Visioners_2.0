@@ -1,0 +1,16 @@
+D:\CV_Project\code\siamese_pointnet.py:94: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\torch\csrc\utils\tensor_numpy.cpp:212.)
+  return [torch.from_numpy(features[key][ids]).to(device) for key in ('p0','m0','p1','m1','aux')]
+primary nearest 42 epoch 1 validation BCE 0.1805
+primary nearest 42 epoch 5 validation BCE 0.3583
+primary nearest 42 epoch 10 validation BCE 0.3531
+primary nearest 42 epoch 15 validation BCE 0.3448
+primary nearest 42 epoch 20 validation BCE 0.2794
+primary nearest 42 epoch 25 validation BCE 0.306
+primary nearest 42 epoch 30 validation BCE 0.2868
+Frozen neural: {"protocol": "primary", "variant": "nearest", "seed": 42, "threshold": 0.9, "validation_objective": 0.6079066322547964, "validation_changed_f1": 0.22142857142857142, "best_epoch": 1, "best_validation_bce": 0.18054810166358948, "checkpoint_sha256": "ff3419cdbeea340ecec7453e52c0844a16cb8d3072791dffe96cc1aa286e91e7", "config_sha256": "62205755f31cf465d4736ca3bed3002fc8bd2e2e973e4bc059cfa4e5f5cc9a2c", "training_cores": 36000, "validation_cores": 14400, "test_accessed": false, "seconds_this_process": 55.6823790999988, "gpu_peak_allocated_mib": 89.013671875}
+primary voxel 42 epoch 1 validation BCE 0.2803
+primary voxel 42 epoch 5 validation BCE 0.2102
+primary voxel 42 epoch 10 validation BCE 0.2503
+primary voxel 42 epoch 15 validation BCE 0.2745
+primary voxel 42 epoch 20 validation BCE 0.2792
+primary voxel 42 epoch 25 validation BCE 0.2401

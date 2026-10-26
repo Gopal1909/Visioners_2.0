@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "requirements": {
+    "report_pdf_and_editable_source": true,
+    "editable_presentation_with_native_workbooks_and_notes": true,
+    "offline_interactive_demo": true,
+    "bounded_geometric_comparison": true,
+    "representative_matched_robustness": true,
+    "trained_calibrated_learned_baseline": true,
+    "explicit_unknowns_and_scopes": true,
+    "data_access_and_license_limits_documented": true,
+    "reproduction_code_and_commands": true
+  },
+  "tests": 25,
+  "protected_files_unchanged": 27,
+  "original_point_clouds_unchanged": 2,
+  "geometry_conditions": [
+    "clean",
+    "translation_0.10",
+    "translation_0.20",
+    "rotation_0.5",
+    "rotation_1.0",
+    "sparsity_0.25",
+    "sparsity_0.10",
+    "noise_0.020",
+    "noise_0.075",
+    "occlusion_4.6",
+    "occlusion_7.6"
+  ],
+  "matched_metric_rows_audited": 39,
+  "report_pages": 6,
+  "presentation_slides": 11,
+  "native_charts": 8,
+  "monotonic_severity_curves_checked": 16,
+  "embedded_chart_workbooks": 8,
+  "presentation_seconds_by_speaker": {
+    "Vishwanath Venugopal": 240,
+    "Shaik Koduru Asif": 240
+  },
+  "demo_browser_checked": true,
+  "original_pair_archive_crc_passed": true,
+  "artifact_checksums_verified": 57,
+  "pdf_sha256": "3dac9bcfd93fa8ce1e63467b8b73b7cf8d888f5890fa437a873b2f90bcc870c7",
+  "pptx_sha256": "066073eb37bc6cbdc20ab37d4a5b4236660e1be0c1e88082596ffd57e8d5e28a",
+  "raw_data_downloaded_this_continuation": false,
+  "limitations": [
+    "single scene/pair and seed",
+    "historical threshold/pilot exposure",
+    "conditional uncalibrated LoD",
+    "no independent reference-software output check",
+    "no cross-scene or ConSLAM accuracy claim",
+    "native PowerPoint execution not verified"
+  ]
+}

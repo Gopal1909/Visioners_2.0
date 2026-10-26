@@ -1,0 +1,26 @@
+{
+  "kind": "combined",
+  "severity": 0.2,
+  "seed": 44,
+  "maximum_observed_perturbation_m": 0.47045684712623553,
+  "measured_support_guard_passed": true,
+  "context_plus_observed_displacement_m": 2.6902607498447924,
+  "original_source_points": 5089793,
+  "retained_target_points": 3489322,
+  "rotation_center_m": [
+    41.674461364746094,
+    10.116012508049607,
+    -1.5544594526290894
+  ],
+  "target_requested_cores": 512,
+  "requested_label_counts": [
+    [
+      450,
+      62
+    ],
+    [
+      512,
+      0
+    ]
+  ]
+}

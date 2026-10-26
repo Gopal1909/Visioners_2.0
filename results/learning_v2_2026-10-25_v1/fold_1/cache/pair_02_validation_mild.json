@@ -1,0 +1,23 @@
+{
+  "sha256": "6beeac3313c1084236a8b2b03449ba94a811cbd853d4f0db89442a7152b2f70c",
+  "pair": "02",
+  "fold": 1,
+  "split": "validation",
+  "view": "mild",
+  "seed": 810211,
+  "maximum_observed_displacement_m": 0.3482361951905103,
+  "train_test_total_support_bound_m": 4.198556298803451,
+  "bounded_guard_passed": true,
+  "full_scan_transformed_before_rebuilding_trees": true,
+  "split_sha256": "6646bd654429cea9047df790e126cc1d02351051709d8f9180a7fa4d8f9eedb7",
+  "design_sha256": "c271beeb99ae2176e916dcc4d505cfa538a3ebcf31c61918846c9f8e406df46e",
+  "feature_source_sha256": "51aaf4c982bc31a6e239a681f3a45c01f9348db8fe61280d64ec6e0ed5a1a9c3",
+  "timing": {
+    "seconds": 7.929707800001779,
+    "rss_start_mib": 217.57421875,
+    "sampled_peak_rss_mib": 1011.9140625,
+    "sampled_rss_growth_mib": 794.33984375,
+    "process_lifetime_peak_mib": 1041.9765625
+  },
+  "test_predictions_accessed": false
+}

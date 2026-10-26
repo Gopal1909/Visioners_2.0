@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scan": "Known credential-prefix/private-key/credential-URL patterns in exported text files; no secret values logged",
+  "candidate_files": 5862,
+  "credential_pattern_findings": 0,
+  "raw_datasets_included": false,
+  "maximum_file_bytes": 2947502
+}

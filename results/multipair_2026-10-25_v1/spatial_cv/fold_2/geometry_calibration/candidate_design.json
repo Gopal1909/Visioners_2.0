@@ -1,0 +1,52 @@
+{
+  "normal_sets": {
+    "legacy": [
+      0.1,
+      0.2,
+      0.4
+    ],
+    "broad": [
+      0.2,
+      0.4,
+      0.8
+    ]
+  },
+  "projection_radii_m": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "half_lengths_m": [
+    0.5,
+    1.0
+  ],
+  "minimum_effect_floors_m": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "c2c_thresholds_m": [
+    0.02,
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "registration_error_m": 0.0,
+  "calibration_cores_per_scan": 512,
+  "selection": "Mean over pairs/directions of binary macro F1; unknowns are errors for their ground-truth class",
+  "primary_result": "Changed F1/IoU and precision/recall reported separately from the selection objective",
+  "units": "metres",
+  "no_test_access": true,
+  "protocol_hash": "f2961aed6cd42e576b76b41bf5de8c8827e0ec668ba2ad6806ee04c7521ea26e"
+}

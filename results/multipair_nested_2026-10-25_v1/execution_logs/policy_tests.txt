@@ -1,0 +1,7 @@
+test_deleted_target_cores_are_separate_from_detector_unknowns (test_multipair.DataTests) ... ok
+test_changed_f1_operating_point_uses_validation_score_with_fixed_tie_break (test_multipair.DataTests) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.117s
+
+OK

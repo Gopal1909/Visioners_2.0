@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "predictions_sha256": "76a74514a883de351f5466ccf71a1ceda7619b7dcc500d57be3ca56bec5ff608",
+  "model_sha256": {
+    "multiscale_clean_seed42": "a2f7be969609c86a150b13408b8af74d0ded49b1bfe1610c4916d9f8338fe576",
+    "multiscale_robust_seed42": "35fa90b400fb9c75c7769fcb1580de7192ddb18c509120ce79d8755ddcac5976",
+    "multiscale_robust_hard_seed42": "c7e4f42c5e6e94606c94f89acd9913287222b5f7f46a4d10eed8cce78e2b7f4a",
+    "bounded_geometry": "e8564106ae0a3ca891b833ba3faf1ad47b01b3dc456dfbfb8b47b683c9aa0002"
+  },
+  "feature_sha256": "a9b1655c04d9cac87f1cf4eb19b7bd06a54bd0f4d1dd9c73c19ea55904e54c3b",
+  "selection_sha256": "f0117b9932678cf7da0c63c0a792c4089119d1f531e05a7eb3fe1f1513919572",
+  "no_test_retuning": true,
+  "inference_seconds": {
+    "multiscale_clean_seed42": 0.14705849999882048,
+    "multiscale_robust_seed42": 0.048988599999574944,
+    "multiscale_robust_hard_seed42": 0.049290800001472235,
+    "bounded_geometry": 0.02868319999834057
+  },
+  "gpu_worker_sha256": "f7eeb3ef6612bb6fb6f3a762ab904cfd95a033b20696e5fe4a107e7a9c20fda1",
+  "scoring_kernel_sha256": "8202a9550fc145d446eadebbccc3f6dbb9a5bc4a075820dd37d3f6188144a739"
+}

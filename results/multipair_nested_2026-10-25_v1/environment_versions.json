@@ -1,0 +1,19 @@
+{
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "C:\\Users\\prani\\anaconda3\\envs\\dl_env\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "plyfile": "1.1.5",
+    "torch": "2.5.1+cu121",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU; actual CUDA fits logged per model",
+  "worker_policy": "Sequential CPU full-cloud geometry/features, then separate CUDA inference; two compute threads"
+}

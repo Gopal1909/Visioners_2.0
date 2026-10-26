@@ -1,0 +1,7 @@
+{
+  "status": "stopped_for_patch_coverage_revision",
+  "reason": "Nearest-64 truncation limited median source patch reach to 0.085/0.160/0.245 m for nominal 0.15/0.4/0.8 m. Replace with central plus full-radius coverage sampling.",
+  "new_study": "results/learning_v2_coverage_2026-10-25_v1",
+  "prior_checkpoints_and_feature_caches_preserved": true,
+  "test_predictions_generated": 0
+}

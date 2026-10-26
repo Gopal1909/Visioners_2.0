@@ -1,0 +1,30 @@
+test_noise_order_preserves_measurements (test_analysis.PlotTests) ... ok
+test_retention_clean_and_stress_pairing (test_analysis.PlotTests) ... ok
+test_empty_target_finite_and_no_ground_truth_features (test_learning_pipeline.LearningTests) ... ok
+test_paired_feature_common_translation (test_learning_pipeline.LearningTests) ... ok
+test_shared_encoder_permutation_and_padding_invariance (test_learning_pipeline.LearningTests) ... ok
+test_supervised_loss_decreases_on_synthetic_offsets (test_learning_pipeline.LearningTests) ... ok
+test_c2c_mask_exclusion_is_not_detector_abstention (test_m3c2_synthetic.GeometryTests) ... ok
+test_common_translation (test_m3c2_synthetic.GeometryTests) ... ok
+test_controlled_noise_known_offset (test_m3c2_synthetic.GeometryTests) ... ok
+test_degenerate_duplicate_and_line_normals (test_m3c2_synthetic.GeometryTests) ... ok
+test_effect_floor_and_strict_comparison (test_m3c2_synthetic.GeometryTests) ... ok
+test_empty_and_insufficient_source_normals (test_m3c2_synthetic.GeometryTests) ... ok
+test_exact_cylinder_excludes_radial_and_axial_outliers (test_m3c2_synthetic.GeometryTests) ... ok
+test_identical_planes (test_m3c2_synthetic.GeometryTests) ... ok
+test_invalid_normal_and_resource_guard (test_m3c2_synthetic.GeometryTests) ... ok
+test_invalid_uncertainty_is_unknown (test_m3c2_synthetic.GeometryTests) ... ok
+test_known_offset_both_directions_and_label_mapping (test_m3c2_synthetic.GeometryTests) ... ok
+test_missing_target_and_insufficient_projection (test_m3c2_synthetic.GeometryTests) ... ok
+test_normal_sign_reversal (test_m3c2_synthetic.GeometryTests) ... ok
+test_population_spread_and_registration_formula (test_m3c2_synthetic.GeometryTests) ... ok
+test_single_scale_cannot_assert_cross_scale_stability (test_m3c2_synthetic.GeometryTests) ... ok
+test_spatial_original_indices_reproducible (test_m3c2_synthetic.GeometryTests) ... ok
+test_tangential_translation_interior (test_m3c2_synthetic.GeometryTests) ... ok
+test_unknowns_excluded_and_conservative_score_counts_errors (test_m3c2_synthetic.GeometryTests) ... ok
+test_wall_normal_and_oblique_plane (test_m3c2_synthetic.GeometryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 3.273s
+
+OK

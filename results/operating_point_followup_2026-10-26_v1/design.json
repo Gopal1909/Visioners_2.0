@@ -1,0 +1,204 @@
+{
+  "purpose": "Test checkpoint/operating-point alignment after the completed v3 validation pilot failed its gate",
+  "source_v3_pilot": "D:\\CV_Project\\results\\learning_v3_construction_2026-10-25_v1",
+  "source_v2_study": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1",
+  "source_models": {
+    "v2_fold0_multiscale_clean": {
+      "family": "v2",
+      "fold": 0,
+      "candidate": "multiscale_clean",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_clean_seed42",
+      "best_sha256": "d2aa589fa911caf1c37347a536110ee1184ed9939344326f74d4c0d8d1497700",
+      "last_sha256": "d824fdc396cb3d1d67b8b0aa92c25b498b3a78b5ffa74497bf2fabd5a32b4c2f",
+      "frozen_meta_sha256": "4f6a5c7ab9fe5a564eae4d864ce0837db868d9b5b908f1bfae8ef0357086274b"
+    },
+    "v2_fold0_multiscale_robust": {
+      "family": "v2",
+      "fold": 0,
+      "candidate": "multiscale_robust",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_seed42",
+      "best_sha256": "232a254f4f6585913e5850cb40de64f42424a7086f3750217984fa75a0bf2b14",
+      "last_sha256": "18309e022dce7fac3e163f8673a48d55c823cf246a6ebf6a39ebbf260965db66",
+      "frozen_meta_sha256": "07bfe8786a3c7b76b5b5dd900b98a434f86ab920cedab2ce1d924796f5ea7865"
+    },
+    "v2_fold0_multiscale_robust_hard": {
+      "family": "v2",
+      "fold": 0,
+      "candidate": "multiscale_robust_hard",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\learning\\multiscale_robust_hard_seed42",
+      "best_sha256": "9ec85d97271fa54a166abc9f0cf0e7a1b3653c8c7993f8252350ddebf99d0ebb",
+      "last_sha256": "82203405358d9379ad0023a77ea93270f994af11c7c713163264cc7485a7cbc9",
+      "frozen_meta_sha256": "bcddf308d0720bfdc826400a5ffc6c80738904e02681710a42421c944996eca9"
+    },
+    "v2_fold1_multiscale_clean": {
+      "family": "v2",
+      "fold": 1,
+      "candidate": "multiscale_clean",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_1\\learning\\multiscale_clean_seed42",
+      "best_sha256": "77cc40c618e02cdf00e65bc1d88f1202338219cabeff9ea850ce21dea8cfa606",
+      "last_sha256": "6460592e7412268c8a81e5a3bbf51c150c79905d811cf2e1d3f7fdcda803caec",
+      "frozen_meta_sha256": "da17acda26a6a6b73aec1b6f0825cbad927cb69f31f1c4ac52b9de51d94cc6e1"
+    },
+    "v2_fold1_multiscale_robust": {
+      "family": "v2",
+      "fold": 1,
+      "candidate": "multiscale_robust",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_1\\learning\\multiscale_robust_seed42",
+      "best_sha256": "74086975d67836bb33a92029075991a0a221ce75e597f8b7123a15f1563345d6",
+      "last_sha256": "95e5407affe4597e1eb96da83032589e13b1a5ffc1cc9c83574b6c086d4a440e",
+      "frozen_meta_sha256": "3b4ce4683f7128597358f4adeaae09412726a6c3dbb442d3838d4c5c9de555f6"
+    },
+    "v2_fold1_multiscale_robust_hard": {
+      "family": "v2",
+      "fold": 1,
+      "candidate": "multiscale_robust_hard",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_1\\learning\\multiscale_robust_hard_seed42",
+      "best_sha256": "2e18a0b93f670fb6f77aa62ba9cd090b3b6101db4c9b3f3d2f9a11aecf15732e",
+      "last_sha256": "8ec34e17382f4ebcb488986d45ce751be04de79235ad2d902217cfdbb7c383fc",
+      "frozen_meta_sha256": "291b50179d1439b7cd56772e86093e63fce0aca96741a3701839a98dc7afc258"
+    },
+    "v2_fold2_multiscale_clean": {
+      "family": "v2",
+      "fold": 2,
+      "candidate": "multiscale_clean",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_2\\learning\\multiscale_clean_seed42",
+      "best_sha256": "a2dc6c0f95faf69e0518486c5adc0ddc5269c8f5b41e1062a606de930996e3cd",
+      "last_sha256": "57548dd8699b906bc1dea3459577c194eea71c37335647e00c16e0ff7a58352e",
+      "frozen_meta_sha256": "b2c341d25c814ef4ae504df39c41397e4dd9487805073edf742c1557b85199d4"
+    },
+    "v2_fold2_multiscale_robust": {
+      "family": "v2",
+      "fold": 2,
+      "candidate": "multiscale_robust",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_2\\learning\\multiscale_robust_seed42",
+      "best_sha256": "88600cfc1992186118e23385854d58c2afbe50d926ae04c1cab7d4350817c366",
+      "last_sha256": "7cb63f410f28c9ef203c958c42dda5a9c51348b2b9b7b27fa49d5ca8ba5ef6d8",
+      "frozen_meta_sha256": "b7fee06e1f775cc884118c55101050627ba69ac0c0204586e77ed6430b4a90f4"
+    },
+    "v2_fold2_multiscale_robust_hard": {
+      "family": "v2",
+      "fold": 2,
+      "candidate": "multiscale_robust_hard",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_2\\learning\\multiscale_robust_hard_seed42",
+      "best_sha256": "ae131ecb315ca914e4621aa6789cc4460b5d27aeee58315cd29cb94157ff3d69",
+      "last_sha256": "ef0bad87bd2279987ac24483d0757d5338b4502387474ee737dced13179f6d4c",
+      "frozen_meta_sha256": "1d411bfff41e2625bf994673415339267bc6a8f10e6b8b09bba8fa0492ab5062"
+    },
+    "v2_fold3_multiscale_clean": {
+      "family": "v2",
+      "fold": 3,
+      "candidate": "multiscale_clean",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_3\\learning\\multiscale_clean_seed42",
+      "best_sha256": "eac4cc0f3a32b152e9dbe3a35afcbb9218839c06bc3745180292acabe4028042",
+      "last_sha256": "40d2a2bf3368354510988185dd476aa369159b0a6204d46b006f7f8570ae91f8",
+      "frozen_meta_sha256": "084f1be5e1967272b4808edf9c70102ca8fec8c097f20041e1f4343fb3e48c75"
+    },
+    "v2_fold3_multiscale_robust": {
+      "family": "v2",
+      "fold": 3,
+      "candidate": "multiscale_robust",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_3\\learning\\multiscale_robust_seed42",
+      "best_sha256": "bd09620b54371ddc7486ae474b5bbd99bb61a0b9dd8a3a643c8f9199cbbf7389",
+      "last_sha256": "c8c1d830fd409b5896343629c40c084b80a8e3423a2b004fe2447f57f1b11761",
+      "frozen_meta_sha256": "22433c08a07da1dd7a8c38585b70e4f36c52c0921bae1f30a9a3c56fb5b12600"
+    },
+    "v2_fold3_multiscale_robust_hard": {
+      "family": "v2",
+      "fold": 3,
+      "candidate": "multiscale_robust_hard",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_3\\learning\\multiscale_robust_hard_seed42",
+      "best_sha256": "c3911f56f2b773f41897a75e1a2b2378c96431308ccfc5ed8a83145e804c8829",
+      "last_sha256": "af666301d108add8faf23c1d352c3198581ad5d041b766912a78754b4cb9965a",
+      "frozen_meta_sha256": "6ace5055bea7307535dec38c4edfde7519608b746bc512cfdac6752bf0cb12e2"
+    },
+    "v2_fold4_multiscale_clean": {
+      "family": "v2",
+      "fold": 4,
+      "candidate": "multiscale_clean",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_4\\learning\\multiscale_clean_seed42",
+      "best_sha256": "a2f7be969609c86a150b13408b8af74d0ded49b1bfe1610c4916d9f8338fe576",
+      "last_sha256": "31fb62a1ccb1b60960923b3cc5fe844307f2c020c1f9868f1a987fc35202886e",
+      "frozen_meta_sha256": "bfdef34f87430e6fcdc764749cca2d1507c52f27fbd851bcf04101f9b6f704f1"
+    },
+    "v2_fold4_multiscale_robust": {
+      "family": "v2",
+      "fold": 4,
+      "candidate": "multiscale_robust",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_4\\learning\\multiscale_robust_seed42",
+      "best_sha256": "35fa90b400fb9c75c7769fcb1580de7192ddb18c509120ce79d8755ddcac5976",
+      "last_sha256": "72666c8d688b5ecb1876cd4b224588d90f27e0ba33b093d232df20efa8579737",
+      "frozen_meta_sha256": "81e0f454b4112246482bb9f09b4a001da2368737688c79503594a7b5c266dc46"
+    },
+    "v2_fold4_multiscale_robust_hard": {
+      "family": "v2",
+      "fold": 4,
+      "candidate": "multiscale_robust_hard",
+      "folder": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_4\\learning\\multiscale_robust_hard_seed42",
+      "best_sha256": "c7e4f42c5e6e94606c94f89acd9913287222b5f7f46a4d10eed8cce78e2b7f4a",
+      "last_sha256": "ab4899ae52607a21f6f9757f261e3c35053f4efb4edd56ff634f8351b6154768",
+      "frozen_meta_sha256": "995db5b0bd5afc36042ab112f778854582826e4b9fa2405505d51b8fa70b227c"
+    },
+    "v3_fold0_pool_fresh_bce": {
+      "family": "v3",
+      "fold": 0,
+      "candidate": "pool_fresh_bce",
+      "folder": "D:\\CV_Project\\results\\learning_v3_construction_2026-10-25_v1\\fold_0\\learning\\pool_fresh_bce_seed42",
+      "best_sha256": "2b0110930e7101a430892982f3f56282ec6cdc6043bab1d2f664ab8a391e3e2a",
+      "last_sha256": "d00d24b70071fcdfac2285c567e2639cbf20461d616ce712695124a107a6dca9",
+      "frozen_meta_sha256": "6ef19a94760dc374ca2b38a3163af1ca68845e87472b169d0ba20b2195503b82"
+    },
+    "v3_fold0_graph_fresh_bce": {
+      "family": "v3",
+      "fold": 0,
+      "candidate": "graph_fresh_bce",
+      "folder": "D:\\CV_Project\\results\\learning_v3_construction_2026-10-25_v1\\fold_0\\learning\\graph_fresh_bce_seed42",
+      "best_sha256": "8b134f84fc336f1db5b16cc2865a906de8c4bb3cc3ab827541d011a3ab3fb120",
+      "last_sha256": "b1623d7dea56fff3128efe14e3e3052d18ba7f48cf39270c12f7e11c1189a23a",
+      "frozen_meta_sha256": "5b4b1b06bc641a0137fbd132163f6df24cafb65d6b1d1b1699ef87135371d654"
+    },
+    "v3_fold0_graph_fresh_focal": {
+      "family": "v3",
+      "fold": 0,
+      "candidate": "graph_fresh_focal",
+      "folder": "D:\\CV_Project\\results\\learning_v3_construction_2026-10-25_v1\\fold_0\\learning\\graph_fresh_focal_seed42",
+      "best_sha256": "9361ac43c81030206a39bd15516f96470cd40f4b62d308cfafadd55be5fc31ed",
+      "last_sha256": "ee8954a512a2ff90fbad769cce7da837d6fe82e4e89f15a921fc0d965ad2cfe0",
+      "frozen_meta_sha256": "87bdcde94019a7984aec5f71204f3936c3bfca94c34ec98e41615ee2056c22c1"
+    }
+  },
+  "candidates": "V2: three existing seed42 fits in five folds; v3: three completed fold0 fits. Each best-BCE and final checkpoint evaluated.",
+  "threshold_grid": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    0.98,
+    0.99
+  ],
+  "single_threshold_for_all_conditions": true,
+  "calibration": "Maximize mean clean/mild/medium validation binary macro F1",
+  "clean_constraint": "Each fold: macro F1 >= original v2 robust-selected clean minus .005; unchanged FPR <= that reference plus .005",
+  "tie_break": "Mean changed F1, clean macro, higher threshold, original candidate order, best before final checkpoint",
+  "v2_promotion_gate": "Mean across five validation folds improves robust macro by >=.01 and does not reduce mean robust changed F1",
+  "v3_promotion_gate": "Fold0 new candidate exceeds recalibrated v2 mean macro by >=.01, with the same clean constraints",
+  "exposure": "Previous same-site tests informed this follow-up; all choices here use validation only. No new test scoring before selections frozen.",
+  "data_policy": "No downloads; no raw-cloud feature recomputation; no Office/Open_space/ConSLAM data used",
+  "old_frozen_thresholds_and_results_immutable": true
+}

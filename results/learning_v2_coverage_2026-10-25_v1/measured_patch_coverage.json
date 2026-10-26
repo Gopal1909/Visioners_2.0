@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\cache\\pair_01_train_clean.npz",
+  "sha256": "23a22331cf52a1ce795acb49fb20a24326f671bb312a1daaf8003a196a9bae18",
+  "scales": [
+    {
+      "nominal_radius_m": 0.15,
+      "median_selected_outer_radius_m": 0.14978647232055664,
+      "q90_selected_outer_radius_m": 0.14996857941150665
+    },
+    {
+      "nominal_radius_m": 0.4,
+      "median_selected_outer_radius_m": 0.3996835947036743,
+      "q90_selected_outer_radius_m": 0.3999536335468292
+    },
+    {
+      "nominal_radius_m": 0.8,
+      "median_selected_outer_radius_m": 0.7996052503585815,
+      "q90_selected_outer_radius_m": 0.7999419569969177
+    }
+  ]
+}

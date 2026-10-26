@@ -1,0 +1,12 @@
+{
+  "renderer_sha256": "51b573ebe23714fdd61716319646f6c526493ac45ab584d1f84d8ef0ce635a55",
+  "figures": {
+    "figures_readable\\pair_01_regions.png": "09f0df505b1e57b126b8262eb56d690a0d58688b1a7ee950dac3fe04fb9d7353",
+    "figures_readable\\pair_02_regions.png": "a68139afaa1e10c4b0fea08b1d7674fa86e6edaab918a90b35f7b10a9f8b5473",
+    "figures_readable\\pair_03_regions.png": "cf0e7f85a3c1e081120f06963f6604362024f94e493488788bd35da877e0ea60",
+    "figures_readable\\pair_12_regions.png": "f0a17db81b7d432ff9fddf4683b12bd606965fa5497316af561b770b9ace72ca",
+    "figures_readable\\pair_13_regions.png": "d0475b1933a8f804ace7fdfc5cba5ecbded8c1d6f46dae8a81eb633b1d8b81e3",
+    "figures_readable\\pair_23_regions.png": "76b5fcfaf2a1e10fc097aadef9ce02eb7f353eac0e17f1d044aedcbd1e2b385e"
+  },
+  "source_predictions_and_membership_unchanged": true
+}

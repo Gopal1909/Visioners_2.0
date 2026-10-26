@@ -1,0 +1,42 @@
+{
+  "variant": "multiscale_robust",
+  "seed": 42,
+  "fold": 0,
+  "threshold": 0.85,
+  "validation_objective": 0.8001082946599483,
+  "validation_changed_f1": 0.6403953668134719,
+  "validation_by_view": {
+    "clean": {
+      "binary_macro_f1": 0.8001082946599483,
+      "changed_f1": 0.6403953668134719,
+      "available_cores": 14400
+    },
+    "mild": {
+      "binary_macro_f1": 0.7938067882347969,
+      "changed_f1": 0.6355205856894239,
+      "available_cores": 12225
+    },
+    "medium": {
+      "binary_macro_f1": 0.6180750334262929,
+      "changed_f1": 0.3232497337601808,
+      "available_cores": 10037
+    }
+  },
+  "robustness_validation_objective": 0.7373300387736794,
+  "best_epoch": 14,
+  "best_clean_validation_bce": 0.257766991853714,
+  "checkpoint_sha256": "697a4c9699fadda3d6c2b65c30231dde7451e886b6146cf159c16aeb0c4a84f3",
+  "config_sha256": "54136b8672b93180a9e094d3a665add98fbee8bd2a71e8fd433fca44ef87a382",
+  "design_sha256": "c271beeb99ae2176e916dcc4d505cfa538a3ebcf31c61918846c9f8e406df46e",
+  "test_accessed": false,
+  "training_cores": 36000,
+  "parameter_count": 226337,
+  "gpu_peak_allocated_mib": 123.13037109375,
+  "timing": {
+    "seconds": 74.7164619000032,
+    "rss_start_mib": 647.734375,
+    "sampled_peak_rss_mib": 2768.67578125,
+    "sampled_rss_growth_mib": 2120.94140625,
+    "process_lifetime_peak_mib": 2772.12890625
+  }
+}

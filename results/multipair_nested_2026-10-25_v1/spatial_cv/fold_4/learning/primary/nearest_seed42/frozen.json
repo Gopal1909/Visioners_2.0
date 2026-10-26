@@ -1,0 +1,17 @@
+{
+  "protocol": "primary",
+  "variant": "nearest",
+  "seed": 42,
+  "threshold": 0.75,
+  "validation_objective": 0.6100791097001779,
+  "validation_changed_f1": 0.2761121242311421,
+  "best_epoch": 13,
+  "best_validation_bce": 0.39231619238853455,
+  "checkpoint_sha256": "b718bf7b6a932de0f06d885c3dcb9b34eca16c9ae5ab8e6b4eba52fef01343d0",
+  "config_sha256": "21ddafa7cd5724a75fbf431813560cb40d1e0e79b99095baa2395910afc14089",
+  "training_cores": 36000,
+  "validation_cores": 14400,
+  "test_accessed": false,
+  "seconds_this_process": 58.07365089999803,
+  "gpu_peak_allocated_mib": 89.013671875
+}

@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "status": "complete_no_model_promotion",
+  "completed_at_utc": "2026-10-26T03:23:49.420077+00:00",
+  "sensor_inventory": "sensor_inventory.json",
+  "available_input": "XYZ and variable intensity; cd_type is ground truth only",
+  "unavailable_in_downloaded_package": [
+    "RGB",
+    "sensor origins/poses",
+    "timestamps",
+    "calibration"
+  ],
+  "visibility_limit": "No ray-based occlusion/free-space claim is supported by these pair files",
+  "validation_diagnosis": {
+    "scope": "Fold0 clean validation, original primary model",
+    "outcomes": {
+      "FP": {
+        "observations": 263,
+        "median_intensity": 49.0,
+        "locally_horizontal_planar": 164,
+        "gap_at_least_8cm": 215
+      },
+      "FN": {
+        "observations": 358,
+        "median_intensity": 27.0,
+        "locally_horizontal_planar": 272,
+        "gap_at_least_8cm": 115
+      },
+      "TP": {
+        "observations": 1667,
+        "median_intensity": 22.0,
+        "locally_horizontal_planar": 805,
+        "gap_at_least_8cm": 1320
+      },
+      "TN": {
+        "observations": 12112,
+        "median_intensity": 42.0,
+        "locally_horizontal_planar": 10433,
+        "gap_at_least_8cm": 3222
+      }
+    },
+    "examples": 12,
+    "example_selection": "Confidence extremes, diversify pair/scan; illustrative, not randomly sampled",
+    "shape_definition": "At least three noncollinear source support points; (middle-smallest)/largest covariance eigenvalue >=.5 and |normal_z|>=.9",
+    "limitations": "Horizontal support may include ground, roofs, or other surfaces. Neither intensity nor patch shape verifies object identity, occlusion, or construction activity."
+  },
+  "new_model_fits": 2,
+  "existing_control_refit": false,
+  "training_observations": 288000,
+  "model": "Fixed-budget learned geometry classifier with one added original-core intensity feature; shuffled intensity is a negative control",
+  "scores": [
+    {
+      "candidate": "cached_geometry_control",
+      "eligible": false,
+      "clean_macro": 0.7803178592425258,
+      "mean_three_view_macro": 0.7510117146359135,
+      "threshold": 0.85,
+      "interpretation": "Unconstrained validation diagnostic if eligibility is false; not an accepted deployment"
+    },
+    {
+      "candidate": "aligned_intensity",
+      "eligible": false,
+      "clean_macro": 0.7839649940962105,
+      "mean_three_view_macro": 0.7560022303778342,
+      "threshold": 0.85,
+      "interpretation": "Unconstrained validation diagnostic if eligibility is false; not an accepted deployment"
+    },
+    {
+      "candidate": "shuffled_intensity",
+      "eligible": false,
+      "clean_macro": 0.7803178592425258,
+      "mean_three_view_macro": 0.7510117146359135,
+      "threshold": 0.85,
+      "interpretation": "Unconstrained validation diagnostic if eligibility is false; not an accepted deployment"
+    }
+  ],
+  "reference_v2_robust_mean_validation_macro": 0.7607923359031633,
+  "pilot_gate_passed": false,
+  "acceptance_guards_not_relaxed": true,
+  "new_test_cases_scored": 0,
+  "retained_workflow": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1",
+  "retained_main_heldout_binary_macro_f1": 0.6536591206208738,
+  "scientific_conclusion": "Aligned intensity gives a small validation gain over identical cached geometry and shuffled-intensity controls, but clean quality remains insufficient versus V2. It does not establish improved held-out detection or explain individual error causes.",
+  "scope": "One fold of repeatedly reused same-site validation; six pairs from four shared epochs, not independent construction sites",
+  "unit_tests_passed": 83,
+  "postflight_tests_sha256": "3ad43facdfcc38adb526e62016a41db09e875b57dd0248555ffe56472c6ddf6c",
+  "verification_sha256": "7a8d9312d0be31009931072b5fc1f273e94bce1c97b2ab1a5e04651287bd44cd",
+  "final_source_manifest_sha256": "9735de36648a76bdc9e106c83fc0a66261eed1cef6bc0a072377ac8798a01b30",
+  "figures": {
+    "validation_error_atlas.png": "341378070d2bae82c6dad20b2af3293c3359f7b78f8b895dcae428efe2d2e870",
+    "validation_error_atlas_annotated.png": "b3b49bd051c47d1ac708d20ee2b96df32936f35bb64cc5e66319ec0070d05909",
+    "validation_comparison.png": "34dd415925204fcf49934cf4960b8d9ca20f8925b7095d1238a3b93b07b490be"
+  },
+  "no_additional_data_downloads": true,
+  "reports_and_presentations_untouched": true,
+  "continuation": "Do not rerun the completed intensity fits or lower the gate. Exact visibility attribution needs additional source metadata; semantics would require explicit construction/work-item annotations.",
+  "previous_result_files_preserved": 2042,
+  "previous_source_files_preserved": 10,
+  "original_clouds_preserved": 12,
+  "submission_files_preserved": 97
+}
