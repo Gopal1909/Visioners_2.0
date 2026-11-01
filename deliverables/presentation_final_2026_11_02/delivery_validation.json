@@ -1,0 +1,127 @@
+{
+  "files": {
+    "CV5570_Final_Presentation.pptx": {
+      "exists": true,
+      "bytes": 3833100
+    },
+    "CV5570_Final_Presentation.pdf": {
+      "exists": true,
+      "bytes": 920781
+    },
+    "speaker_notes.md": {
+      "exists": true,
+      "bytes": 23949
+    },
+    "presentation_timing.md": {
+      "exists": true,
+      "bytes": 1977
+    },
+    "LIVE_DEMO_GUIDE.md": {
+      "exists": true,
+      "bytes": 5764
+    },
+    "DEMO_VIDEO_SCRIPT.md": {
+      "exists": true,
+      "bytes": 7944
+    },
+    "Q_AND_A_PREPARATION.md": {
+      "exists": true,
+      "bytes": 16234
+    },
+    "REHEARSAL_CHECKLIST.md": {
+      "exists": true,
+      "bytes": 3959
+    }
+  },
+  "checks": {
+    "required_files_present": true,
+    "widescreen": true,
+    "slide_count_reasonable": true,
+    "every_slide_has_notes": true,
+    "pptx_zip_and_xml_valid": true,
+    "pdf_matches_deck": true,
+    "every_pdf_page_has_text": true,
+    "at_least_twenty_questions": true,
+    "root_launcher_exists": true,
+    "root_demo_guide_exists": true
+  },
+  "limitations": [
+    "Structural checks complement, but do not replace, per-slide visual review and browser interaction tests.",
+    "Historical experiment test receipts are not a newly rerun research test suite."
+  ],
+  "slides": 17,
+  "aspect_ratio": 1.77778,
+  "notes": [
+    {
+      "slide": 1,
+      "notes_characters": 1130
+    },
+    {
+      "slide": 2,
+      "notes_characters": 1387
+    },
+    {
+      "slide": 3,
+      "notes_characters": 1401
+    },
+    {
+      "slide": 4,
+      "notes_characters": 1357
+    },
+    {
+      "slide": 5,
+      "notes_characters": 1395
+    },
+    {
+      "slide": 6,
+      "notes_characters": 1457
+    },
+    {
+      "slide": 7,
+      "notes_characters": 1615
+    },
+    {
+      "slide": 8,
+      "notes_characters": 1384
+    },
+    {
+      "slide": 9,
+      "notes_characters": 1590
+    },
+    {
+      "slide": 10,
+      "notes_characters": 1557
+    },
+    {
+      "slide": 11,
+      "notes_characters": 1547
+    },
+    {
+      "slide": 12,
+      "notes_characters": 1572
+    },
+    {
+      "slide": 13,
+      "notes_characters": 1455
+    },
+    {
+      "slide": 14,
+      "notes_characters": 1289
+    },
+    {
+      "slide": 15,
+      "notes_characters": 969
+    },
+    {
+      "slide": 16,
+      "notes_characters": 1050
+    },
+    {
+      "slide": 17,
+      "notes_characters": 1209
+    }
+  ],
+  "out_of_bounds_shapes": [],
+  "pdf_pages": 17,
+  "passed": true
+}

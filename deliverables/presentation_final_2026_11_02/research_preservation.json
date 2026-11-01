@@ -1,0 +1,8 @@
+﻿{
+    "baseline_files":  23802,
+    "changed_or_missing":  [
+
+                           ],
+    "metadata_preserved":  true,
+    "scope":  "Lengths and UTC modification times; extended Windows paths support reserved AUX filenames. No bulk-content rehash."
+}

@@ -59,3 +59,8 @@ id_ed25519*
 **/metrics_with_class_support.csv
 **/evaluated_metrics.csv
 **/validation_changed_f1_metrics.csv
+
+# Offline presentation demo runtime state stays local.
+/deliverables/presentation_final_2026_11_02/demo/server_state.json
+/deliverables/presentation_final_2026_11_02/demo/server_stdout.log
+/deliverables/presentation_final_2026_11_02/demo/server_stderr.log

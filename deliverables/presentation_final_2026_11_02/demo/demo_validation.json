@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "validation_date": "2026-11-02",
+  "checks": {
+    "fresh_powershell_launch_ready": true,
+    "second_launch_reuses_verified_pid": true,
+    "owned_server_shutdown_tested": true,
+    "asset_hashes_and_http_head_verified_by_launcher": true,
+    "six_clean_pairs_load_15000_cores_each": true,
+    "combined_large_and_retention_conditions_load": true,
+    "ground_truth_v2_c2c_switching": true,
+    "earlier_later_both_direction_counts": true,
+    "error_focus_changes_visible_count": true,
+    "candidate_region_statistics_populate": true,
+    "reset_and_point_size_controls": true,
+    "mouse_rotation_zoom_changes_canvas": true,
+    "reload_with_nonlocal_requests_blocked": true,
+    "observed_browser_page_errors": 0,
+    "server_stopped_after_validation": true
+  },
+  "observations": {
+    "pair01_clean_display_cores": 15000,
+    "pair01_clean_common_saved_support": 12278,
+    "pair01_clean_v2_fp": 448,
+    "pair01_clean_v2_fn": 583,
+    "pair01_removed001_sampled_positives": 436,
+    "pair01_removed001_gt_changed": 414,
+    "pair01_removed001_gt_unchanged": 22
+  },
+  "limitations": [
+    "Interaction is live; predictions are precomputed, sampled held-out evidence, not full-cloud inference.",
+    "Degraded views use fold-zero selected clean-variant predictions, not the separate fixed robust model used in the headline stress plot.",
+    "Some clean C2C predictions are unavailable on displayed V2 cores. Common saved support is reported explicitly; no new benchmark metric is calculated.",
+    "Local-only request blocking was tested; no system-wide network adapter settings were changed.",
+    "Region means are uncalibrated scores; point-label purity is not object precision or installed quantity."
+  ]
+}

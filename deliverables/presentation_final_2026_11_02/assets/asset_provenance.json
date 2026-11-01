@@ -1,0 +1,116 @@
+{
+  "build": "python-pptx authoring; Microsoft PowerPoint SaveAs PDF format 32; PyMuPDF rendering",
+  "source_root": "D:\\CV_Project",
+  "source_snapshot": "Merged communication snapshot .publish\\Visioners_2.0_compact HEAD5477619; primary local arrays and CSV override unsupported narrative",
+  "sources": [
+    {
+      "source": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\analysis\\clean_comparison.csv",
+      "source_sha256": "1922835b60fc772e5426de58a38e4f819719431ca0b6c487801cb54a94a16b2b",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\analysis\\stress_condition_summary.csv",
+      "source_sha256": "8d40639325312ffd633b3a37f12fa9a35b4bdfbfeb7afd1b3986617b2f59058c",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\analysis\\class_support_and_pooled_confusions.csv",
+      "source_sha256": "7928390561e683af6f34c06c188016a951a32bba8389d8480da85c340f39f1ed",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\results\\construction_change_regions_2026-10-26_v1\\candidate_regions.csv",
+      "source_sha256": "12ce607f60d5ddf2319105915d58eeac8b32cc941f209ae9f3ee8067d88fbf96",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\fold_0\\protocol.json",
+      "source_sha256": "d8437d84bb5316e4ebc4969ba74468af1d854afe020403ba1d0101aa65b6aea5",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\results\\learning_v2_coverage_2026-10-25_v1\\design.json",
+      "source_sha256": "2a24a2514513b082bed21f6749f7fa3a28d3e48735e6fbe4286e276605dddb34",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\code\\learning_v2_model.py",
+      "source_sha256": "5cd583f13953a0b6433641674cdde11f5684f9f4a30dec1f1626a0cec5c71517",
+      "asset": null,
+      "detail": ""
+    },
+    {
+      "source": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03\\pair_03\\pointCloud0.ply",
+      "source_sha256": "2523cffaabba867b9e62582e51eafc290ecc14cc8c985783f84418810cada868",
+      "asset": null,
+      "detail": "Uniform index-stride display sample 130,000/4,444,938; native XYZ, no inference"
+    },
+    {
+      "source": "D:\\CV_Project\\dataset\\MultiChange3D\\BikeParkingConstruction\\pair_03\\pair_03\\pointCloud1.ply",
+      "source_sha256": "4836d5255b8d3e7c243f2507647ee824a36caf44ab9957788d9aa9266f387ae4",
+      "asset": null,
+      "detail": "Uniform index-stride display sample 130,000/3,787,860; native XYZ, no inference"
+    },
+    {
+      "source": "D:\\CV_Project\\results\\construction_change_regions_2026-10-26_v1\\pair_03_added_cores.npz",
+      "source_sha256": "06de510207b1062f419ee822872040979e9d64509a83e2e69bc2d433b16a79a6",
+      "asset": null,
+      "detail": "All 7500 later-epoch out-of-fold sampled cores, pair 03; display-only error classifications"
+    },
+    {
+      "source": "D:\\CV_Project\\results\\conslam_qualitative_2026-10-25_v2\\conslam_qualitative.png",
+      "source_sha256": "816739dd05fbde2e2638b91931f5556d81a2d35d94438d0a0702150cea717a67",
+      "asset": "D:\\CV_Project\\deliverables\\presentation_final_2026_11_02\\assets\\conslam_qualitative.png",
+      "detail": "Original local qualitative figure; unmodified"
+    },
+    {
+      "source": "D:\\CV_Project\\results\\conslam_qualitative_2026-10-25_v2\\inspection.json",
+      "source_sha256": "e9ef0a82507290415005e1a6c6790959fb4277accbe56ec6f1d91c2397c79b70",
+      "asset": null,
+      "detail": ""
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets\\asset_provenance.json",
+      "sha256": "0ea5da636a945167c4f9750b7a8a73397f6bb2ac84075401d7c7e9966bf7c208",
+      "bytes": 4964
+    },
+    {
+      "path": "assets\\conslam_qualitative.png",
+      "sha256": "816739dd05fbde2e2638b91931f5556d81a2d35d94438d0a0702150cea717a67",
+      "bytes": 890446
+    },
+    {
+      "path": "assets\\epoch_0.png",
+      "sha256": "23545e6c699772ac446427dbe3e38659b359e4e73dd54549c420ee3f09cdd4d6",
+      "bytes": 1189624
+    },
+    {
+      "path": "assets\\epoch_3.png",
+      "sha256": "ee14a223262ab2c986a2923b9222be5596d7f9edc61d45a7ab467b1b2f3908e7",
+      "bytes": 1147316
+    },
+    {
+      "path": "assets\\region_centroids.png",
+      "sha256": "aced27ae43cc74733fc5989eeaa5dffd3855c03e1a7b720387309f56b50aed73",
+      "bytes": 56021
+    },
+    {
+      "path": "assets\\scan_errors.png",
+      "sha256": "b69a59df623524ba72f81dfa89041c6bd7ec089e1dd63917bdfeade8297973dd",
+      "bytes": 317641
+    },
+    {
+      "path": "assets\\uncertainty_atlas.png",
+      "sha256": "0724d533374a7eef0cafa9e030e2f807d207bafb9615983424cf4ddec6aaa28c",
+      "bytes": 214091
+    }
+  ]
+}

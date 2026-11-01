@@ -1,0 +1,56 @@
+﻿{
+    "passed":  true,
+    "main_slides":  14,
+    "appendix_slides":  3,
+    "total_slides":  17,
+    "aspect_ratio":  "16:9",
+    "main_seconds":  600,
+    "speaker_main_seconds":  {
+                                 "Vishwanath":  300,
+                                 "Asif":  300
+                             },
+    "demo_seconds":  300,
+    "qa_seconds":  180,
+    "total_seconds":  1080,
+    "all_pdf_slides_rendered":  true,
+    "pdf_export_engine":  "Microsoft PowerPoint SaveAs PDF format 32",
+    "pdf_pages":  17,
+    "editable_native_text":  true,
+    "editable_metric_charts":  2,
+    "editable_native_diagrams":  true,
+    "embedded_notes_match_external":  true,
+    "out_of_bounds":  [
+
+                      ],
+    "exact_metric_assertions_passed":  true,
+    "region_count":  191,
+    "unchanged_only_regions":  83,
+    "clean_sampled_heldout_observations":  90000,
+    "visual_inspection":  "Final 17 slide PDF rendered; both final contact sheets reviewed after balanced explanatory text revision. No out-of-bounds shapes in structural validation.",
+    "limitations":  [
+                        "Same-site comparison; earlier held-out evidence influenced follow-up design.",
+                        "Fold0-only stress, not five-fold selected-workflow stress.",
+                        "Sampled-core predictions only, not full-cloud inference.",
+                        "ConSLAM qualitative, no labels and no supervised V2 inference.",
+                        "No object counts, installation verification, quantities or EVM.",
+                        "Runtime source path required for source rerun; copied rendered assets and chart values persist in PPTX."
+                    ],
+    "outputs":  {
+                    "CV5570_Final_Presentation.pptx":  {
+                                                           "sha256":  "c252cdef5ba3f9a15f9e5f6c252fe3487361a1439cf649b381841fb8997534ea",
+                                                           "bytes":  3833100
+                                                       },
+                    "CV5570_Final_Presentation.pdf":  {
+                                                          "sha256":  "741c8411e5a8ec6ed7426ca4cb1a1bddde4f93e608e5402ef4ae940f0450bca3",
+                                                          "bytes":  920781
+                                                      },
+                    "speaker_notes.md":  {
+                                             "sha256":  "4e9856414d7cf220d175264d7663d1e0b0b922e7ea1ddf4353f8a0e19b19c60d",
+                                             "bytes":  23949
+                                         },
+                    "presentation_timing.md":  {
+                                                   "sha256":  "66d14b792ae8b73194b82a1c3016e4c6afa5f590a112893dbec222839703d98c",
+                                                   "bytes":  1977
+                                               }
+                }
+}
