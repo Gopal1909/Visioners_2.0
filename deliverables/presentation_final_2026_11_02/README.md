@@ -2,6 +2,9 @@
 
 Separate authored delivery for **2 November 2026**. Original research code, datasets, checkpoints and historical results remain in place.
 
+## Standalone offline demo
+Double-click [CV5570_Offline_Demo.html](CV5570_Offline_Demo.html) in a modern desktop browser. This single file embeds all 18 saved pair/condition views, scripts, styling and provenance. Copy only this HTML file to another laptop: no Python, server or internet is needed. Rebuild it from the verified folder-based assets with `build_standalone_demo.ps1`. The original server-based viewer remains unchanged.
+
 ## Open these files
 - [Editable presentation](CV5570_Final_Presentation.pptx)
 - [Presentation PDF](CV5570_Final_Presentation.pdf)

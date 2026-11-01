@@ -1,0 +1,13 @@
+{
+  "file": "CV5570_Offline_Demo.html",
+  "mode": "file://, embedded CSS/JavaScript/20 JSON assets",
+  "tested": "2026-11-02",
+  "all_18_pair_condition_views_ready": true,
+  "http_https_requests_blocked_during_interaction": true,
+  "clean_pair_01_visible_cores": 15000,
+  "clean_pair_01_error_focus_cores": 1031,
+  "candidate_removed_001_statistics_verified": true,
+  "observed_javascript_errors": [],
+  "original_server_viewer_modified": false,
+  "limitations": "Saved sampled predictions, not live inference. Existing model and stress provenance limitations remain unchanged."
+}

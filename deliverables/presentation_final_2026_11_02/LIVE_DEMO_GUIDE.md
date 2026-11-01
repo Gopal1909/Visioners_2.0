@@ -1,5 +1,10 @@
 # CV5570 live demonstration
 
+## Standalone offline option (recommended)
+
+Double-click `CV5570_Offline_Demo.html` in `deliverables\presentation_final_2026_11_02`. Open it in Edge, Chrome or Firefox. Copy just that HTML file to another laptop; all 18 saved pair/condition views, styling, scripts and provenance are embedded. No Python, server or internet is required. The PowerShell instructions below remain an alternative for the original folder-based viewer.
+
+
 ## Launch and stop
 Open Windows PowerShell and run:
 
