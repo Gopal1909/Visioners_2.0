@@ -64,3 +64,4 @@ id_ed25519*
 /deliverables/presentation_final_2026_11_02/demo/server_state.json
 /deliverables/presentation_final_2026_11_02/demo/server_stdout.log
 /deliverables/presentation_final_2026_11_02/demo/server_stderr.log
+!colab_sample_data/MultiChange3D_Pair01_Sample.npz
